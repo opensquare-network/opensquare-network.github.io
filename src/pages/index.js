@@ -4,6 +4,7 @@ import Layout from "../components/Layout";
 import Banner from "../components/Banner";
 import Blocks from "../components/Blocks";
 import Footer from "../components/Footer";
+import Participator from "../components/Participator";
 
 export default function Home() {
   return (
@@ -11,6 +12,7 @@ export default function Home() {
       <SEO title={"OpenSquare Network"} />
       <Banner />
       <Blocks />
+      <Participator />
       <Footer />
     </Layout>
   );

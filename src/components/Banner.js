@@ -18,10 +18,13 @@ export const InnerSection = styled(BaseInner)`
     font-weight: 300;
     margin: 0;
     width: 80%;
+    text-align: center;
   }
   h3 {
+    margin-top: 10px;
     font-weight: 700;
     width: 80%;
+    text-align: center;
   }
 `;
 

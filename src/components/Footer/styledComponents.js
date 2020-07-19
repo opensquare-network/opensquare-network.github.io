@@ -4,8 +4,7 @@ import { BaseInner } from "../baseComponents";
 export const StyledFooter = styled.footer`
   display: flex;
   justify-content: space-around;
-  position: relative;
-  margin-top: 30px;
+  margin-top: 200px;
   z-index: 2;
   padding: 1.5rem 0;
   font-size: 14px;
