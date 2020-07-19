@@ -5,7 +5,7 @@ export const BaseInner = styled.main`
   justify-content: space-between;
   width: 100%;
 
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 1080px) {
     padding: 0 20px;
   }
 
