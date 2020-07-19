@@ -5,7 +5,7 @@ const InnerSection = styled.section`
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 40px;
+  margin-top: 15px;
   margin-bottom: 100px;
 
   h3,
