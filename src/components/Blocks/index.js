@@ -20,7 +20,7 @@ export default function () {
     query {
       blocksImage: file(relativePath: { eq: "blocks.png" }) {
         childImageSharp {
-          fixed(width: 528) {
+          fixed(width: 428) {
             ...GatsbyImageSharpFixed
           }
         }

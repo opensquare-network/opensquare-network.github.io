@@ -19,6 +19,7 @@ const InnerSection = styled.section`
 `;
 
 const Title = styled.h3`
+  text-align: center;
   min-width: 204px;
   font-weight: 600;
   font-size: 1.5rem;
@@ -30,6 +31,7 @@ const Detail = styled.p`
   font-size: 1rem;
   color: #000000;
   letter-spacing: 0.12px;
+  text-align: center;
 `;
 
 export default function () {

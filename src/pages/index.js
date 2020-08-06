@@ -5,6 +5,8 @@ import Banner from "../components/Banner";
 import Blocks from "../components/Blocks";
 import Footer from "../components/Footer";
 import Participator from "../components/Participator";
+import CodeMoney from "../components/CodeMoney";
+import Papers from "../components/Papers";
 
 export default function Home() {
   return (
@@ -13,6 +15,8 @@ export default function Home() {
       <Banner />
       <Blocks />
       <Participator />
+      <CodeMoney />
+      <Papers />
       <Footer />
     </Layout>
   );
