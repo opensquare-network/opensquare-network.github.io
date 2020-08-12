@@ -3,6 +3,7 @@ import styled from "styled-components";
 import Go from "./go.svg";
 
 const Wrapper = styled.div`
+  margin-top: 100px;
   text-align: center;
   p {
     font-size: 1rem;
@@ -14,7 +15,7 @@ export default function () {
     <Wrapper>
       <p>
         Currently we have only draft paper written in simplified <b>Chinese</b>.
-        If you are interested, please go.
+        Interested? Let's go.
       </p>
       <a
         href="https://github.com/opensquare-network/papers/blob/master/draft-cn.md"

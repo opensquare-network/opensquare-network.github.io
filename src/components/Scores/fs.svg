@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="81px" height="58px" viewBox="0 0 81 58" version="1.1" xmlns="http://www.w3.org/2000/svg"
+     xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>编组 13</title>
+    <defs>
+        <polyline id="path-1" points="0 54 22 34 27 42 76 0"></polyline>
+        <polyline id="path-2" points="0 28 17 16 41 43 56 31 60 37 77 19"></polyline>
+        <polyline id="path-3" points="0 39 32 16 38 23 57 5"></polyline>
+    </defs>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="编组-13" transform="translate(2.000000, 2.000000)">
+            <g id="路径-15">
+                <use stroke="#FFFFFF" stroke-width="5" xlink:href="#path-1"></use>
+                <use stroke="#171717" stroke-width="3" xlink:href="#path-1"></use>
+            </g>
+            <g id="路径-17">
+                <use stroke="#FFFFFF" stroke-width="5" xlink:href="#path-2"></use>
+                <use stroke="#171717" stroke-width="3" xlink:href="#path-2"></use>
+            </g>
+            <g id="路径-20">
+                <use stroke="#FFFFFF" stroke-width="5" xlink:href="#path-3"></use>
+                <use stroke="#171717" stroke-width="3" xlink:href="#path-3"></use>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -6,6 +6,7 @@ import Blocks from "../components/Blocks";
 import Footer from "../components/Footer";
 import Participator from "../components/Participator";
 import CodeMoney from "../components/CodeMoney";
+import Scores from "../components/Scores";
 import Papers from "../components/Papers";
 
 export default function Home() {
@@ -16,6 +17,7 @@ export default function Home() {
       <Blocks />
       <Participator />
       <CodeMoney />
+      <Scores />
       <Papers />
       <Footer />
     </Layout>

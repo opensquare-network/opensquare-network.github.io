@@ -1,8 +1,8 @@
 import React from "react";
 import styled from "styled-components";
-import Funders from "./funders.svg";
-import Hunters from "./hunters.svg";
-import Council from "./council-dot.svg";
+import Bs from "./bs.svg";
+import Gs from "./gs.svg";
+import Fs from "./fs.svg";
 
 const Wrapper = styled.section`
   display: flex;
@@ -16,6 +16,7 @@ const StyledSection = styled.section`
   background: #ffffff;
   display: flex;
   justify-content: space-around;
+  margin-bottom: 100px;
 
   @media screen and (max-width: 840px) {
     padding: 0 20px;
@@ -42,6 +43,7 @@ export const InnerSection = styled.main`
     flex-wrap: wrap;
   }
 `;
+
 const Item = styled.section`
   display: flex;
   flex-direction: column;
@@ -69,24 +71,23 @@ const Item = styled.section`
 export default function () {
   return (
     <Wrapper>
-      <h2>Collaborations keep the network active</h2>
+      <h2>Reputation scores help you find best collaborators</h2>
       <StyledSection>
         <InnerSection>
           <Item>
-            <Funders width={100} height={100} />
-            <h3>Funders</h3>
-            <p>Fund bounties, review hunters' work</p>
+            <Bs width={100} height={100} />
+            <h3>Behavior Score</h3>
+            <p>Reputation with users' behaviors, no scope limitation</p>
           </Item>
           <Item>
-            <Council width={100} height={100} />
-            <h3>Council</h3>
-            <p>Review bounties, judge disputes, governance</p>
+            <Gs width={100} height={100} />
+            <h3>General Score</h3>
+            <p>Normalization of total behavior reputation score, in (0, 100)</p>
           </Item>
           <Item>
-            <Hunters width={100} height={100} />
-            <h3>Hunters</h3>
-            <p>Apply bounties, solve them</p>
-            <p></p>
+            <Fs width={100} height={100} />
+            <h3>Feature Scores</h3>
+            <p>Reputation with customized behavior set</p>
           </Item>
         </InnerSection>
       </StyledSection>
