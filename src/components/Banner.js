@@ -6,19 +6,28 @@ import Typed from "typed.js";
 const Wrapper = styled.section`
   display: flex;
   flex-direction: column;
+  justify-content: space-around;
   height: calc(100vh - 73px);
 
   h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-weight: normal;
-    text-align: center;
+    line-height: 40px;
+
+    b {
+      margin-left: 10px;
+    }
   }
 `;
 
 const StyledSection = styled.section`
-  flex: 1;
   display: flex;
   justify-content: space-around;
   align-items: center;
+  position: relative;
+  top: -20vh;
 `;
 
 export const InnerSection = styled(BaseInner)`
@@ -46,9 +55,9 @@ export default function () {
     strings: [
       "",
       'We are building <b><i style="color: #4688F1;">crowdsourcing</i></b>',
-      'We are building <b><i style="color: #E8453C;">collaboration</i></b>',
-      'We are building <b><i style="color: #3AA757;">reputation</i></b>',
-      'We are building <b style="font-size: 36px">web3!</b>',
+      'We are building <b><i style="color: #3AA757;">collaboration</i></b>',
+      'We are building <b><i style="color: #E8453C;">reputation</i></b>',
+      'We are building <b style="font-size: 36px">WEB3!</b>',
     ],
     typeSpeed: 40,
     showCursor: false,
