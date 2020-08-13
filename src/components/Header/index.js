@@ -9,7 +9,14 @@ export default function Header() {
         <a href="/">
           <Logo height={39} width={194} />
         </a>
-        <span className="place-holder"></span>
+        <ul>
+          <li>
+            <a href="/">HOME</a>
+          </li>
+          <li>
+            <a href="/team">TEAM</a>
+          </li>
+        </ul>
       </InnerSection>
     </StyledHeader>
   );

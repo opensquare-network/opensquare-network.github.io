@@ -1,16 +1,23 @@
 import React from "react";
 import PropTypes from "prop-types";
 import "./layout.css";
+import Footer from "../Footer";
+import styled from "styled-components";
 
 import Header from "../Header";
+
+const Main = styled.main`
+  min-height: calc(100vh - 73px - 273px);
+`;
 
 const Layout = ({ children }) => {
   return (
     <>
       <Header />
-      <div style={{}}>
+      <Main style={{}}>
         <main>{children}</main>
-      </div>
+      </Main>
+      <Footer />
     </>
   );
 };

@@ -9,4 +9,30 @@ export const StyledHeader = styled.header`
   z-index: 2;
 `;
 
-export const InnerSection = styled(BaseInner)``;
+export const InnerSection = styled(BaseInner)`
+  & > a {
+    display: flex;
+    align-items: center;
+  }
+
+  ul,
+  li {
+    list-style: none;
+  }
+
+  ul {
+    display: flex;
+
+    li {
+      &:not(:first-of-type) {
+        margin-left: 20px;
+      }
+
+      a {
+        text-decoration: none;
+        color: #000;
+        font-size: 12px;
+      }
+    }
+  }
+`;

@@ -3,7 +3,6 @@ import SEO from "../components/seo";
 import Layout from "../components/Layout";
 import Banner from "../components/Banner";
 import Blocks from "../components/Blocks";
-import Footer from "../components/Footer";
 import Participator from "../components/Participator";
 import CodeMoney from "../components/CodeMoney";
 import Scores from "../components/Scores";
@@ -19,7 +18,6 @@ export default function Home() {
       <CodeMoney />
       <Scores />
       <Papers />
-      <Footer />
     </Layout>
   );
 }
