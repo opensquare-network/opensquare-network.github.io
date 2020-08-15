@@ -42,6 +42,7 @@ export const InnerSection = styled.main`
     flex-wrap: wrap;
   }
 `;
+
 const Item = styled.section`
   display: flex;
   flex-direction: column;
