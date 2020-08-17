@@ -7,6 +7,7 @@ import Participator from "../components/Participator";
 import CodeMoney from "../components/CodeMoney";
 import Scores from "../components/Scores";
 import Papers from "../components/Papers";
+import CollaborationNetwork from "../components/CollaborationNetwork";
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
       <Participator />
       <CodeMoney />
       <Scores />
+      <CollaborationNetwork />
       <Papers />
     </Layout>
   );
