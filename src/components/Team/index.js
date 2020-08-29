@@ -2,6 +2,7 @@ import styled from "styled-components";
 import React from "react";
 import YongfengImg from "./yongfeng.jpeg";
 import AtenImg from "./aten.jpeg";
+import HaoImg from "./hao.jpeg";
 import Github from "../../images/github.svg";
 import Email from "../../images/email.svg";
 
@@ -36,7 +37,7 @@ const Member = styled.div`
   display: flex;
   align-items: center;
   flex-direction: column;
-  padding: 16px 15px 0;
+  padding: 16px 20px 0;
 
   img {
     max-width: 7rem;
@@ -52,6 +53,10 @@ const Member = styled.div`
     margin-top: 10px;
     text-align: justify;
     line-height: 1.5;
+
+    a {
+      color: #000;
+    }
   }
 
   @media (min-width: 768px) {
@@ -61,6 +66,7 @@ const Member = styled.div`
 `;
 
 const Contacts = styled.div`
+  min-height: 20px;
   a:not(:first-of-type) {
     margin-left: 12px;
   }
@@ -115,6 +121,39 @@ export default function () {
               Aten has rich development experience with Substrate, Bitcoin,
               Ethereum, and EOS. A geek with perfect coding skills. Currently
               located in Hangzhou China.
+            </p>
+          </Member>
+          <Member>
+            <img src={HaoImg} alt="hao" />
+            <h4>Hao SUN</h4>
+            <Contacts>
+              <a
+                href="https://github.com/marco-sundsk"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <Github width="16" height="16" />
+              </a>
+              <a
+                href="mailto:sun.dsk1@gmail.com"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <Email width="16" height="16" />
+              </a>
+            </Contacts>
+            <p>
+              Hao is the founder of{" "}
+              <a
+                href="https://www.buildlinks.org/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                buildlinks
+              </a>
+              , member of ChainX congress, one of ChainX bitcoin trustees. He is
+              also a member of NEAR validators council and core member in NEAR
+              China community.
             </p>
           </Member>
         </Members>
