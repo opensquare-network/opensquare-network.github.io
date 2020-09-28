@@ -7,14 +7,19 @@ export const StyledFooter = styled.footer`
   z-index: 2;
   padding: 1.5rem 0;
   font-size: 14px;
-  border-top: 1px solid #eee;
+
+  background: #000;
 `;
 
 export const InnerSection = styled(BaseInner)`
   div.rights {
     display: inline-flex;
     align-items: center;
-    font-weight: lighter;
+
+    font-size: 0.875rem;
+    line-height: 1.5;
+
+    color: rgba(255, 255, 255, 0.32);
   }
 
   div > a {
@@ -37,7 +42,7 @@ export const InnerSection = styled(BaseInner)`
   ul {
     display: inline-flex;
     & > li {
-      padding: 0px 16px;
+      padding: 0 16px;
     }
   }
 `;
