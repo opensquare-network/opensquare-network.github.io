@@ -19,9 +19,17 @@ const StyledSection = styled.section`
 
 const ImgWrapper = styled.div`
   margin-top: 3rem;
-  width: 80%;
   position: relative;
-  left: 10%;
+
+  @media screen and (max-width: 1080px) {
+    width: 80%;
+    left: 10%;
+  }
+
+  @media screen and (min-width: 1080px) {
+    width: 800px;
+    left: calc(50% - 400px);
+  }
 `;
 
 export const InnerSection = styled(BaseInner)`

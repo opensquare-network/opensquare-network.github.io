@@ -5,8 +5,6 @@ const InnerSection = styled.section`
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 15px;
-  margin-bottom: 100px;
 
   h3,
   p {
@@ -22,16 +20,18 @@ const Title = styled.h3`
   text-align: center;
   min-width: 204px;
   font-weight: 600;
-  font-size: 1.5rem;
-  color: #000000;
+  font-size: 1.75rem;
+  color: #1d253c;
   letter-spacing: 0.2px;
+  line-height: 1.5;
 `;
 
 const Detail = styled.p`
   font-size: 1rem;
-  color: #000000;
+  color: rgba(29, 37, 60, 0.64);
   letter-spacing: 0.12px;
   text-align: center;
+  line-height: 1.5;
 `;
 
 export default function () {
