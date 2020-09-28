@@ -7,7 +7,7 @@ export default function Header() {
     <StyledHeader>
       <InnerSection>
         <a href="/">
-          <Logo height={63} width={239} />
+          <Logo height={60} width={230} />
         </a>
         <ul>
           <li>
