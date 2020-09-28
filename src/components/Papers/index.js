@@ -1,28 +1,58 @@
 import React from "react";
 import styled from "styled-components";
-import Go from "./go.svg";
+import { graphql, useStaticQuery } from "gatsby";
+import Img from "gatsby-image";
+import ArrowNext from "./arrow-next.png";
 
 const Wrapper = styled.div`
-  margin-top: 100px;
   text-align: center;
-  p {
-    font-size: 1rem;
+  position: relative;
+
+  a {
+    position: absolute;
+    display: inline-flex;
+    align-items: center;
+
+    font-weight: bold;
+    font-size: 1.75rem;
+    line-height: 1.5;
+    color: #fff;
+
+    text-decoration: none;
+    left: calc(50%);
+    top: calc(50% - 30px);
+
+    img {
+      margin-left: 1.5rem;
+    }
   }
 `;
 
 export default function () {
+  const data = useStaticQuery(graphql`
+    query {
+      paperBgImage: file(relativePath: { eq: "bg-paper.png" }) {
+        childImageSharp {
+          fluid(maxWidth: 1024) {
+            ...GatsbyImageSharpFluid
+          }
+        }
+      }
+    }
+  `);
+
+  console.log("data", data);
+
   return (
     <Wrapper>
-      <p>
-        Currently we have only draft paper written in simplified <b>Chinese</b>.
-        Interested? Let's go.
-      </p>
+      <Img fluid={data.paperBgImage.childImageSharp.fluid} />
       <a
         href="https://github.com/opensquare-network/papers/blob/master/draft-cn.md"
         target="_blank"
         rel="noreferrer"
       >
-        <Go width="50" height="50" />
+        Check Our White Paper
+        <img src={ArrowNext} alt="" width={48} height={48} />
       </a>
     </Wrapper>
   );
