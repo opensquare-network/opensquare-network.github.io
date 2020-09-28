@@ -33,7 +33,7 @@ export const InnerSection = styled(BaseInner)`
         color: #1d253c;
 
         font-weight: 500;
-        font-size: 16px;
+        font-size: 1rem;
         line-height: 28px;
       }
     }
