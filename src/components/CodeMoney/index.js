@@ -1,20 +1,20 @@
 import styled from "styled-components";
 import React from "react";
-import CodeMoney from "./code_money.svg";
+import { graphql, useStaticQuery } from "gatsby";
+import Img from "gatsby-image";
 
 const Wrapper = styled.section`
   display: flex;
   flex-direction: column;
   align-items: center;
 
-  margin-top: 200px;
+  margin: 4rem 0;
 `;
 
 const StyledSection = styled.section`
   background: #ffffff;
   display: flex;
   justify-content: space-around;
-  margin-bottom: 100px;
 
   @media screen and (max-width: 840px) {
     padding: 0 20px;
@@ -24,9 +24,21 @@ const StyledSection = styled.section`
 
 export const InnerSection = styled.main`
   display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 3rem;
+
+  h2 {
+    color: #1d253c;
+    font-weight: bold;
+    font-size: 1.75rem;
+    line-height: 1.5;
+    margin: 0 0 1rem;
+  }
 
   ul {
-    margin: 0 0 0 5rem;
+    list-style: none;
+    margin: 0;
     padding: 0;
     display: flex;
     flex-direction: column;
@@ -36,21 +48,34 @@ export const InnerSection = styled.main`
     }
 
     li {
-      font-size: 1.1rem;
+      font-size: 1rem;
+      color: rgba(29, 37, 60, 0.64);
       &:not(:first-of-type) {
-        margin-top: 20px;
+        margin-top: 0.75rem;
       }
     }
   }
 `;
 
 export default function () {
+  const data = useStaticQuery(graphql`
+    query {
+      safeImage: file(relativePath: { eq: "safe.png" }) {
+        childImageSharp {
+          fixed(width: 552) {
+            ...GatsbyImageSharpFixed
+          }
+        }
+      }
+    }
+  `);
+
   return (
     <Wrapper>
-      <h2>Money is safe</h2>
       <StyledSection>
+        <Img fixed={data.safeImage.childImageSharp.fixed} />
         <InnerSection>
-          <CodeMoney width={200} height={200} />
+          <h2>Money is safe</h2>
           <ul>
             <li>Money is managed by code</li>
             <li>Funder doesn't worry about money loss</li>
