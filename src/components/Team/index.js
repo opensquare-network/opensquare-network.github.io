@@ -10,7 +10,7 @@ const StyledSection = styled.section`
   background: #ffffff;
   display: flex;
   justify-content: space-around;
-  margin-top: 70px;
+  min-height: calc(100vh - 90px - 72px);
 
   @media screen and (max-width: 1080px) {
     padding: 0 20px;
