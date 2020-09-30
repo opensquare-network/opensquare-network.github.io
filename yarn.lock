@@ -5856,6 +5856,11 @@ gatsby-plugin-google-analytics@^2.3.11:
     "@babel/runtime" "^7.10.3"
     minimatch "3.0.4"
 
+gatsby-plugin-google-fonts@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.npm.taobao.org/gatsby-plugin-google-fonts/download/gatsby-plugin-google-fonts-1.0.1.tgz#d71054f7bf207b9a8da227380369e18e6f4e0201"
+  integrity sha1-1xBU978ge5qNoic4A2nhjm9OAgE=
+
 gatsby-plugin-manifest@^2.4.18:
   version "2.4.18"
   resolved "https://registry.npm.taobao.org/gatsby-plugin-manifest/download/gatsby-plugin-manifest-2.4.18.tgz#7853efc25dd86e7af760026d675ffb3fd6bac59e"
@@ -12800,11 +12805,6 @@ type-of@^2.0.1:
   version "2.0.1"
   resolved "https://registry.npm.taobao.org/type-of/download/type-of-2.0.1.tgz#e72a1741896568e9f628378d816d6912f7f23972"
   integrity sha1-5yoXQYllaOn2KDeNgW1pEvfyOXI=
-
-typed.js@^2.0.11:
-  version "2.0.11"
-  resolved "https://registry.npm.taobao.org/typed.js/download/typed.js-2.0.11.tgz#d298a91f959f11a3803bf48b841a6fadd29640d9"
-  integrity sha1-0pipH5WfEaOAO/SLhBpvrdKWQNk=
 
 typedarray-to-buffer@^3.1.5:
   version "3.1.5"
