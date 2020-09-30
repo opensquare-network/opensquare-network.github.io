@@ -40,7 +40,7 @@ export const InnerSection = styled(BaseInner)`
     font-size: 3rem;
     font-weight: bold;
     margin: 0;
-    width: 80%;
+    width: 75%;
     text-align: center;
     color: #1d253c;
     line-height: 1.5;
@@ -48,7 +48,7 @@ export const InnerSection = styled(BaseInner)`
   h3 {
     margin-top: 10px;
     font-weight: normal;
-    width: 40%;
+    width: 50%;
     text-align: center;
     color: rgba(29, 37, 60, 0.64);
     line-height: 1.5;
