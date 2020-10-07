@@ -39,6 +39,13 @@ export const InnerSection = styled(BaseInner)`
     padding: 0;
   }
 
+  li {
+    opacity: 0.72;
+    &:hover {
+      opacity: 1;
+    }
+  }
+
   ul {
     display: inline-flex;
     & > li {
