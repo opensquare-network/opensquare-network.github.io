@@ -17,6 +17,7 @@ const StyledSection = styled.section`
   justify-content: space-around;
 
   @media screen and (max-width: 840px) {
+    flex-wrap: wrap;
     padding: 0 20px;
     justify-content: space-around;
   }
@@ -27,6 +28,10 @@ export const InnerSection = styled.main`
   flex-direction: column;
   justify-content: center;
   margin-left: 3rem;
+
+  @media screen and (max-width: 840px) {
+    margin-left: 0;
+  }
 
   h2 {
     color: #1d253c;
@@ -43,9 +48,6 @@ export const InnerSection = styled.main`
     display: flex;
     flex-direction: column;
     justify-content: center;
-    @media screen and (max-width: 700px) {
-      margin-left: 2rem;
-    }
 
     li {
       font-size: 1rem;

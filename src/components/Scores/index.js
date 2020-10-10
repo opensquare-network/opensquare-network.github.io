@@ -22,6 +22,11 @@ const StyledSection = styled.section`
   @media screen and (max-width: 840px) {
     padding: 0 20px;
     justify-content: space-around;
+    flex-wrap: wrap;
+
+    & > div:last-of-type {
+      margin-top: 60px;
+    }
   }
 
   div.chart {

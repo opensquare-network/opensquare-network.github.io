@@ -29,6 +29,10 @@ const StyledSection = styled.section`
   @media screen and (max-width: 840px) {
     padding: 0 20px;
     justify-content: space-around;
+
+    h2 {
+      text-align: center;
+    }
   }
 
   @media screen and (min-width: 1080px) {
@@ -39,7 +43,10 @@ const StyledSection = styled.section`
     font-size: 1.75rem;
     line-height: 1.5;
     color: #fff;
-    margin: 0 0 2rem;
+    margin: 0;
+    &:last-of-type {
+      margin: 0 0 2rem;
+    }
   }
 `;
 
@@ -60,6 +67,9 @@ export const InnerSection = styled.main`
 
   @media screen and (max-width: 880px) {
     flex-wrap: wrap;
+    svg:nth-of-type(2) {
+      display: none;
+    }
   }
 `;
 
@@ -88,13 +98,29 @@ export const Item = styled.section`
     margin: 0;
     max-width: 14rem;
   }
+
+  @media screen and (max-width: 880px) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    &:not(:first-of-type) {
+      margin-top: 20px;
+    }
+    & > div {
+      justify-content: center;
+    }
+    p {
+      text-align: center;
+    }
+  }
 `;
 
 export default function () {
   return (
     <Wrapper>
       <StyledSection>
-        <h2>Collaborations keep the network active</h2>
+        <h2>Collaborations keep the</h2>
+        <h2>network active</h2>
         <InnerSection>
           <Item>
             <div>

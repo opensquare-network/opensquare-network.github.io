@@ -47,11 +47,11 @@ export default function () {
     <Wrapper>
       <Img fluid={data.paperBgImage.childImageSharp.fluid} />
       <a
-        href="https://github.com/opensquare-network/papers/blob/master/draft-cn.md"
+        href="https://github.com/opensquare-network/papers"
         target="_blank"
         rel="noreferrer"
       >
-        Check Our White Paper
+        Check Our Papers
         <img src={ArrowNext} alt="" width={48} height={48} />
       </a>
     </Wrapper>
