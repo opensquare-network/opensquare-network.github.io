@@ -41,8 +41,6 @@ export default function () {
     }
   `);
 
-  console.log("data", data);
-
   return (
     <Wrapper>
       <Img fluid={data.paperBgImage.childImageSharp.fluid} />

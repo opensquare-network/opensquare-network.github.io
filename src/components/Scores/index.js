@@ -10,7 +10,7 @@ const Wrapper = styled.section`
   display: flex;
   justify-content: center;
 
-  margin: 0 3rem;
+  margin: 6rem 3rem 0;
 `;
 
 const StyledSection = styled.section`

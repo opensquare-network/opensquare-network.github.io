@@ -29,10 +29,16 @@ const StyledSection = styled.section`
   @media screen and (max-width: 840px) {
     padding: 0 20px;
     justify-content: space-around;
+    box-sizing: border-box;
 
     h2 {
       text-align: center;
     }
+  }
+
+  @media screen and (min-width: 880px) {
+    padding-left: 20px;
+    padding-right: 20px;
   }
 
   @media screen and (min-width: 1080px) {
@@ -58,11 +64,6 @@ export const InnerSection = styled.main`
 
   @media screen and (min-width: 1080px) {
     width: 1080px;
-  }
-
-  @media screen and (min-width: 880px) {
-    padding-left: 20px;
-    padding-right: 20px;
   }
 
   @media screen and (max-width: 880px) {

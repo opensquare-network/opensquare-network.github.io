@@ -6,8 +6,7 @@ const StyledSection = styled.section`
   background: #ffffff;
   display: flex;
   justify-content: space-around;
-  margin-top: 100px;
-  margin-bottom: 100px;
+  margin-bottom: 60px;
 `;
 
 export const InnerSection = styled.main`
@@ -17,6 +16,11 @@ export const InnerSection = styled.main`
 
   h2 {
     text-align: center;
+    font-weight: bold;
+    font-size: 1.75rem;
+    line-height: 1.5;
+    margin: 0;
+    max-width: 440px;
   }
 
   img {
