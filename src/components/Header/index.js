@@ -11,10 +11,19 @@ export default function Header() {
         </a>
         <ul>
           <li>
-            <a href="/">HOME</a>
+            <a href="/">Home</a>
           </li>
           <li>
-            <a href="/team">TEAM</a>
+            <a href="/team">Team</a>
+          </li>
+          <li>
+            <a
+              href="https://app.subsocial.network/1327"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Blogs
+            </a>
           </li>
         </ul>
       </InnerSection>
