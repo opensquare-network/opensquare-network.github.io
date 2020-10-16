@@ -3,6 +3,7 @@ import React from "react";
 import YongfengImg from "./yongfeng.jpeg";
 import AtenImg from "./aten.jpeg";
 import HaoImg from "./hao.jpeg";
+import JiaMing from "./jiaming.jpg";
 import Github from "../../images/github.svg";
 import Email from "../../images/email.svg";
 
@@ -30,6 +31,7 @@ export const InnerSection = styled.main`
 
 const Members = styled.section`
   display: flex;
+  flex-wrap: wrap;
   margin-top: 24px;
 `;
 
@@ -38,6 +40,7 @@ const Member = styled.div`
   align-items: center;
   flex-direction: column;
   padding: 16px 20px 0;
+  box-sizing: border-box;
 
   img {
     max-width: 7rem;
@@ -103,6 +106,28 @@ export default function () {
               Yongfeng has 10+ years software development experience, focusing
               on blockchain development recent 4 years. Located in Hangzhou
               China.
+            </p>
+          </Member>
+          <Member>
+            <img src={JiaMing} alt="jiaming" />
+            <h4>Jiaming Chen</h4>
+            <Contacts>
+              <a
+                href="https://github.com/isdot"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <Github width="16" height="16" />
+              </a>
+            </Contacts>
+            <p>
+              Founder of&nbsp;
+              <a href="https://w3c.group/" target="_blank" rel="noreferrer">
+                w3c.group
+              </a>
+              &nbsp;community, member of polkadot's first hackathon champion
+              team, former employee of Cryptape, Mixin Network, years of
+              blockchain application development experience.
             </p>
           </Member>
           <Member>
