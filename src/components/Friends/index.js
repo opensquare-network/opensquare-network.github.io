@@ -3,6 +3,9 @@ import styled from "styled-components";
 import patract from "./patract.png";
 import phala from "./phala.png";
 import subsocial from "./subsocial.png";
+import litentry from "./litentry.png";
+import crust from "./crust.png";
+import polkabase from "./polkabase.png";
 
 const Wrapper = styled.section`
   display: flex;
@@ -38,6 +41,18 @@ const friends = [
   {
     url: "https://subsocial.network/",
     img: subsocial,
+  },
+  {
+    url: "https://www.litentry.com/",
+    img: litentry,
+  },
+  {
+    url: "https://crust.network/",
+    img: crust,
+  },
+  {
+    url: "https://polkabase.com/",
+    img: polkabase,
   },
 ];
 
