@@ -23,18 +23,31 @@ export const InnerSection = styled(BaseInner)`
   ul {
     display: flex;
 
-    li {
+    & > li {
+      display: flex;
+      align-items: center;
+      font-weight: 500;
+      cursor: pointer;
       &:not(:first-of-type) {
         margin-left: 20px;
+      }
+
+      & > svg {
+        margin-left: 8px;
+        font-size: 0.8em;
+        color: rgba(29, 37, 60, 0.64);
       }
 
       a {
         text-decoration: none;
         color: #1d253c;
 
-        font-weight: 500;
         font-size: 1rem;
         line-height: 28px;
+      }
+
+      &.tools {
+        position: relative;
       }
     }
   }

@@ -62,9 +62,9 @@ export default function () {
       <InnerSection>
         <h2>Meet our Friends</h2>
         <section>
-          {friends.map((friend) => {
+          {friends.map((friend, idx) => {
             return (
-              <a href={friend.url} target="_blank" rel="noreferrer">
+              <a href={friend.url} key={idx} target="_blank" rel="noreferrer">
                 <img src={friend.img} alt="" height={54} />
               </a>
             );

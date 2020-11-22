@@ -1,8 +1,15 @@
+/* eslint-disable */
+
 import Logo from "./logo.svg";
 import { InnerSection, StyledHeader } from "./styledComponents";
-import React from "react";
+import React, { useState } from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faChevronDown } from "@fortawesome/free-solid-svg-icons";
+import Menu from "./Menu";
 
 export default function Header() {
+  const [openMenu, setOpenMenu] = useState(false);
+
   return (
     <StyledHeader>
       <InnerSection>
@@ -15,6 +22,11 @@ export default function Header() {
           </li>
           <li>
             <a href="/team">Team</a>
+          </li>
+          <li className="tools" onClick={() => setOpenMenu(true)}>
+            Tools
+            <FontAwesomeIcon icon={faChevronDown} size="1x" />
+            {openMenu && <Menu close={() => setOpenMenu(false)} />}
           </li>
           <li>
             <a
