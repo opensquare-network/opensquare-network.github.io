@@ -6,6 +6,9 @@ import subsocial from "./subsocial.png";
 import litentry from "./litentry.png";
 import crust from "./crust.png";
 import polkabase from "./polkabase.png";
+import chainx from "./chainx.png";
+import darwinia from "./darwinia.png";
+import merico from "./merico.png";
 
 const Wrapper = styled.section`
   display: flex;
@@ -27,12 +30,27 @@ const InnerSection = styled.section`
     margin: 0 0 1.5rem;
     text-align: center;
   }
+
+  & > section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 1128px;
+
+    & > a {
+      margin: 0 12px;
+    }
+  }
 `;
 
 const friends = [
   {
     url: "https://patractlabs.com",
     img: patract,
+  },
+  {
+    url: "https://chainx.org/",
+    img: chainx,
   },
   {
     url: "https://phala.network/",
@@ -53,6 +71,14 @@ const friends = [
   {
     url: "https://polkabase.com/",
     img: polkabase,
+  },
+  {
+    url: "https://darwinia.network/",
+    img: darwinia,
+  },
+  {
+    url: "https://meri.co/",
+    img: merico,
   },
 ];
 
