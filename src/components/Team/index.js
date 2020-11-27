@@ -6,6 +6,8 @@ import HaoImg from "./hao.jpeg";
 import JiaMing from "./jiaming.jpg";
 import Github from "../../images/github.svg";
 import Email from "../../images/email.svg";
+import ChaoJun from "./huangchaojun.png";
+import WenTao from "./chenwentao.png";
 
 const StyledSection = styled.section`
   background: #ffffff;
@@ -20,12 +22,17 @@ const StyledSection = styled.section`
 `;
 
 export const InnerSection = styled.main`
+  margin-bottom: 50px;
   @media screen and (min-width: 1080px) {
     width: 1080px;
   }
 
   @media screen and (max-width: 1080px) {
     width: 100%;
+  }
+
+  & > h2:not(:first-of-type) {
+    margin-top: 50px;
   }
 `;
 
@@ -85,7 +92,7 @@ export default function () {
         <Members>
           <Member>
             <img src={YongfengImg} alt="yongfeng" />
-            <h4>Yongfeng LI</h4>
+            <h4>Yongfeng Li</h4>
             <Contacts>
               <a
                 href="https://github.com/wliyongfeng"
@@ -109,30 +116,62 @@ export default function () {
             </p>
           </Member>
           <Member>
-            <img src={JiaMing} alt="jiaming" />
-            <h4>Jiaming Chen</h4>
+            <img src={ChaoJun} alt="junchao" />
+            <h4>Chaojun Huang</h4>
             <Contacts>
               <a
-                href="https://github.com/isdot"
+                href="https://github.com/hyifeng"
                 target="_blank"
                 rel="noreferrer"
               >
                 <Github width="16" height="16" />
               </a>
+              <a
+                href="mailto:chaojun@opensquare.network"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <Email width="16" height="16" />
+              </a>
             </Contacts>
             <p>
-              Founder of&nbsp;
-              <a href="https://w3c.group/" target="_blank" rel="noreferrer">
-                w3c.group
-              </a>
-              &nbsp;community, member of polkadot's first hackathon champion
-              team, former employee of Cryptape, Mixin Network, years of
-              blockchain application development experience.
+              Chaojun is a developer with 10+ years experience on developing
+              complex backend service and rich frontend application. Has rich
+              experience on both enterprise application and internet
+              application.
             </p>
           </Member>
           <Member>
+            <img src={WenTao} alt="wentao" />
+            <h4>Wentao Chen</h4>
+            <Contacts>
+              <a
+                href="https://github.com/qiyisi"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <Github width="16" height="16" />
+              </a>
+              <a
+                href="mailto:wentao@opensquare.network"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <Email width="16" height="16" />
+              </a>
+            </Contacts>
+            <p>
+              Wentao has years of full stack development experience, focusing on
+              building perfect website for everyone.
+            </p>
+          </Member>
+        </Members>
+
+        <h2>Key Community Contributors</h2>
+        <Members>
+          <Member>
             <img src={AtenImg} alt="aten" />
-            <h4>Aten JIN</h4>
+            <h4>Aten Jin</h4>
             <Contacts>
               <a
                 href="https://github.com/AtenJin"
@@ -150,7 +189,7 @@ export default function () {
           </Member>
           <Member>
             <img src={HaoImg} alt="hao" />
-            <h4>Hao SUN</h4>
+            <h4>Hao Sun</h4>
             <Contacts>
               <a
                 href="https://github.com/marco-sundsk"
@@ -179,6 +218,28 @@ export default function () {
               , member of ChainX congress, one of ChainX bitcoin trustees. He is
               also a member of NEAR validators council and core member in NEAR
               China community.
+            </p>
+          </Member>
+          <Member>
+            <img src={JiaMing} alt="jiaming" />
+            <h4>Jiaming Chen</h4>
+            <Contacts>
+              <a
+                href="https://github.com/isdot"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <Github width="16" height="16" />
+              </a>
+            </Contacts>
+            <p>
+              Founder of&nbsp;
+              <a href="https://w3c.group/" target="_blank" rel="noreferrer">
+                w3c.group
+              </a>
+              &nbsp;community, member of polkadot's first hackathon champion
+              team, former employee of Cryptape, Mixin Network, years of
+              blockchain application development experience.
             </p>
           </Member>
         </Members>
