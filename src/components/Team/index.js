@@ -8,6 +8,7 @@ import Github from "../../images/github.svg";
 import Email from "../../images/email.svg";
 import ChaoJun from "./huangchaojun.png";
 import WenTao from "./chenwentao.png";
+import Alcazar from "./alcazar.png";
 
 const StyledSection = styled.section`
   background: #ffffff;
@@ -163,6 +164,23 @@ export default function () {
             <p>
               Wentao has years of full stack development experience, focusing on
               building perfect website for everyone.
+            </p>
+          </Member>
+          <Member>
+            <img src={Alcazar} alt="wentao" />
+            <h4>Alcazar</h4>
+            <Contacts>
+              <a
+                href="mailto:alcazarrr@outlook.com"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <Email width="16" height="16" />
+              </a>
+            </Contacts>
+            <p>
+              5 years of relevant digital experience in Web and Mobile Apps
+              UI/UX design, have a passion for the design system. Figma fan.
             </p>
           </Member>
         </Members>
