@@ -24,14 +24,7 @@ export const InnerSection = styled.main`
   }
 
   img {
-    @media screen and (min-width: 1080px) {
-      width: 60%;
-    }
-
-    @media screen and (max-width: 1080px) {
-      width: 80%;
-    }
-
+    margin-top: 20px;
     @media screen and (max-width: 768px) {
       width: calc(100% - 40px);
     }
