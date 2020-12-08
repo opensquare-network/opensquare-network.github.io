@@ -1,15 +1,30 @@
 import React from "react";
 import styled from "styled-components";
-import { graphql, useStaticQuery } from "gatsby";
-import Img from "gatsby-image";
 import ArrowNext from "./arrow-next.png";
+import background from "./bg-paper.png";
 
 const Wrapper = styled.div`
   text-align: center;
   position: relative;
+  height: 184px;
 
-  a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  & > img {
+    width: 100%;
     position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    border-bottom: 0;
+  }
+`;
+
+const InnerSection = styled.section`
+  z-index: 2;
+  a {
     display: inline-flex;
     align-items: center;
 
@@ -19,39 +34,30 @@ const Wrapper = styled.div`
     color: #fff;
 
     text-decoration: none;
-    left: calc(50%);
-    top: calc(50% - 30px);
-
     img {
       margin-left: 1.5rem;
     }
   }
+
+  @media screen and (min-width: 1130px) {
+    width: 1128px;
+  }
 `;
 
 export default function () {
-  const data = useStaticQuery(graphql`
-    query {
-      paperBgImage: file(relativePath: { eq: "bg-paper.png" }) {
-        childImageSharp {
-          fluid(maxWidth: 1024) {
-            ...GatsbyImageSharpFluid
-          }
-        }
-      }
-    }
-  `);
-
   return (
     <Wrapper>
-      <Img fluid={data.paperBgImage.childImageSharp.fluid} />
-      <a
-        href="https://github.com/opensquare-network/papers"
-        target="_blank"
-        rel="noreferrer"
-      >
-        Check Our Papers
-        <img src={ArrowNext} alt="" width={48} height={48} />
-      </a>
+      <img src={background} alt="" height={184} />
+      <InnerSection>
+        <a
+          href="https://github.com/opensquare-network/papers"
+          target="_blank"
+          rel="noreferrer"
+        >
+          Check Our Papers
+          <img src={ArrowNext} alt="" width={48} height={48} />
+        </a>
+      </InnerSection>
     </Wrapper>
   );
 }
