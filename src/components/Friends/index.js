@@ -9,6 +9,7 @@ import polkabase from "./polkabase.png";
 import chainx from "./chainx.png";
 import darwinia from "./darwinia.png";
 import merico from "./merico.png";
+import bifrost from "./bifrost.png";
 
 const Wrapper = styled.section`
   display: flex;
@@ -79,6 +80,10 @@ const friends = [
   {
     url: "https://meri.co/",
     img: merico,
+  },
+  {
+    url: "https://bifrost.finance/",
+    img: bifrost,
   },
 ];
 
