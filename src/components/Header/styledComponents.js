@@ -10,6 +10,14 @@ export const StyledHeader = styled.header`
 `;
 
 export const InnerSection = styled(BaseInner)`
+  @media screen and (max-width: 600px) {
+    flex-direction: column;
+    ul {
+      margin: 0;
+      padding: 0;
+    }
+  }
+
   & > a {
     display: flex;
     align-items: center;

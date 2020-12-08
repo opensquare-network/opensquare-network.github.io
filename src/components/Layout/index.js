@@ -8,6 +8,7 @@ import Header from "../Header";
 
 const Main = styled.main`
   min-height: calc(100vh - 73px - 273px);
+  overflow-x: hidden;
 `;
 
 const Layout = ({ children }) => {
