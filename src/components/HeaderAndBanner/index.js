@@ -5,7 +5,6 @@ import Banner from "../Banner";
 import background from "./background.png";
 
 const Wrapper = styled.section`
-  padding-top: 16px;
   background-image: url(${background});
   background-size: 100%;
 `;

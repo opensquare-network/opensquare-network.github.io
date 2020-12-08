@@ -6,6 +6,7 @@ export const StyledHeader = styled.header`
   justify-content: space-around;
   position: relative;
   z-index: 2;
+  padding-top: 16px;
 `;
 
 export const InnerSection = styled(BaseInner)`
