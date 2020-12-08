@@ -1,7 +1,6 @@
 import React from "react";
 import SEO from "../components/seo";
 import Layout from "../components/Layout";
-import Banner from "../components/Banner";
 import Blocks from "../components/Blocks";
 import Participator from "../components/Participator";
 import CodeMoney from "../components/CodeMoney";
@@ -14,7 +13,6 @@ export default function Home() {
   return (
     <Layout>
       <SEO title={"OpenSquare Network"} />
-      <Banner />
       <Blocks />
       <Participator />
       <CodeMoney />

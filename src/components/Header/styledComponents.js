@@ -5,7 +5,6 @@ export const StyledHeader = styled.header`
   display: flex;
   justify-content: space-around;
   position: relative;
-  margin-top: 30px;
   z-index: 2;
 `;
 

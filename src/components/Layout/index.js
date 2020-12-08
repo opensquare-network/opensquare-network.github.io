@@ -3,8 +3,7 @@ import PropTypes from "prop-types";
 import "./layout.css";
 import Footer from "../Footer";
 import styled from "styled-components";
-
-import Header from "../Header";
+import HeaderAndBanner from "../HeaderAndBanner";
 
 const Main = styled.main`
   min-height: calc(100vh - 73px - 273px);
@@ -14,7 +13,7 @@ const Main = styled.main`
 const Layout = ({ children }) => {
   return (
     <>
-      <Header />
+      <HeaderAndBanner />
       <Main style={{}}>
         <main>{children}</main>
       </Main>
