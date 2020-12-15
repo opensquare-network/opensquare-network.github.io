@@ -9,6 +9,7 @@ import Email from "../../images/email.svg";
 import ChaoJun from "./huangchaojun.png";
 import WenTao from "./chenwentao.png";
 import Alcazar from "./alcazar.png";
+import YanXu from "./xuyan.jpeg";
 
 const StyledSection = styled.section`
   background: #ffffff;
@@ -30,6 +31,10 @@ export const InnerSection = styled.main`
 
   @media screen and (max-width: 1080px) {
     width: 100%;
+  }
+
+  h2:first-of-type {
+    margin-top: 50px;
   }
 
   & > h2:not(:first-of-type) {
@@ -183,9 +188,27 @@ export default function () {
               UI/UX design, have a passion for the design system. Figma fan.
             </p>
           </Member>
+          <Member>
+            <img src={YanXu} alt="Yan Xu" />
+            <h4>Yan Xu</h4>
+            <Contacts>
+              <a
+                href="mailto:yanxu@opensquare.network"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <Email width="16" height="16" />
+              </a>
+            </Contacts>
+            <p>
+              Operation intern. A blockchain enthusiast. Experienced with
+              marketing and community growing.
+            </p>
+          </Member>
         </Members>
 
         <h2>Key Community Contributors</h2>
+        <p>Many enthusiastic community members are backing us.</p>
         <Members>
           <Member>
             <img src={AtenImg} alt="aten" />
