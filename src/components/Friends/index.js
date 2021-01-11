@@ -10,6 +10,8 @@ import chainx from "./chainx.png";
 import darwinia from "./darwinia.png";
 import merico from "./merico.png";
 import bifrost from "./bifrost.png";
+import stafi from "./stafi.png";
+import dorahacks from "./dorahacks.png";
 
 const Wrapper = styled.section`
   display: flex;
@@ -84,6 +86,14 @@ const friends = [
   {
     url: "https://bifrost.finance/",
     img: bifrost,
+  },
+  {
+    url: "https://stafi.io/",
+    img: stafi,
+  },
+  {
+    url: "https://dorahacks.com/",
+    img: dorahacks,
   },
 ];
 
