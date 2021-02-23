@@ -3,6 +3,7 @@ import React from "react";
 import Github from "./github.svg";
 import Email from "./email.svg";
 import Telegram from "./tg.svg";
+import Twitter from "./twitter.svg";
 
 export default function () {
   return (
@@ -36,6 +37,15 @@ export default function () {
                 rel="noreferrer"
               >
                 <Telegram width="20" height="20" />
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://twitter.com/OpensquareN"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <Twitter width="20" height="20" />
               </a>
             </li>
           </ul>
