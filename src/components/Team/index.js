@@ -1,15 +1,13 @@
 import styled from "styled-components";
 import React from "react";
 import YongfengImg from "./yongfeng.jpeg";
-import AtenImg from "./aten.jpeg";
-import HaoImg from "./hao.jpeg";
-import JiaMing from "./jiaming.jpg";
 import Github from "../../images/github.svg";
 import Email from "../../images/email.svg";
 import ChaoJun from "./huangchaojun.png";
 import WenTao from "./chenwentao.png";
 import Alcazar from "./alcazar.png";
 import YanXu from "./xuyan.jpeg";
+import Yongchao from "./songyongchao.png";
 
 const StyledSection = styled.section`
   background: #ffffff;
@@ -172,6 +170,31 @@ export default function () {
             </p>
           </Member>
           <Member>
+            <img src={Yongchao} alt="yongchao" />
+            <h4>Yongchao Song</h4>
+            <Contacts>
+              <a
+                href="https://github.com/songych"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <Github width="16" height="16" />
+              </a>
+              <a
+                href="mailto:yongchao@opensquare.network"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <Email width="16" height="16" />
+              </a>
+            </Contacts>
+            <p>
+              Yongchao has coded more than 8 years as a full stack developer,
+              likes coding and vim, and cann't code without vim. Located in
+              Beijing China.
+            </p>
+          </Member>
+          <Member>
             <img src={Alcazar} alt="wentao" />
             <h4>Alcazar</h4>
             <Contacts>
@@ -203,84 +226,6 @@ export default function () {
             <p>
               Operation intern. A blockchain enthusiast. Experienced with
               marketing and community growing.
-            </p>
-          </Member>
-        </Members>
-
-        <h2>Key Community Contributors</h2>
-        <p>Many enthusiastic community members are backing us.</p>
-        <Members>
-          <Member>
-            <img src={AtenImg} alt="aten" />
-            <h4>Aten Jin</h4>
-            <Contacts>
-              <a
-                href="https://github.com/AtenJin"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <Github width="16" height="16" />
-              </a>
-            </Contacts>
-            <p>
-              Aten has rich development experience with Substrate, Bitcoin,
-              Ethereum, and EOS. A geek with perfect coding skills. Currently
-              located in Hangzhou China.
-            </p>
-          </Member>
-          <Member>
-            <img src={HaoImg} alt="hao" />
-            <h4>Hao Sun</h4>
-            <Contacts>
-              <a
-                href="https://github.com/marco-sundsk"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <Github width="16" height="16" />
-              </a>
-              <a
-                href="mailto:sun.dsk1@gmail.com"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <Email width="16" height="16" />
-              </a>
-            </Contacts>
-            <p>
-              Hao is the founder of{" "}
-              <a
-                href="https://www.buildlinks.org/"
-                target="_blank"
-                rel="noreferrer"
-              >
-                buildlinks
-              </a>
-              , member of ChainX congress, one of ChainX bitcoin trustees. He is
-              also a member of NEAR validators council and core member in NEAR
-              China community.
-            </p>
-          </Member>
-          <Member>
-            <img src={JiaMing} alt="jiaming" />
-            <h4>Jiaming Chen</h4>
-            <Contacts>
-              <a
-                href="https://github.com/isdot"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <Github width="16" height="16" />
-              </a>
-            </Contacts>
-            <p>
-              Founder of&nbsp;
-              <a href="https://w3c.group/" target="_blank" rel="noreferrer">
-                w3c.group
-              </a>
-              &nbsp;community, member of polkadot's first hackathon champion
-              team, former employee of Cryptape, Mixin Network, years of
-              blockchain application development experience.
             </p>
           </Member>
         </Members>
