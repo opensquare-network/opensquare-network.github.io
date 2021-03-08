@@ -39,7 +39,7 @@ export default function () {
     <InnerSection>
       <Title>Transparent & Credible</Title>
       <Detail>
-        Provided by on-chain bounty collaboration and reputation calculation
+        Provided by on-chain collaboration and reputation calculation
       </Detail>
     </InnerSection>
   );

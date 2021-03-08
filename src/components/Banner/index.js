@@ -44,10 +44,10 @@ export default function () {
     <Wrapper>
       <StyledSection>
         <InnerSection>
-          <h1>Empower Reputation Building with Blockchain </h1>
+          <h1>Empower Creadit Building with Blockchain </h1>
           <h3>
-            Collaboration on bounties and your reputation score will be
-            calculated from your daily activities
+            Do collaboration on OpenSquare platform and your credit score will
+            be calculated from your daily activities
           </h3>
         </InnerSection>
       </StyledSection>

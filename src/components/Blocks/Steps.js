@@ -23,11 +23,11 @@ const InnerSection = styled.section`
 export default function () {
   return (
     <InnerSection>
-      <span>Bounty Created</span>
+      <span>Collaboration Start</span>
       <ArrowNext />
-      <span>Bounty Collaboration</span>
+      <span>Collaborating</span>
       <ArrowNext />
-      <span>Reputation Grow</span>
+      <span>Creadit Grow</span>
     </InnerSection>
   );
 }
