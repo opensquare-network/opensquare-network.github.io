@@ -27,7 +27,7 @@ export default function () {
       <ArrowNext />
       <span>Collaborating</span>
       <ArrowNext />
-      <span>Creadit Grow</span>
+      <span>Credit Grow</span>
     </InnerSection>
   );
 }
