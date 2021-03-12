@@ -44,7 +44,7 @@ export default function () {
     <Wrapper>
       <StyledSection>
         <InnerSection>
-          <h1>Empower Creadit Building with Blockchain </h1>
+          <h1>Empower Credit Building with Blockchain </h1>
           <h3>
             Do collaboration on OpenSquare platform and your credit score will
             be calculated from your daily activities
