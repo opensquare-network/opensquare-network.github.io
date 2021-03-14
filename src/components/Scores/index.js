@@ -112,28 +112,26 @@ export default function () {
             <Bs />
             <div>
               <h4>Behavior Score</h4>
-              <p>Reputation with users' behaviors, no range limitation</p>
+              <p>Credit with users' behaviors, no range limitation</p>
             </div>
           </ScoreItem>
           <ScoreItem>
             <Gs />
             <div>
               <h4>General Score</h4>
-              <p>
-                Normalization of total behavior reputation score, in (0, 100)
-              </p>
+              <p>Normalization of total behavior credit score, in (0, 100)</p>
             </div>
           </ScoreItem>
           <ScoreItem>
             <Fs />
             <div>
               <h4>Feature Score</h4>
-              <p>Reputation with customized behavior set</p>
+              <p>Credit with customized behavior set</p>
             </div>
           </ScoreItem>
         </Scores>
         <div className="chart">
-          <h2>Reputation scores help you find best collaborators</h2>
+          <h2>Credit scores help you find best collaborators</h2>
           <Img fixed={data.scoreImage.childImageSharp.fixed} />
         </div>
       </StyledSection>

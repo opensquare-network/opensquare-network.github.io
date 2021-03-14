@@ -1,9 +1,9 @@
 module.exports = {
   siteMetadata: {
-    title: `Collaboration and Reputation Platform in Polkadot Ecosystem`,
+    title: `Collaboration and Credit Building Platform in Polkadot Ecosystem`,
     description: ``,
     author: `yongfeng@opensquare.network`,
-    keywords: `OpenSquare, blockchain, polkadot, substrate, crowdsourcing, reputation, 区块链, 众包, 信用, 信用分`,
+    keywords: `OpenSquare, blockchain, polkadot, substrate, crowdsourcing, reputation, credit, 区块链, 众包, 信用, 信用分`,
   },
   plugins: [
     {

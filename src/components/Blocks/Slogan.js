@@ -38,9 +38,7 @@ export default function () {
   return (
     <InnerSection>
       <Title>Transparent & Credible</Title>
-      <Detail>
-        Provided by on-chain collaboration and reputation calculation
-      </Detail>
+      <Detail>Provided by on-chain collaboration and credit calculation</Detail>
     </InnerSection>
   );
 }
