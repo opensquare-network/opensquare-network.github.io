@@ -48,7 +48,7 @@ const InnerSection = styled.section`
 
 const friends = [
   {
-    url: "https://patractlabs.com",
+    url: "https://patract.io/",
     img: patract,
   },
   {
