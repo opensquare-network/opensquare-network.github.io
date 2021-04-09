@@ -7,7 +7,7 @@ import ChaoJun from "./huangchaojun.png";
 import WenTao from "./chenwentao.png";
 import Alcazar from "./alcazar.png";
 import YanXu from "./xuyan.jpeg";
-import Yongchao from "./songyongchao.png";
+import Yizhou from "./xinyizhou.jpeg";
 
 const StyledSection = styled.section`
   background: #ffffff;
@@ -170,31 +170,6 @@ export default function () {
             </p>
           </Member>
           <Member>
-            <img src={Yongchao} alt="yongchao" />
-            <h4>Yongchao Song</h4>
-            <Contacts>
-              <a
-                href="https://github.com/songych"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <Github width="16" height="16" />
-              </a>
-              <a
-                href="mailto:yongchao@opensquare.network"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <Email width="16" height="16" />
-              </a>
-            </Contacts>
-            <p>
-              Yongchao has coded more than 8 years as a full stack developer,
-              likes coding and vim, and cann't code without vim. Located in
-              Beijing China.
-            </p>
-          </Member>
-          <Member>
             <img src={Alcazar} alt="wentao" />
             <h4>Alcazar</h4>
             <Contacts>
@@ -226,6 +201,31 @@ export default function () {
             <p>
               Operation intern. A blockchain enthusiast. Experienced with
               marketing and community growing.
+            </p>
+          </Member>
+          <Member>
+            <img src={Yizhou} alt="yizhou" />
+            <h4>Yizhou Xin</h4>
+            <Contacts>
+              <a
+                href="https://github.com/YoshiyukiSakura"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <Github width="16" height="16" />
+              </a>
+              <a
+                href="mailto:yizhou@opensquare.network"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <Email width="16" height="16" />
+              </a>
+            </Contacts>
+            <p>
+              Yizhou taught himself to develop, has a passion for blockchain
+              industry. Thinks and lives in a engineer way aiming to constant
+              improving. Cat addict.
             </p>
           </Member>
         </Members>
