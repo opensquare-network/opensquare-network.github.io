@@ -187,23 +187,6 @@ export default function () {
             </p>
           </Member>
           <Member>
-            <img src={YanXu} alt="Yan Xu" />
-            <h4>Yan Xu</h4>
-            <Contacts>
-              <a
-                href="mailto:yanxu@opensquare.network"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <Email width="16" height="16" />
-              </a>
-            </Contacts>
-            <p>
-              Operation intern. A blockchain enthusiast. Experienced with
-              marketing and community growing.
-            </p>
-          </Member>
-          <Member>
             <img src={Yizhou} alt="yizhou" />
             <h4>Yizhou Xin</h4>
             <Contacts>
@@ -226,6 +209,23 @@ export default function () {
               Yizhou taught himself to develop, has a passion for blockchain
               industry. Thinks and lives in a engineer way aiming to constant
               improving. Cat addict.
+            </p>
+          </Member>
+          <Member>
+            <img src={YanXu} alt="Yan Xu" />
+            <h4>Yan Xu</h4>
+            <Contacts>
+              <a
+                href="mailto:yanxu@opensquare.network"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <Email width="16" height="16" />
+              </a>
+            </Contacts>
+            <p>
+              Operation intern. A blockchain enthusiast. Experienced with
+              marketing and community growing.
             </p>
           </Member>
         </Members>
