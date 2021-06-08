@@ -6,7 +6,6 @@ import Email from "../../images/email.svg";
 import ChaoJun from "./huangchaojun.png";
 import WenTao from "./chenwentao.png";
 import Alcazar from "./alcazar.png";
-import YanXu from "./xuyan.jpeg";
 import Yizhou from "./xinyizhou.jpeg";
 
 const StyledSection = styled.section`
@@ -209,23 +208,6 @@ export default function () {
               Yizhou taught himself to develop, has a passion for blockchain
               industry. Thinks and lives in a engineer way aiming to constant
               improving. Cat addict.
-            </p>
-          </Member>
-          <Member>
-            <img src={YanXu} alt="Yan Xu" />
-            <h4>Yan Xu</h4>
-            <Contacts>
-              <a
-                href="mailto:yanxu@opensquare.network"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <Email width="16" height="16" />
-              </a>
-            </Contacts>
-            <p>
-              Operation intern. A blockchain enthusiast. Experienced with
-              marketing and community growing.
             </p>
           </Member>
         </Members>
