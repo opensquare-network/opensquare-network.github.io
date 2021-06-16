@@ -7,6 +7,7 @@ import ChaoJun from "./huangchaojun.png";
 import WenTao from "./chenwentao.png";
 import Alcazar from "./alcazar.png";
 import Yizhou from "./xinyizhou.jpeg";
+import Yaping from "./yaping.png";
 
 const StyledSection = styled.section`
   background: #ffffff;
@@ -113,9 +114,9 @@ export default function () {
               </a>
             </Contacts>
             <p>
-              Yongfeng has 10+ years software development experience, focusing
-              on blockchain development recent 4 years. Located in Hangzhou
-              China.
+              Yongfeng, co-founder, proficient in software development with 10+
+              years experience, focusing on blockchain development in recent 4
+              years. Located in Hangzhou, China.
             </p>
           </Member>
           <Member>
@@ -138,10 +139,9 @@ export default function () {
               </a>
             </Contacts>
             <p>
-              Chaojun is a developer with 10+ years experience on developing
-              complex backend service and rich frontend application. Has rich
-              experience on both enterprise application and internet
-              application.
+              Chaojun is a developer with 10+ years experience on complex
+              backend and frontend application developing service. His rich
+              experience vary from both enterprise and internet applications.
             </p>
           </Member>
           <Member>
@@ -164,8 +164,9 @@ export default function () {
               </a>
             </Contacts>
             <p>
-              Wentao has years of full stack development experience, focusing on
-              building perfect website for everyone.
+              Wentao has years of full stack development experience. His
+              perfectionism toward work and life drives him on building perfect
+              website for everyone.
             </p>
           </Member>
           <Member>
@@ -181,8 +182,8 @@ export default function () {
               </a>
             </Contacts>
             <p>
-              5 years of relevant digital experience in Web and Mobile Apps
-              UI/UX design, have a passion for the design system. Figma fan.
+              5 years of relevant digital experience of UI/UX design in Web and
+              Mobile Apps. Bearing a passion for system designing. Figma fan.
             </p>
           </Member>
           <Member>
@@ -205,9 +206,27 @@ export default function () {
               </a>
             </Contacts>
             <p>
-              Yizhou taught himself to develop, has a passion for blockchain
-              industry. Thinks and lives in a engineer way aiming to constant
-              improving. Cat addict.
+              Yizhou, passionate about blockchain industry. Engineering mindset
+              and aims for a persistent self-improvement. Cat addict.
+            </p>
+          </Member>
+          <Member>
+            <img src={Yaping} alt="yaping" />
+            <h4>Yaping Wu</h4>
+            <Contacts>
+              <a
+                href="mailto:yizhou@opensquare.network"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <Email width="16" height="16" />
+              </a>
+            </Contacts>
+            <p>
+              Yaping, passionate about Blockchain. Intergrating her media
+              experience with commercial mindset in this trendy industry to
+              collaborate the decentralized future. Reading and outdoor. Logic,
+              abstract and intuitive.
             </p>
           </Member>
         </Members>
