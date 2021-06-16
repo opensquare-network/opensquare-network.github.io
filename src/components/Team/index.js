@@ -206,8 +206,9 @@ export default function () {
               </a>
             </Contacts>
             <p>
-              Yizhou, passionate about blockchain industry. Engineering mindset
-              and aims for a persistent self-improvement. Cat addict.
+              Yizhou, creative coder, passionate about blockchain industry.
+              Engineering mindset during solid academic background and aims for
+              a persistent self-improvement. Cat addict.
             </p>
           </Member>
           <Member>
