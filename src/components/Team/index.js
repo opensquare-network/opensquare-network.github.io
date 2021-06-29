@@ -1,6 +1,6 @@
 import styled from "styled-components";
 import React from "react";
-import YongfengImg from "./yongfeng.jpeg";
+import YongfengImg from "./yongfeng.png";
 import Github from "../../images/github.svg";
 import Email from "../../images/email.svg";
 import ChaoJun from "./huangchaojun.png";
