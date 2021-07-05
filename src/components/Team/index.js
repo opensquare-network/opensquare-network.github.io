@@ -114,7 +114,7 @@ export default function () {
               </a>
             </Contacts>
             <p>
-              Yongfeng, co-founder, proficient in software development with 10+
+              Yongfeng, founder, proficient in software development with 10+
               years experience, focusing on blockchain development in recent 4
               years. Located in Hangzhou, China.
             </p>
