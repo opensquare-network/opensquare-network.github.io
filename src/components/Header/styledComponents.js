@@ -6,7 +6,7 @@ export const StyledHeader = styled.header`
   justify-content: space-around;
   position: relative;
   z-index: 2;
-  padding-top: 16px;
+  //padding-top: 16px;
 `;
 
 export const InnerSection = styled(BaseInner)`
@@ -48,8 +48,8 @@ export const InnerSection = styled(BaseInner)`
 
       a {
         text-decoration: none;
-        color: #1d253c;
-
+        color: #2e343d;
+        font-weight: 600;
         font-size: 1rem;
         line-height: 28px;
       }

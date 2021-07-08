@@ -1,6 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import { BaseInner } from "../baseComponents";
+import GotoIcon from "./goto.svg";
 
 const Wrapper = styled.section`
   display: flex;
@@ -15,41 +16,32 @@ const StyledSection = styled.section`
   align-items: center;
 `;
 
-export const InnerSection = styled(BaseInner)`
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: center;
-  h1 {
-    font-size: 46px;
-    font-weight: bold;
-    margin: 0;
-    width: 75%;
-    text-align: center;
-    color: #1d253c;
-    line-height: 1.5;
-  }
-  h3 {
-    margin-top: 10px;
-    font-weight: normal;
-    font-size: 16px;
-    width: 50%;
-    text-align: center;
-    color: rgba(29, 37, 60, 0.64);
-    line-height: 1.5;
-  }
+const ColorText = styled.span`
+  background: linear-gradient(270deg, #04d2c5 2.06%, #6848ff 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
 `;
 
 export default function () {
   return (
     <Wrapper>
       <StyledSection>
-        <InnerSection>
-          <h1>Empower Credit Building with Blockchain </h1>
-          <h3>
-            Do collaboration on OpenSquare platform and your credit score will
-            be calculated from your daily activities
+        <div className="w-9/12">
+          <h1 className="text-6xl leading-tight">
+            Empower <ColorText>Reputation Building</ColorText> <br /> with
+            Blockchain{" "}
+          </h1>
+          <h3 className="mb-10 text-xl text-gray-300">
+            Collaboration on bounties and your reputation score
+            <br />
+            will be calculated from your daily activities.
           </h3>
-        </InnerSection>
+          <button className="flex px-6 py-3 bg-black text-white mr-auto">
+            Check Our Product&nbsp;&nbsp;&nbsp;
+            <GotoIcon />
+          </button>
+        </div>
       </StyledSection>
     </Wrapper>
   );

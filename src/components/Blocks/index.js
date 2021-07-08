@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import Slogan from "./Slogan";
-import Steps from "./Steps";
+import Products from "./Steps";
 
 const StyledSection = styled.section`
   display: flex;
@@ -19,7 +19,7 @@ export default function () {
   return (
     <StyledSection>
       <Slogan />
-      <Steps />
+      <Products />
     </StyledSection>
   );
 }

@@ -37,8 +37,8 @@ const Detail = styled.p`
 export default function () {
   return (
     <InnerSection>
-      <Title>Transparent & Credible</Title>
-      <Detail>Provided by on-chain collaboration and credit calculation</Detail>
+      <Title>We build for collaboration</Title>
+      <Detail>Molestie eget lacus nisi, aliquet tincidunt.</Detail>
     </InnerSection>
   );
 }

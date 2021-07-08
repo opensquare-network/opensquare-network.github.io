@@ -1,33 +1,25 @@
 import styled from "styled-components";
 import React from "react";
-import ArrowNext from "./arrow-next.svg";
+import Icon from "./corner-icon.svg";
 
-const InnerSection = styled.section`
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-top: 2.5rem;
+const InnerSection = styled.section``;
 
-  & > span {
-    color: #1d253c;
-    font-size: 1rem;
-    font-weight: 500;
-    line-height: 1.5;
-  }
-
-  svg {
-    margin: 0 2rem;
-  }
-`;
-
-export default function () {
+export default function Products() {
   return (
-    <InnerSection>
-      <span>Collaboration Start</span>
-      <ArrowNext />
-      <span>Collaborating</span>
-      <ArrowNext />
-      <span>Credit Grow</span>
+    <InnerSection className="flex flex-wrap	content-center margin-auto">
+      {[1, 2, 3, 4].map((key) => (
+        <div
+          key={key}
+          className="relative w-484px h-136px px-60px py-24px shadow-lg mr-76px mb-76px"
+        >
+          <Icon className="absolute  -top-16 -left-16" />
+          <h3 className="text-xl mb-8px">Pay to Ask</h3>
+          <p className="text-gray-300">
+            Tortor etiam duis diam est, massa nullam. Mauris enim lorem arcu
+            euismod pulvinar nisl.
+          </p>
+        </div>
+      ))}
     </InnerSection>
   );
 }

@@ -18,23 +18,26 @@ export default function Header() {
         </a>
         <ul>
           <li>
-            <a href="/">Home</a>
+            <a href="/">Lightpaper</a>
           </li>
           <li>
-            <a href="/team">Team</a>
+            <a href="/product">Product</a>
           </li>
-          <li className="tools" onClick={() => setOpenMenu(true)}>
-            Tools
-            <FontAwesomeIcon icon={faChevronDown} size="1x" />
-            {openMenu && <Menu close={() => setOpenMenu(false)} />}
+          <li>
+            <a href="/team">About us</a>
           </li>
+          {/*<li className="tools" onClick={() => setOpenMenu(true)}>*/}
+          {/*  Tools*/}
+          {/*  <FontAwesomeIcon icon={faChevronDown} size="1x" />*/}
+          {/*  {openMenu && <Menu close={() => setOpenMenu(false)} />}*/}
+          {/*</li>*/}
           <li>
             <a
               href="https://app.subsocial.network/1327"
               target="_blank"
               rel="noreferrer"
             >
-              Blogs
+              Blog
             </a>
           </li>
         </ul>
