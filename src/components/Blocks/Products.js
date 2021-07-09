@@ -4,17 +4,19 @@ import Icon from "./corner-icon.svg";
 export default function Products() {
   return (
     <div>
-      <div className="flex flex-wrap	pt-16 content-center justify-center w-full">
+      <div className="flex flex-wrap	pt-16 content-center justify-center w-full md:w-1280px">
         {[1, 2, 3, 4].map((key) => (
           <div
             key={key}
             className="
-          relative
+            relative
             pt-6
             pl-15
             mb-68px
             ml-10
+            md:ml-0
             mr-8
+            md:mr-20
             w-346px
             md:w-484px
             h-160px
