@@ -1,25 +1,14 @@
 import React from "react";
-import styled from "styled-components";
+import ProductSlogan from "./ProductSlogan";
 import Slogan from "./Slogan";
 import Products from "./Products";
 
-const StyledSection = styled.section`
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  align-items: center;
-  margin-top: 3rem;
-
-  @media screen and (max-width: 768px) {
-    padding: 0 20px;
-  }
-`;
-
 export default function () {
   return (
-    <StyledSection>
-      <Slogan />
+    <div className="flex flex-col content-around items-center mt-12 px-5 py-0 md:px-0">
+      <ProductSlogan />
       <Products />
-    </StyledSection>
+      <Slogan />
+    </div>
   );
 }

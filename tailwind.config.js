@@ -19,6 +19,7 @@ module.exports = {
         15: "3.75rem",
       },
       margin: {
+        "78px": "78px",
         "76px": "76px",
         "68px": "68px",
         "8px": "8px",
@@ -29,7 +30,10 @@ module.exports = {
     },
   },
   variants: {
-    extend: {},
+    extend: {
+      margin: ["even", "odd"],
+      // display: ['md'],
+    },
   },
   plugins: [],
 };
