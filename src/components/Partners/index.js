@@ -71,16 +71,16 @@ export default function () {
         <p className="text-gray-300 mb-8">
           Molestie eget lacus nisi, aliquet tincidunt tristique turpis.
         </p>
-        <div className="flex flex-wrap justify-center">
+        <div className="flex flex-wrap justify-center justify-center md:px-0 md:w-1080px md:mx-auto">
           {Partners.map((friend, idx) => {
             return (
               <a href={friend.url} key={idx} target="_blank" rel="noreferrer">
                 <img
-                  className="m-4"
+                  className="m-4 md:mx-3 w-150px md:w-240px"
                   src={friend.img}
                   alt=""
-                  width={150}
-                  height={50}
+                  // width={150}
+                  // height={50}
                 />
               </a>
             );

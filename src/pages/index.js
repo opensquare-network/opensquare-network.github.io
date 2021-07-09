@@ -3,8 +3,8 @@ import SEO from "../components/seo";
 import Layout from "../components/Layout";
 import Blocks from "../components/Blocks";
 import Participator from "../components/Participator";
-import Papers from "../components/Papers";
 import Partners from "../components/Partners";
+import PapersEnter from "../components/Papers/papersEnter";
 
 export default function Home() {
   return (
@@ -13,7 +13,7 @@ export default function Home() {
       <Blocks />
       <Participator />
       <Partners />
-      <Papers />
+      <PapersEnter />
     </Layout>
   );
 }
