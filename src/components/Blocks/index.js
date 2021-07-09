@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import Slogan from "./Slogan";
-import Products from "./Steps";
+import Products from "./Products";
 
 const StyledSection = styled.section`
   display: flex;

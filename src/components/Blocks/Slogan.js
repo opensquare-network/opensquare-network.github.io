@@ -16,15 +16,15 @@ const InnerSection = styled.section`
   }
 `;
 
-const Title = styled.h3`
-  text-align: center;
-  min-width: 204px;
-  font-weight: 600;
-  font-size: 1.75rem;
-  color: #1d253c;
-  letter-spacing: 0.2px;
-  line-height: 1.5;
-`;
+// const Title = styled.h3`
+//   text-align: center;
+//   min-width: 204px;
+//   font-weight: 600;
+//   font-size: 1.75rem;
+//   color: #1d253c;
+//   letter-spacing: 0.2px;
+//   line-height: 1.5;
+// `;
 
 const Detail = styled.p`
   font-size: 1rem;
@@ -37,8 +37,12 @@ const Detail = styled.p`
 export default function () {
   return (
     <InnerSection>
-      <Title>We build for collaboration</Title>
+      <h3 className="title text-3xl font-semibold text-gray-900">
+        We build for collaboration
+      </h3>
       <Detail>Molestie eget lacus nisi, aliquet tincidunt.</Detail>
+
+      {/*</style>*/}
     </InnerSection>
   );
 }
