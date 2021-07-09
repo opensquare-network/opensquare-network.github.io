@@ -79,8 +79,6 @@ export default function () {
                   className="m-4 md:mx-3 w-150px md:w-240px"
                   src={friend.img}
                   alt=""
-                  // width={150}
-                  // height={50}
                 />
               </a>
             );

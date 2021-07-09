@@ -1,8 +1,8 @@
 import React from "react";
-import styled from "styled-components";
-import useOutsideClick from "../../hooks/useClickOutside";
+// import styled from "styled-components";
+// import useOutsideClick from "../../hooks/useClickOutside";
 
-const { useRef } = require("react");
+// const { useRef } = require("react");
 
 export default function Menu({ className = "", liClassName = "" }) {
   // const ref = useRef(null);
