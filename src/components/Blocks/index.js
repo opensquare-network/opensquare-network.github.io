@@ -2,6 +2,7 @@ import React from "react";
 import ProductSlogan from "./ProductSlogan";
 import Slogan from "./Slogan";
 import Products from "./Products";
+import Steps from "./Steps";
 
 export default function () {
   return (
@@ -9,6 +10,7 @@ export default function () {
       <ProductSlogan />
       <Products />
       <Slogan />
+      <Steps />
     </div>
   );
 }

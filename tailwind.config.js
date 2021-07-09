@@ -9,8 +9,11 @@ module.exports = {
         "72px": "72px",
       },
       width: {
+        "1080px": "1080px",
         "484px": "484px",
+        "480px": "480px",
         "346px": "346px",
+        "266px": "266px",
         "72px": "72px",
       },
       padding: {
