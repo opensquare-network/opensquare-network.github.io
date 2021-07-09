@@ -5,3 +5,6 @@
 /*.title{*/
 /*    @apply ;*/
 /*}*/
+.bg-cta {
+  background-image: url("../images/imgs-cta.jpg");
+}
