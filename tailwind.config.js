@@ -4,6 +4,7 @@ module.exports = {
   theme: {
     extend: {
       height: {
+        "388px": "388px",
         "160px": "160px",
         "136px": "136px",
         "72px": "72px",
@@ -16,8 +17,10 @@ module.exports = {
         "484px": "484px",
         "480px": "480px",
         "476px": "476px",
+        "360px": "360px",
         "350px": "350px",
         "346px": "346px",
+        "280px": "280px",
         "266px": "266px",
         "240px": "240px",
         "150px": "150px",
@@ -31,6 +34,8 @@ module.exports = {
         15: "3.75rem",
       },
       margin: {
+        "544px": "544px",
+        "153px": "153px",
         "78px": "78px",
         "76px": "76px",
         "68px": "68px",

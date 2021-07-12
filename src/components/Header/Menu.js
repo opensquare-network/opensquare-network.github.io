@@ -17,7 +17,7 @@ export default function Menu({ className = "", liClassName = "" }) {
         <a href="/team">Lightpaper</a>
       </li>
       <li className={liClassName}>
-        <a href="/team">Product</a>
+        <a href="/product">Product</a>
       </li>
       <li className={liClassName}>
         <a href="/team">About us</a>

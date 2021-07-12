@@ -1,4 +1,3 @@
-import styled from "styled-components";
 import React from "react";
 import YongfengImg from "./yongfeng.png";
 import Github from "../../images/github.svg";
@@ -8,230 +7,76 @@ import WenTao from "./chenwentao.png";
 import Alcazar from "./alcazar.png";
 import Yizhou from "./xinyizhou.jpeg";
 import Yaping from "./yaping.png";
+import styled from "styled-components";
+import IconGoto from "./Icon-goto.svg";
 
-const StyledSection = styled.section`
-  background: #ffffff;
-  display: flex;
-  justify-content: space-around;
-  min-height: calc(100vh - 90px - 72px);
-
-  @media screen and (max-width: 1080px) {
-    padding: 0 20px;
-    justify-content: space-around;
-  }
-`;
-
-export const InnerSection = styled.main`
-  margin-bottom: 50px;
-  @media screen and (min-width: 1080px) {
-    width: 1080px;
-  }
-
-  @media screen and (max-width: 1080px) {
-    width: 100%;
-  }
-
-  h2:first-of-type {
-    margin-top: 50px;
-  }
-
-  & > h2:not(:first-of-type) {
-    margin-top: 50px;
-  }
-`;
-
-const Members = styled.section`
-  display: flex;
-  flex-wrap: wrap;
-  margin-top: 24px;
-`;
-
-const Member = styled.div`
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  padding: 16px 20px 0;
-  box-sizing: border-box;
-
-  img {
-    max-width: 7rem;
-    box-sizing: border-box;
-    border-radius: 50%;
-  }
-
-  h4 {
-    margin: 10px 0;
-  }
-
-  p {
-    margin-top: 10px;
-    text-align: justify;
-    line-height: 1.5;
-
-    a {
-      color: #000;
-    }
-  }
-
-  @media (min-width: 768px) {
-    flex: 0 0 33.333333%;
-    max-width: 33.333333%;
-  }
-`;
-
-const Contacts = styled.div`
-  min-height: 20px;
-  a:not(:first-of-type) {
-    margin-left: 12px;
-  }
+const PaperEntry = styled.a`
+  background: linear-gradient(270deg, #04d2c5 2.06%, #6848ff 100%);
 `;
 
 export default function () {
   return (
-    <StyledSection>
-      <InnerSection>
-        <h2>Our Team</h2>
-        <p>We are a reliable and experienced team.</p>
+    <div>
+      <div className="sm:w-1080px m-auto">
+        <h1 className="text-4xl font-bold text-center sm:text-left  pt-80px">
+          Meet the team
+        </h1>
+        <p className="text-lg text-gray-400 text-center  sm:text-left w-346px sm:w-full m-auto pt-4 pb-80px">
+          OpenSquare is an open source project built by decentralized{" "}
+          <br className="hidden sm:block" /> team which is reliable and
+          experienced.
+        </p>
+      </div>
+      <PaperEntry
+        className="block
+        pt-4
+        pb-5
+        bg-gradient-to-r from-orange-400 via-red-500 to-pink-500
+        sm:flex
+        sm:justify-center
+        sm:items-center
+       "
+        href="/papers"
+      >
+        <span className="block m-auto sm:m-0 text-center text-white text-lg font-semibold ">
+          Get Started with OpenSquare and <br className="sm:hidden" /> Check Our
+          Litepaper
+        </span>
+        <IconGoto className="m-auto sm:m-0 sm:ml-5" />
+      </PaperEntry>
 
-        <Members>
-          <Member>
-            <img src={YongfengImg} alt="yongfeng" />
-            <h4>Yongfeng Li</h4>
-            <Contacts>
-              <a
-                href="https://github.com/wliyongfeng"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <Github width="16" height="16" />
-              </a>
-              <a
-                href="mailto:yongfeng@opensquare.network"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <Email width="16" height="16" />
-              </a>
-            </Contacts>
-            <p>
-              Yongfeng, founder, proficient in software development with 10+
-              years experience, focusing on blockchain development in recent 4
-              years. Located in Hangzhou, China.
-            </p>
-          </Member>
-          <Member>
-            <img src={ChaoJun} alt="junchao" />
-            <h4>Chaojun Huang</h4>
-            <Contacts>
-              <a
-                href="https://github.com/hyifeng"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <Github width="16" height="16" />
-              </a>
-              <a
-                href="mailto:chaojun@opensquare.network"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <Email width="16" height="16" />
-              </a>
-            </Contacts>
-            <p>
-              Chaojun is a developer with 10+ years experience on complex
-              backend and frontend application developing service. His rich
-              experience vary from both enterprise and internet applications.
-            </p>
-          </Member>
-          <Member>
-            <img src={WenTao} alt="wentao" />
-            <h4>Wentao Chen</h4>
-            <Contacts>
-              <a
-                href="https://github.com/qiyisi"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <Github width="16" height="16" />
-              </a>
-              <a
-                href="mailto:wentao@opensquare.network"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <Email width="16" height="16" />
-              </a>
-            </Contacts>
-            <p>
-              Wentao has years of full stack development experience. His
-              perfectionism toward work and life drives him on building perfect
-              website for everyone.
-            </p>
-          </Member>
-          <Member>
-            <img src={Alcazar} alt="wentao" />
-            <h4>Alcazar</h4>
-            <Contacts>
-              <a
-                href="mailto:alcazarrr@outlook.com"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <Email width="16" height="16" />
-              </a>
-            </Contacts>
-            <p>
-              5 years of relevant digital experience of UI/UX design in Web and
-              Mobile Apps. Bearing a passion for system designing. Figma fan.
-            </p>
-          </Member>
-          <Member>
-            <img src={Yizhou} alt="yizhou" />
-            <h4>Yizhou Xin</h4>
-            <Contacts>
-              <a
-                href="https://github.com/YoshiyukiSakura"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <Github width="16" height="16" />
-              </a>
-              <a
-                href="mailto:yizhou@opensquare.network"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <Email width="16" height="16" />
-              </a>
-            </Contacts>
-            <p>
-              Yizhou, creative coder, blockchain industry enthusiast.
-              Engineering mindset from solid academic background and aims for a
-              persistent self-improvement. Cat addict.
-            </p>
-          </Member>
-          <Member>
-            <img src={Yaping} alt="yaping" />
-            <h4>Yaping Wu</h4>
-            <Contacts>
-              <a
-                href="mailto:yizhou@opensquare.network"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <Email width="16" height="16" />
-              </a>
-            </Contacts>
-            <p>
-              Yaping, passionate about Blockchain. Intergrating her media
-              experience with commercial mindset in this trendy industry to
-              collaborate the decentralized future. Reading and outdoor. Logic,
-              abstract and intuitive.
-            </p>
-          </Member>
-        </Members>
-      </InnerSection>
-    </StyledSection>
+      <div className="sm:flex sm:w-1080px sm:mx-auto sm:mt-20">
+        <h2 className="text-2xl font-bold text-center pt-80px sm:pt-0 pb-10">
+          Core Team
+        </h2>
+        <div className="sm:ml-153px sm:flex sm:flex-wrap">
+          {[0, 1, 2, 3, 4, 5].map((i) => (
+            <div className="px-4 mr-10 mb-8 sm:mb-0 sm:h-388px sm:flex content-start w-full sm:w-240px flex-wrap">
+              <img
+                className="m-auto sm:ml-0"
+                width={100}
+                src={YongfengImg}
+                alt=""
+              />
+              <p className="sm:w-full text-center sm:text-left text-lg font-semibold">
+                Yongfeng Li
+              </p>
+              <p className="sm:w-full text-center sm:text-left text-base font-semibold text-green-500 mb-3 ">
+                Founder
+              </p>
+              <p className="sm:w-full flex justify-center sm:justify-start mb-4">
+                <Github className="mr-4" width={24} height={24} />
+                <Email width={24} height={24} />
+              </p>
+              <p className="text-gray-300 font-normal w-360px sm:w-full text-center sm:text-left m-auto">
+                10+ years software development experience, focusing on
+                blockchain development recent 4 years. Located in Hangzhou
+                China.
+              </p>
+            </div>
+          ))}
+        </div>
+      </div>
+    </div>
   );
 }
