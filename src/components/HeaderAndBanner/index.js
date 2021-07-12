@@ -2,12 +2,8 @@ import styled from "styled-components";
 import React from "react";
 import Header from "../Header";
 import Banner from "../Banner";
-import background from "./bg.png";
 
-const Wrapper = styled.section`
-  background-image: url(${background});
-  /* background-size: 100%; */
-`;
+const Wrapper = styled.section``;
 
 export default function HeaderAndBanner() {
   return (

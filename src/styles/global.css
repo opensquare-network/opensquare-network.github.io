@@ -7,4 +7,14 @@
 /*}*/
 .bg-cta {
   background-image: url("../images/imgs-cta.jpg");
+  /*background-size: 100%;*/
+  background-repeat: no-repeat;
+}
+
+.bg-dot {
+  background-image: url("../images/imgs-dot.png");
+  /*background-size: 100%;*/
+  background-position-x: 0;
+  background-position-y: -200px;
+  background-repeat: no-repeat;
 }
