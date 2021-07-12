@@ -8,7 +8,7 @@ import SubSocial from "./subsocial.svg";
 
 export default function Footer() {
   return (
-    <div className="bg-gray-800 pl-4 py-80px sm:flex sm:pl-9">
+    <div className="bg-gray-800 pl-4 py-80px sm:flex sm:pl-9 inter">
       <Row className="flex">
         <div className="w-1/2 sm:w-200px">
           <p className="block h-10 text-white font-semibold">Product</p>

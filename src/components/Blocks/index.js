@@ -4,9 +4,9 @@ import Slogan from "./Slogan";
 import Products from "./Products";
 import Steps from "./Steps";
 
-export default function () {
+export default function Blocks() {
   return (
-    <div className="flex flex-col content-around items-center mt-12 px-5 py-0 md:px-0">
+    <div className="flex flex-col content-around items-center mt-12 px-5 py-0 md:px-0 inter">
       <ProductSlogan />
       <Products />
       <Slogan />

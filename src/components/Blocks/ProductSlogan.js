@@ -34,10 +34,10 @@ const Detail = styled.p`
   line-height: 1.5;
 `;
 
-export default function () {
+export default function ProductSlogan() {
   return (
     <InnerSection>
-      <h3 className="title text-3xl font-semibold text-dark-major">
+      <h3 className="title text-3xl font-bold text-dark-major montserrat">
         We build for collaboration
       </h3>
       <Detail>Molestie eget lacus nisi, aliquet tincidunt.</Detail>

@@ -25,13 +25,16 @@ export default function Header() {
         </a>
 
         {/*menu for bigger devices*/}
-        <Menu className="hidden md:flex" liClassName="mr-10" />
+        <Menu
+          className="hidden inter md:flex font-semibold text-dark-major "
+          liClassName="mr-10"
+        />
         {openMenu ? <CloseIcon onClick={close} /> : <MenuIcon onClick={open} />}
       </div>
 
       {/*menu for mobile*/}
       {openMenu && (
-        <Menu className="md:hidden pt-4 text-center text-base font-semibold leading-54px" />
+        <Menu className="md:hidden inter pt-4 text-center text-base font-semibold leading-54px" />
       )}
     </div>
   );

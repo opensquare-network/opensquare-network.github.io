@@ -6,10 +6,10 @@ export default function Slogan() {
       <div className="w-full md:w-1080px mx-auto">
         <h3
           className="
-      mb-4 sm:pt-20 text-center md:text-left
-      text-3xl font-semibold text-dark-major
-      "
-          // style={{backgroundImage: Bg}}
+          mb-4 sm:pt-20 text-center md:text-left
+          text-3xl font-semibold text-dark-major
+          montserrat
+          "
         >
           Credit on the blockchain
         </h3>

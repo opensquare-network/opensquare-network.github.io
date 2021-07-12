@@ -26,7 +26,7 @@ export default function () {
   return (
     <Wrapper>
       <StyledSection>
-        <div className="w-9/12">
+        <div className="w-1080px">
           <h1 className="text-4xl leading-tight text-center md:text-left text-mark-major font-bold">
             Empower <br className="md:hidden" />
             <ColorText>Credit Building</ColorText>
