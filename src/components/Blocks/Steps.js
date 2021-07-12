@@ -10,7 +10,7 @@ export default function Steps() {
         <img src={Icon} className="hidden md:inline md:mb-9" />
         <div className="w-266px ml-10 md:ml-0">
           <h3 className="text-xl font-bold mb-4">Pellentesque sed</h3>
-          <p className="text-base font-normal text-gray-300">
+          <p className="text-base font-normal text-dark-minor">
             Diam, adipiscing at in non mauris phasellus volutpat. Massa pretium
             at ullamcorper libero vestibulum. Sed lectus amet rhoncus, convallis
             amet fusce tincidunt. Platea in enim eu a diam.
@@ -23,7 +23,7 @@ export default function Steps() {
         <img src={Icon} className="hidden md:inline md:mb-9" />
         <div className="w-266px ml-10 md:ml-0">
           <h3 className="text-xl font-bold mb-4">Pellentesque sed</h3>
-          <p className="text-base font-normal text-gray-300">
+          <p className="text-base font-normal text-dark-minor">
             Diam, adipiscing at in non mauris phasellus volutpat. Massa pretium
             at ullamcorper libero vestibulum. Sed lectus amet rhoncus, convallis
             amet fusce tincidunt. Platea in enim eu a diam.
@@ -36,7 +36,7 @@ export default function Steps() {
         <img src={Icon} className="hidden md:inline md:mb-9" />
         <div className="w-266px ml-10 md:ml-0">
           <h3 className="text-xl font-bold mb-4">Pellentesque sed</h3>
-          <p className="text-base font-normal text-gray-300">
+          <p className="text-base font-normal text-dark-minor">
             Diam, adipiscing at in non mauris phasellus volutpat. Massa pretium
             at ullamcorper libero vestibulum. Sed lectus amet rhoncus, convallis
             amet fusce tincidunt. Platea in enim eu a diam.
@@ -49,7 +49,7 @@ export default function Steps() {
         <img src={Icon} className="hidden md:inline md:mb-9" />
         <div className="w-266px ml-10 md:ml-0">
           <h3 className="text-xl font-bold mb-4">Pellentesque sed</h3>
-          <p className="text-base font-normal text-gray-300">
+          <p className="text-base font-normal text-dark-minor">
             Diam, adipiscing at in non mauris phasellus volutpat. Massa pretium
             at ullamcorper libero vestibulum. Sed lectus amet rhoncus, convallis
             amet fusce tincidunt. Platea in enim eu a diam.

@@ -68,7 +68,7 @@ export default function () {
                 <Github className="mr-4" width={24} height={24} />
                 <Email width={24} height={24} />
               </p>
-              <p className="text-gray-300 font-normal w-360px sm:w-full text-center sm:text-left m-auto">
+              <p className="text-dark-minor font-normal w-360px sm:w-full text-center sm:text-left m-auto">
                 10+ years software development experience, focusing on
                 blockchain development recent 4 years. Located in Hangzhou
                 China.

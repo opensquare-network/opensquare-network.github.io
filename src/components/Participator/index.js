@@ -8,7 +8,7 @@ export default function () {
       <h3 className="text-center text-xl md:text-4xl w-266px md:w-full mx-auto text-bold text-white ">
         A trusted collaboration network
       </h3>
-      <p className="text-center text-gray-400 w-350px md:w-476px mx-auto mt-4">
+      <p className="text-center text-light-minor w-350px md:w-476px mx-auto mt-4">
         Consequat gravida morbi rhoncus sit. Nisl, platea ligula pellentesque
         nunc arcu commodo consequat. Pellentesque consectetur elit morbi
         porttitor aliquet.

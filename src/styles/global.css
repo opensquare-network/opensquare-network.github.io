@@ -2,9 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
-/*.title{*/
-/*    @apply ;*/
-/*}*/
+p,
+span,
+span {
+  font-family: Montserrat, serif;
+}
+
 .bg-cta {
   background-image: url("../images/imgs-cta.jpg");
   /*background-size: 100%;*/

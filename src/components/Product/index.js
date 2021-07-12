@@ -37,7 +37,7 @@ export default function Product() {
             <p className="sm:w-full text-left sm:text-center sm:text-left text-lg font-semibold mb-2">
               CoinAsk
             </p>
-            <p className="text-gray-300 font-normal text-left sm:text-center">
+            <p className="text-dark-minor font-normal text-left sm:text-center">
               Tortor etiam duis diam est, massa nullam. Mauris enim lorem arcu
               euismod pulvinar nisl.
             </p>
@@ -58,7 +58,7 @@ export default function Product() {
             <p className="sm:w-full text-left sm:text-center sm:text-left text-lg font-semibold mb-2">
               doTreasury
             </p>
-            <p className="text-gray-300 font-normal text-left sm:text-center">
+            <p className="text-dark-minor font-normal text-left sm:text-center">
               Tortor etiam duis diam est, massa nullam. Mauris enim lorem arcu
               euismod pulvinar nisl.
             </p>
@@ -77,7 +77,7 @@ export default function Product() {
             <p className="sm:w-full text-left sm:text-center sm:text-left text-lg font-semibold mb-2">
               doTreasury
             </p>
-            <p className="text-gray-300 font-normal text-left sm:text-center">
+            <p className="text-dark-minor font-normal text-left sm:text-center">
               Tortor etiam duis diam est, massa nullam. Mauris enim lorem arcu
               euismod pulvinar nisl.
             </p>
@@ -103,7 +103,7 @@ export default function Product() {
             <p className="sm:w-full text-left sm:text-center sm:text-left text-lg font-semibold mb-2">
               OpenSquare Bounties
             </p>
-            <p className="text-gray-300 font-normal text-left sm:text-center">
+            <p className="text-dark-minor font-normal text-left sm:text-center">
               Tortor etiam duis diam est, massa nullam. Mauris enim lorem arcu
               euismod pulvinar nisl.
             </p>
@@ -119,7 +119,7 @@ export default function Product() {
             <p className="sm:w-full text-left sm:text-center sm:text-left text-lg font-semibold mb-2">
               doTreasury
             </p>
-            <p className="text-gray-300 font-normal text-left sm:text-center">
+            <p className="text-dark-minor font-normal text-left sm:text-center">
               Tortor etiam duis diam est, massa nullam. Mauris enim lorem arcu
               euismod pulvinar nisl.
             </p>
@@ -142,7 +142,7 @@ export default function Product() {
           >
             Building with OpenSquare
           </h2>
-          <p className="mb-8 text-gray-300 font-normal text-center sm:text-left">
+          <p className="mb-8 text-dark-minor font-normal text-center sm:text-left">
             In mauris mauris amet vitae curabitur. <br className="sm:hidden" />{" "}
             Convallis eu, et tincidunt laoreet morbi lectus volutpat. Sit lectus
             nisl arcu porttitor pulvinar id.

@@ -2,6 +2,13 @@ module.exports = {
   purge: ["./src/**/*.{js,jsx,ts,tsx}"],
   darkMode: false, // or 'media' or 'class'
   theme: {
+    textColor: {
+      "dark-major": "#2E343D",
+      "dark-minor": "#A1A8B2",
+      white: "#fff",
+      "light-minor": "rgba(255, 255, 255, 0.65)",
+      "light-minimal": "rgba(255, 255, 255, 0.35)",
+    },
     extend: {
       height: {
         "388px": "388px",

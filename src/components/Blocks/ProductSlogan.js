@@ -37,7 +37,7 @@ const Detail = styled.p`
 export default function () {
   return (
     <InnerSection>
-      <h3 className="title text-3xl font-semibold text-gray-900">
+      <h3 className="title text-3xl font-semibold text-dark-major">
         We build for collaboration
       </h3>
       <Detail>Molestie eget lacus nisi, aliquet tincidunt.</Detail>

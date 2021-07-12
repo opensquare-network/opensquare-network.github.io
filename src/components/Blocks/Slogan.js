@@ -7,13 +7,13 @@ export default function Slogan() {
         <h3
           className="
       mb-4 sm:pt-20 text-center md:text-left
-      text-3xl font-semibold text-gray-900
+      text-3xl font-semibold text-dark-major
       "
           // style={{backgroundImage: Bg}}
         >
           Credit on the blockchain
         </h3>
-        <p className="text-base text-center text-gray-300 md:text-left w-full md:w-480px">
+        <p className="text-base text-center text-dark-minor md:text-left w-full md:w-480px">
           Et, suspendisse ornare integer felis senectus ac viverra. Sed
           ullamcorper venenatis.
         </p>
