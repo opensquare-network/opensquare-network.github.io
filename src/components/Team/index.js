@@ -8,7 +8,7 @@ import Alcazar from "./alcazar.png";
 import Yizhou from "./xinyizhou.jpeg";
 import Yaping from "./yaping.png";
 import styled from "styled-components";
-import IconGoto from "./Icon-goto.svg";
+import IconGoto from "./IconGoto.svg";
 
 const PaperEntry = styled.a`
   background: linear-gradient(270deg, #04d2c5 2.06%, #6848ff 100%);

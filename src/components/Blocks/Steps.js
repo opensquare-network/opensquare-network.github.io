@@ -1,6 +1,6 @@
 import React from "react";
 import Icon from "./blocks.png";
-import IconY from "./blocks-y.png";
+import IconY from "./blocksY.png";
 
 export default function Steps() {
   return (

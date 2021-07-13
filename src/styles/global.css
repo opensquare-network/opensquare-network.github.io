@@ -1,4 +1,4 @@
-@import url("../fonts/Montserrat.css");
+@import url("../fonts/montserrat.css");
 
 @tailwind base;
 @tailwind components;
@@ -64,9 +64,7 @@
   font-family: "Inter";
   font-style: normal;
   font-weight: 400;
-  src: url("../fonts/inter-v3-latin-regular.eot"); /* IE9 Compat Modes */
-  src: local(""),
-    url("../fonts/inter-v3-latin-regular.eot?#iefix")
+  src: url("../fonts/inter-v3-latin-regular.eot?#iefix")
       format("embedded-opentype"),
     /* IE6-IE8 */ url("../fonts/inter-v3-latin-regular.woff2") format("woff2"),
     /* Super Modern Browsers */ url("../fonts/inter-v3-latin-regular.woff")
@@ -82,9 +80,7 @@
   font-family: "Inter";
   font-style: normal;
   font-weight: 500;
-  src: url("../fonts/inter-v3-latin-500.eot"); /* IE9 Compat Modes */
-  src: local(""),
-    url("../fonts/inter-v3-latin-500.eot?#iefix") format("embedded-opentype"),
+  src: url("../fonts/inter-v3-latin-500.eot?#iefix") format("embedded-opentype"),
     /* IE6-IE8 */ url("../fonts/inter-v3-latin-500.woff2") format("woff2"),
     /* Super Modern Browsers */ url("../fonts/inter-v3-latin-500.woff")
       format("woff"),
@@ -99,9 +95,7 @@
   font-family: "Inter";
   font-style: normal;
   font-weight: 700;
-  src: url("../fonts/inter-v3-latin-700.eot"); /* IE9 Compat Modes */
-  src: local(""),
-    url("../fonts/inter-v3-latin-700.eot?#iefix") format("embedded-opentype"),
+  src: url("../fonts/inter-v3-latin-700.eot?#iefix") format("embedded-opentype"),
     /* IE6-IE8 */ url("../fonts/inter-v3-latin-700.woff2") format("woff2"),
     /* Super Modern Browsers */ url("../fonts/inter-v3-latin-700.woff")
       format("woff"),
@@ -116,16 +110,11 @@
   font-family: "Inter";
   font-style: normal;
   font-weight: 600;
-  src: url("../fonts/inter-v3-latin-600.eot"); /* IE9 Compat Modes */
-  src: local(""),
-    url("../fonts/inter-v3-latin-600.eot?#iefix") format("embedded-opentype"),
-    /* IE6-IE8 */ url("../fonts/inter-v3-latin-600.woff2") format("woff2"),
+  src: url("../fonts/inter-v3-latin-600.woff2") format("woff2"),
     /* Super Modern Browsers */ url("../fonts/inter-v3-latin-600.woff")
       format("woff"),
     /* Modern Browsers */ url("../fonts/inter-v3-latin-600.ttf")
-      format("truetype"),
-    /* Safari, Android, iOS */ url("../fonts/inter-v3-latin-600.svg#Inter")
-      format("svg"); /* Legacy iOS */
+      format("truetype");
 }
 
 .montserrat {
@@ -137,13 +126,13 @@
 }
 
 .bg-cta {
-  background-image: url("../images/imgs-cta.jpg");
+  background-image: url("../images/imgsCta.jpg");
   /*background-size: 100%;*/
   background-repeat: no-repeat;
 }
 
 .bg-dot {
-  background-image: url("../images/imgs-dot.png");
+  background-image: url("../images/imgsDot.png");
   /*background-size: 100%;*/
   background-position-x: 0;
   background-position-y: -200px;

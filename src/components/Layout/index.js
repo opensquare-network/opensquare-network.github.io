@@ -13,7 +13,7 @@ const Main = styled.main`
 `;
 
 const Wrapper = styled.div`
-  background-image: url(${background});
+  //background-image: url(${background});
   background-size: 100%;
   background-repeat: no-repeat;
 `;
