@@ -214,8 +214,13 @@ export default function () {
           <p className="px-4 text-dark-minor mb-4">
             If you resonate with our mission but there isn’t an open position
             for you, you can also send us an email at{" "}
-            <a className="text-turquoise-500">yongfeng@opensquare.com</a> with
-            any information you’d think is relevant
+            <a
+              className="text-turquoise-500"
+              href="mailto:yongfeng@opensquare.com"
+            >
+              yongfeng@opensquare.com
+            </a>{" "}
+            with any information you’d think is relevant
           </p>
 
           <h3 className="mx-4 mt-10 pt-10 border-t border-grey-200 text-2xl text-dark-major text-left font-bold mb-8">

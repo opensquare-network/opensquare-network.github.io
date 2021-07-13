@@ -16,7 +16,11 @@ export default function Products() {
           bg-white text-dark-major
           "
         >
-          <img src={CoinAsk} className="absolute -top-9 -left-9 shadow-lg" />
+          <img
+            alt=""
+            src={CoinAsk}
+            className="absolute -top-9 -left-9 shadow-lg"
+          />
           <h3 className="text-xl font-bold mb-2">Pay to Ask</h3>
           <p className="text-dark-minor">
             Tortor etiam duis diam est, massa nullam. Mauris enim lorem arcu
@@ -32,7 +36,11 @@ export default function Products() {
           bg-white
           "
         >
-          <img src={Bounty} className="absolute -top-9 -left-9 shadow-lg" />
+          <img
+            alt=""
+            src={Bounty}
+            className="absolute -top-9 -left-9 shadow-lg"
+          />
           <h3 className="text-xl font-bold mb-2">Bounties</h3>
           <p className="text-dark-minor">
             Nec mauris sed ligula vivamus scelerisque gravida diam. Porttitor id
@@ -48,7 +56,11 @@ export default function Products() {
           bg-white
           "
         >
-          <img src={Employ} className="absolute -top-9 -left-9 shadow-lg" />
+          <img
+            alt=""
+            src={Employ}
+            className="absolute -top-9 -left-9 shadow-lg"
+          />
           <h3 className="text-xl font-bold mb-2">Short-term Employment</h3>
           <p className="text-dark-minor">
             Tortor etiam duis diam est, massa nullam. Mauris enim lorem arcu
@@ -65,6 +77,7 @@ export default function Products() {
           "
         >
           <img
+            alt=""
             src={Collaboration}
             className="absolute -top-9 -left-9 shadow-lg"
           />

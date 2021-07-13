@@ -50,6 +50,7 @@ export default function Product() {
               className="block text-right cursor-pointer"
               href="https://www.coinask.io/"
               target="_blank"
+              rel="noreferrer"
             >
               <ExternalLink className="inline" />
             </a>
@@ -75,6 +76,7 @@ export default function Product() {
               className="block text-right"
               href="https://www.dotreasury.com/"
               target="_blank"
+              rel="noreferrer"
             >
               <ExternalLink className="inline" />
             </a>
@@ -98,6 +100,7 @@ export default function Product() {
               className="block text-right"
               href="https://www.statescan.io/"
               target="_blank"
+              rel="noreferrer"
             >
               <ExternalLink className="inline" />
             </a>

@@ -12,38 +12,58 @@ export default function Footer() {
       <Row className="flex">
         <div className="w-1/2 sm:w-200px">
           <p className="block h-10 text-white font-semibold">Product</p>
-          <a className="block h-10 text-light-minor">Bounty</a>
-          <a className="block h-10 text-light-minor">doTreasury</a>
-          <a className="block h-10 text-light-minor">dotAsk</a>
-          <a className="block h-10 text-light-minor">OpenGenerator</a>
+          <a href="/" className="block h-10 text-light-minor">
+            Bounty
+          </a>
+          <a
+            href="https://www.dotreasury.com/"
+            className="block h-10 text-light-minor"
+          >
+            doTreasury
+          </a>
+          <a href="https://coinask.io" className="block h-10 text-light-minor">
+            dotAsk
+          </a>
+          <a href="/" className="block h-10 text-light-minor">
+            OpenGenerator
+          </a>
         </div>
 
         <div className="w-1/2 sm:w-200px">
           <p className="block h-10 text-white font-semibold">Resources</p>
-          <a className="block h-10 text-light-minor">Lightpaper</a>
-          <a className="block h-10 text-light-minor">Media Kits</a>
+          <a href="/" className="block h-10 text-light-minor">
+            Lightpaper
+          </a>
+          <a href="/" className="block h-10 text-light-minor">
+            Media Kits
+          </a>
         </div>
       </Row>
 
       <Row className="flex">
         <div className="w-1/2 sm:w-200px">
           <p className="block h-10 text-white font-semibold">Social Links</p>
-          <a className="flex h-10 text-light-minor">
+          <a
+            href="https://github.com/opensquare-network/"
+            className="flex h-10 text-light-minor"
+          >
             <Github width="20" height="20" /> &nbsp;&nbsp;Github
           </a>
-          <a className="flex h-10 text-light-minor">
+          <a href="/" className="flex h-10 text-light-minor">
             <Telegram width="20" height="20" /> &nbsp;&nbsp;Telegram
           </a>
-          <a className="flex h-10 text-light-minor">
+          <a href="/" className="flex h-10 text-light-minor">
             <Twitter width="20" height="20" /> &nbsp;&nbsp;Twitter
           </a>
-          <a className="flex h-10 text-light-minor">
+          <a href="/" className="flex h-10 text-light-minor">
             <SubSocial width="20" height="20" /> &nbsp;&nbsp;Subsocial
           </a>
         </div>
 
         <div className="w-1/2 sm:w-200px">
-          <a className="block h-10 text-white font-semibold">Contract</a>
+          <a href="/" className="block h-10 text-white font-semibold">
+            Contract
+          </a>
           <div className="flex text-light-minor">
             <Email width="20" height="20" /> &nbsp;&nbsp;Email
           </div>
