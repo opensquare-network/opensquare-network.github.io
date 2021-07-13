@@ -2,18 +2,18 @@ import React from "react";
 
 export default function Slogan() {
   return (
-    <div className="w-full mb-11  bg-dot">
-      <div className="w-full md:w-1080px mx-auto">
+    <div className="w-full mb-8 md:mb-61px">
+      <div className="block w-full md:w-1080px mx-auto">
         <h3
           className="
-          mb-4 sm:pt-20 text-center md:text-left
-          text-3xl font-semibold text-dark-major
-           font-mont
+          h4-24-bold md:h3-36-bold
+          mb-1 md:mb-4 text-center md:text-left
+          text-dark-major
           "
         >
           Credit on the blockchain
         </h3>
-        <p className="text-base text-center text-dark-minor md:text-left w-full md:w-480px">
+        <p className="p-16-normal md:p-18-normal text-center text-dark-minor md:text-left w-full md:w-480px">
           Et, suspendisse ornare integer felis senectus ac viverra. Sed
           ullamcorper venenatis.
         </p>

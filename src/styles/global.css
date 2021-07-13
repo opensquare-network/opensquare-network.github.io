@@ -27,7 +27,7 @@
     }
 
     .h4-24-bold {
-      @apply font-inter;
+      @apply font-mont;
       font-style: normal;
       font-weight: bold;
       font-size: 24px;
@@ -48,10 +48,33 @@
       line-height: 32px;
     }
 
+    .p-18-normal {
+      font-style: normal;
+      font-weight: normal;
+      font-size: 18px;
+      line-height: 24px;
+    }
+
+    .p-16-normal {
+      font-style: normal;
+      font-weight: normal;
+      font-size: 16px;
+      line-height: 24px;
+    }
+
     .p-16-medium {
       @apply font-inter;
       font-style: normal;
       font-weight: 600;
+      font-size: 16px;
+      line-height: 24px;
+      /*text-align: center;*/
+    }
+
+    .p-16-normal {
+      @apply font-inter;
+      font-style: normal;
+      font-weight: 400;
       font-size: 16px;
       line-height: 24px;
       /*text-align: center;*/
@@ -64,9 +87,7 @@
   font-family: "Inter";
   font-style: normal;
   font-weight: 400;
-  src: url("../fonts/inter-v3-latin-regular.eot?#iefix")
-      format("embedded-opentype"),
-    /* IE6-IE8 */ url("../fonts/inter-v3-latin-regular.woff2") format("woff2"),
+  src: url("../fonts/inter-v3-latin-regular.woff2") format("woff2"),
     /* Super Modern Browsers */ url("../fonts/inter-v3-latin-regular.woff")
       format("woff"),
     /* Modern Browsers */ url("../fonts/inter-v3-latin-regular.ttf")
@@ -80,8 +101,7 @@
   font-family: "Inter";
   font-style: normal;
   font-weight: 500;
-  src: url("../fonts/inter-v3-latin-500.eot?#iefix") format("embedded-opentype"),
-    /* IE6-IE8 */ url("../fonts/inter-v3-latin-500.woff2") format("woff2"),
+  src: url("../fonts/inter-v3-latin-500.woff2") format("woff2"),
     /* Super Modern Browsers */ url("../fonts/inter-v3-latin-500.woff")
       format("woff"),
     /* Modern Browsers */ url("../fonts/inter-v3-latin-500.ttf")
@@ -95,8 +115,7 @@
   font-family: "Inter";
   font-style: normal;
   font-weight: 700;
-  src: url("../fonts/inter-v3-latin-700.eot?#iefix") format("embedded-opentype"),
-    /* IE6-IE8 */ url("../fonts/inter-v3-latin-700.woff2") format("woff2"),
+  src: url("../fonts/inter-v3-latin-700.woff2") format("woff2"),
     /* Super Modern Browsers */ url("../fonts/inter-v3-latin-700.woff")
       format("woff"),
     /* Modern Browsers */ url("../fonts/inter-v3-latin-700.ttf")
@@ -105,17 +124,15 @@
       format("svg"); /* Legacy iOS */
 }
 
-/* font-inter-600 - latin */
-@font-face {
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 600;
-  src: url("../fonts/inter-v3-latin-600.woff2") format("woff2"),
-    /* Super Modern Browsers */ url("../fonts/inter-v3-latin-600.woff")
-      format("woff"),
-    /* Modern Browsers */ url("../fonts/inter-v3-latin-600.ttf")
-      format("truetype");
-}
+/*!* font-inter-600 - latin *!*/
+/*@font-face {*/
+/*    font-family: "Inter";*/
+/*    font-style: normal;*/
+/*    font-weight: 600;*/
+/*    src: url("../fonts/inter-v3-latin-600.woff2") format("woff2"),*/
+/*        !* Super Modern Browsers *! url("../fonts/inter-v3-latin-600.woff") format("woff"),*/
+/*        !* Modern Browsers *! url("../fonts/inter-v3-latin-600.ttf") format("truetype");*/
+/*}*/
 
 .montserrat {
   font-family: Montserrat, sans-serif;
