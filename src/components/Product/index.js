@@ -15,6 +15,7 @@ export default function Product() {
   return (
     <div className="font-inter">
       <div className="sm:w-1080px m-auto">
+        relative pt-6
         <h1 className="text-4xl font-bold text-center sm:text-left  pt-8 sm:pt-20 font-mont">
           We build for <br className="sm:hidden" /> collaboration
         </h1>
