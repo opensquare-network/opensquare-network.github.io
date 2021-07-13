@@ -6,7 +6,7 @@ import Employ from "./employ.png";
 
 export default function Products() {
   return (
-    <div className="flex flex-wrap pl-9 content-center justify-center w-full md:w-1080px font-inter  mt-8 pt-9 break-all">
+    <div className="flex flex-wrap pl-9 content-center justify-center w-full md:w-1080px font-inter  mt-8 pt-9 break-all mb-20">
       <div
         className="
           relative pt-6 pl-15 pr-6 mb-68px  sm:ml-0 mr-8
@@ -75,7 +75,7 @@ export default function Products() {
 
       <div
         className="
-          relative pt-6 pl-15 pr-6 mb-68px  sm:ml-0 mr-8
+          relative pt-6 pl-15 pr-6  sm:ml-0 mr-8
           sm:mr-0 w-346px sm:w-484px h-160px
           sm:h-136px shadow-lg sm:even:mt-78px
           bg-white

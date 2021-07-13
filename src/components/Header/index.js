@@ -15,7 +15,7 @@ export default function Header() {
   return (
     <div className="">
       <div
-        className={`h-20 flex items-center justify-between pr-6 
+        className={`h-20 flex items-center justify-between pr-6 max-w-1400px mx-auto
           ${openMenu ? "shadow-md" : ""}
            md:shadow-none
           `}
