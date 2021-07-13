@@ -37,7 +37,7 @@ const Detail = styled.p`
 export default function ProductSlogan() {
   return (
     <InnerSection>
-      <h3 className="title text-3xl font-bold text-dark-major montserrat">
+      <h3 className="title text-3xl font-bold text-dark-major  font-mont">
         We build for collaboration
       </h3>
       <Detail>Molestie eget lacus nisi, aliquet tincidunt.</Detail>

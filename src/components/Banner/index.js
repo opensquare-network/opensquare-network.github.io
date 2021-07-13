@@ -27,15 +27,16 @@ export default function () {
     <Wrapper>
       <StyledSection>
         <div className="w-1080px">
-          <h1 className="text-4xl leading-tight text-center md:text-left text-mark-major font-bold">
+          <h1 className="pb-5 md:pb-6 text-4xl leading-tight text-center md:text-left text-mark-major font-bold">
             Empower <br className="md:hidden" />
             <ColorText>Credit Building</ColorText>
             <br />
             with Blockchain
           </h1>
           <h3 className="mb-10 text-xl text-dark-minor text-center md:text-left">
-            Collaboration on bounties and your credit score will be calculated
-            from your daily activities.
+            Collaboration on bounties and your credit score{" "}
+            <br className="hidden md:inline" /> will be calculated from your
+            daily activities.
           </h3>
           <button className="flex px-6 py-3 bg-black text-white m-auto md:ml-0 md:mr-auto">
             Check Our Product&nbsp;&nbsp;&nbsp;

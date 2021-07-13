@@ -8,7 +8,7 @@ export default function Slogan() {
           className="
           mb-4 sm:pt-20 text-center md:text-left
           text-3xl font-semibold text-dark-major
-          montserrat
+           font-mont
           "
         >
           Credit on the blockchain

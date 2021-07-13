@@ -67,10 +67,10 @@ export default function () {
   return (
     <div className="pt-120px pb-80px">
       <div className="text-center">
-        <h2 className="text-2xl font-bold mb-1 text-dark-major">
+        <h2 className="text-2xl font-bold mb-1 text-dark-major font-inter md: font-mont">
           Meet our Partners
         </h2>
-        <p className="text-dark-minor mb-8 inter">
+        <p className="text-dark-minor mb-8 font-inter">
           Molestie eget lacus nisi, aliquet tincidunt tristique turpis.
         </p>
         <div className="flex flex-wrap justify-center justify-center md:px-0 md:w-1080px md:mx-auto">

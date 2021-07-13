@@ -6,7 +6,7 @@ import Steps from "./Steps";
 
 export default function Blocks() {
   return (
-    <div className="flex flex-col content-around items-center mt-12 px-5 py-0 md:px-0 inter">
+    <div className="flex flex-col content-around items-center mt-12 px-5 py-0 md:px-0 font-inter">
       <ProductSlogan />
       <Products />
       <Slogan />

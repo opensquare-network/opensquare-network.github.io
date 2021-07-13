@@ -4,7 +4,7 @@
 @tailwind components;
 @tailwind utilities;
 
-/* inter-regular - latin */
+/* font-inter-regular - latin */
 @font-face {
   font-family: "Inter";
   font-style: normal;
@@ -22,7 +22,7 @@
       format("svg"); /* Legacy iOS */
 }
 
-/* inter-500 - latin */
+/* font-inter-500 - latin */
 @font-face {
   font-family: "Inter";
   font-style: normal;
@@ -39,7 +39,7 @@
       format("svg"); /* Legacy iOS */
 }
 
-/* inter-700 - latin */
+/* font-inter-700 - latin */
 @font-face {
   font-family: "Inter";
   font-style: normal;
@@ -56,7 +56,7 @@
       format("svg"); /* Legacy iOS */
 }
 
-/* inter-600 - latin */
+/* font-inter-600 - latin */
 @font-face {
   font-family: "Inter";
   font-style: normal;
@@ -78,7 +78,7 @@
 }
 
 .inter {
-  font-family: Inter, sans-serif;
+  font-family: font-inter, sans-serif;
 }
 
 .bg-cta {

@@ -2,6 +2,30 @@ module.exports = {
   purge: ["./src/**/*.{js,jsx,ts,tsx}"],
   darkMode: false, // or 'media' or 'class'
   theme: {
+    fontFamily: {
+      inter: ["inter", "sans-serif"],
+      mont: ["montserrat", "sans-serif"],
+    },
+    borderColor: (theme) => ({
+      ...theme("colors"),
+      DEFAULT: theme("colors.gray.200", "currentColor"),
+      primary: "#3490dc",
+      secondary: "#ffed4a",
+      danger: "#e3342f",
+      "grey-200": "#F0F3F8",
+    }),
+    boxShadow: {
+      DEFAULT:
+        "0px 4px 31px rgba(26, 33, 44, 0.04), 0px 0.751293px 3.88168px rgba(26, 33, 44, 0.03)",
+      md: "0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06)",
+      lg: "0px 4px 31px rgba(26, 33, 44, 0.04), 0px 0.751293px 3.88168px rgba(26, 33, 44, 0.03)",
+      xl: "0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04)",
+      none: "none",
+    },
+    backgroundColor: (theme) => ({
+      ...theme("colors"),
+      "grey-300": "#E2E8F0",
+    }),
     textColor: {
       "dark-major": "#2E343D",
       "dark-minor": "#A1A8B2",
