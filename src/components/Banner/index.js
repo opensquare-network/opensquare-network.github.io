@@ -7,7 +7,6 @@ const Wrapper = styled.section`
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  min-height: 500px;
 `;
 
 const StyledSection = styled.section`
@@ -25,20 +24,26 @@ const ColorText = styled.span`
 export default function () {
   return (
     <Wrapper>
-      <StyledSection>
+      <StyledSection className="h-476px md:h-576px">
         <div className="w-1080px">
-          <h1 className="pb-5 md:pb-6 text-4xl leading-tight text-center md:text-left text-mark-major font-bold">
-            Empower <br className="md:hidden" />
-            <ColorText>Credit Building</ColorText>
-            <br />
+          <div className="block md:flex">
+            <h1 className="h3-36-bold md:h1-60-bold text-center">
+              {/*pb-5 md:pb-6 text-4xl leading-tight text-center md:text-left text-mark-major font-bold*/}
+              Empower &nbsp;
+            </h1>
+            <h1 className="h3-36-bold md:h1-60-bold text-center  mt-3 md:mt-0">
+              <ColorText>Credit Building</ColorText>
+            </h1>
+          </div>
+          <h1 className="h3-36-bold md:h1-60-bold text-center md:text-left mt-3 md:mt-4">
             with Blockchain
           </h1>
-          <h3 className="mb-10 text-xl text-dark-minor text-center md:text-left">
+          <p className="p-20-normal w-346px md:w-full mx-auto md:text-left mt-4 md:mt-6 mb-12 md:mb-16 text-dark-minor text-center md:text-left">
             Collaboration on bounties and your credit score{" "}
             <br className="hidden md:inline" /> will be calculated from your
             daily activities.
-          </h3>
-          <button className="flex px-6 py-3 bg-black text-white m-auto md:ml-0 md:mr-auto">
+          </p>
+          <button className="p-16-medium flex px-6 py-3 bg-grey-900 text-white w-242px m-auto md:ml-0 md:mr-auto whitespace-nowrap">
             Check Our Product&nbsp;&nbsp;&nbsp;
             <GotoIcon />
           </button>

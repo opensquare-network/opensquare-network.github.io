@@ -25,6 +25,7 @@ module.exports = {
     backgroundColor: (theme) => ({
       ...theme("colors"),
       "grey-300": "#E2E8F0",
+      "grey-900": "#1A212C",
     }),
     textColor: {
       "dark-major": "#2E343D",
@@ -36,6 +37,8 @@ module.exports = {
     },
     extend: {
       height: {
+        "576px": "576px",
+        "476px": "476px",
         "388px": "388px",
         "160px": "160px",
         "136px": "136px",
@@ -56,6 +59,7 @@ module.exports = {
         "346px": "346px",
         "280px": "280px",
         "266px": "266px",
+        "242px": "242px",
         "240px": "240px",
         "200px": "200px",
         "150px": "150px",
@@ -75,10 +79,12 @@ module.exports = {
         "78px": "78px",
         "76px": "76px",
         "68px": "68px",
+        "52px": "52px",
         "8px": "8px",
       },
       lineHeight: {
         "54px": "54px",
+        "60px": "60px",
       },
     },
   },

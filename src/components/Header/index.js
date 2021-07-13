@@ -13,15 +13,15 @@ export default function Header() {
     setOpenMenu(false);
   };
   return (
-    <div>
+    <div className="">
       <div
-        className={`flex items-center justify-between pr-6 
+        className={`h-20 flex items-center justify-between pr-6 
           ${openMenu ? "shadow-md" : ""}
            md:shadow-none
           `}
       >
-        <a href="/">
-          <Logo height={60} width={230} />
+        <a className="ml-52px" href="/">
+          <Logo />
         </a>
 
         {/*menu for bigger devices*/}
