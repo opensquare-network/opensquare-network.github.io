@@ -32,6 +32,7 @@ module.exports = {
       white: "#fff",
       "light-minor": "rgba(255, 255, 255, 0.65)",
       "light-minimal": "rgba(255, 255, 255, 0.35)",
+      "turquoise-500": "#04D2C5",
     },
     extend: {
       height: {
@@ -44,6 +45,7 @@ module.exports = {
       width: {
         "1280px": "1280px",
         "1080px": "1080px",
+        "800px": "800px",
         "520px": "520px",
         "510px": "510px",
         "484px": "484px",
@@ -69,6 +71,7 @@ module.exports = {
       margin: {
         "544px": "544px",
         "153px": "153px",
+        "133px": "133px",
         "78px": "78px",
         "76px": "76px",
         "68px": "68px",
