@@ -5,6 +5,12 @@ import Email from "./email.svg";
 import Telegram from "./tg.svg";
 import Twitter from "./twitter.svg";
 import SubSocial from "./subsocial.svg";
+import styled from "styled-components";
+
+const FooterItem = styled.a`
+  display: flex;
+  align-items: center;
+`;
 
 export default function Footer() {
   return (
@@ -12,62 +18,71 @@ export default function Footer() {
       <div className="max-w-1400px mx-auto pl-4 py-80px sm:flex sm:pl-9 font-inter">
         <Row className="flex">
           <div className="w-1/2 sm:w-200px">
-            <p className="block h-10 text-white font-semibold">Product</p>
-            <a href="/" className="block h-10 text-light-minor">
+            <p className="block h-6 mb-6 text-white font-semibold">Product</p>
+            <FooterItem href="/" className="block h-6 mb-4 text-light-minor">
               Bounty
-            </a>
-            <a
+            </FooterItem>
+            <FooterItem
               href="https://www.dotreasury.com/"
-              className="block h-10 text-light-minor"
+              className="block h-6 mb-4 text-light-minor"
             >
               doTreasury
-            </a>
-            <a
+            </FooterItem>
+            <FooterItem
               href="https://coinask.io"
-              className="block h-10 text-light-minor"
+              className="block h-6 mb-4 text-light-minor"
             >
               dotAsk
-            </a>
-            <a href="/" className="block h-10 text-light-minor">
+            </FooterItem>
+            <FooterItem href="/" className="block h-6 mb-4 text-light-minor">
               OpenGenerator
-            </a>
+            </FooterItem>
           </div>
 
           <div className="w-1/2 sm:w-200px">
-            <p className="block h-10 text-white font-semibold">Resources</p>
-            <a href="/" className="block h-10 text-light-minor">
+            <p className="block h-6 mb-6 text-white font-semibold">Resources</p>
+            <FooterItem href="/" className="block h-6 mb-4 text-light-minor">
               Lightpaper
-            </a>
-            <a href="/" className="block h-10 text-light-minor">
+            </FooterItem>
+            <FooterItem href="/" className="block h-6 mb-4 text-light-minor">
               Media Kits
-            </a>
+            </FooterItem>
           </div>
         </Row>
 
         <Row className="flex">
           <div className="w-1/2 sm:w-200px">
-            <p className="block h-10 text-white font-semibold">Social Links</p>
-            <a
+            <p className="block h-6 mb-6 text-white font-semibold">
+              Social Links
+            </p>
+            <FooterItem
               href="https://github.com/opensquare-network/"
-              className="flex h-10 text-light-minor items-center"
+              className="flex h-6 mb-4 text-light-minor items-center"
             >
               <Github width="20" height="20" /> &nbsp;&nbsp;Github
-            </a>
-            <a href="/" className="flex h-10 text-light-minor items-center">
+            </FooterItem>
+            <FooterItem
+              href="/"
+              className="flex h-6 mb-4 text-light-minor items-center"
+            >
               <Telegram width="20" height="20" /> &nbsp;&nbsp;Telegram
-            </a>
-            <a href="/" className="flex h-10 text-light-minor items-center">
+            </FooterItem>
+            <FooterItem
+              href="/"
+              className="flex h-6 mb-4 text-light-minor items-center"
+            >
               <Twitter width="20" height="20" /> &nbsp;&nbsp;Twitter
-            </a>
-            <a href="/" className="flex h-10 text-light-minor items-center">
+            </FooterItem>
+            <FooterItem
+              href="/"
+              className="flex h-6 mb-4 text-light-minor items-center"
+            >
               <SubSocial width="20" height="20" /> &nbsp;&nbsp;Subsocial
-            </a>
+            </FooterItem>
           </div>
 
           <div className="w-1/2 sm:w-200px">
-            <a href="/" className="block h-10 text-white font-semibold">
-              Contract
-            </a>
+            <p className="block h-6 mb-6 text-white font-semibold">Contract</p>
             <div className="flex text-light-minor">
               <Email width="20" height="20" /> &nbsp;&nbsp;Email
             </div>
