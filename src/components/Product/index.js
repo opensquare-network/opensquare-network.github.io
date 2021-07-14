@@ -1,8 +1,9 @@
 import React from "react";
 import styled from "styled-components";
 import Dotreasury from "./dotreasury.png";
-import CoinAsk from "./coinAsk.png";
-import StateScan from "./stateScan.png";
+import CoinAsk from "./coinask.png";
+import Odes from "./odes.png";
+import StateScan from "./statescan.png";
 import Bounty from "./bounties.png";
 import Vote from "./votes.png";
 
@@ -42,7 +43,7 @@ export default function Product() {
       </div>
       <div className="h-1px bg-grey-200 w-full"></div>
 
-      <Row className="md:flex md:w-1080px md:mx-auto md:mt-10">
+      <Row className="md:flex md:w-1080px md:mx-auto  mt-12 md:mt-20 ">
         <h2 className="w-280px mx-auto md:mx-0 text-center h4-24-bold md:text-left pt-8 md:pt-0 pb-68px md:pb-20">
           Collaboration
         </h2>
@@ -51,7 +52,7 @@ export default function Product() {
             <img
               src={Bounty}
               alt=""
-              className="p-4 shadow bg-white absolute -top-9 -left-9 "
+              className="w-72px p-4 shadow bg-white absolute -top-9 -left-9 "
             />
             <p className="md:w-full text-left  md:text-left p-20-bold mb-2">
               OpenSquare Bounties
@@ -71,7 +72,7 @@ export default function Product() {
             <img
               src={Vote}
               alt=""
-              className="p-4 shadow bg-white absolute -top-9 -left-9 "
+              className="w-72px p-4 shadow bg-white absolute -top-9 -left-9 "
             />
             <p className="md:w-full text-left  md:text-left p-20-bold mb-2">
               doTreasury
@@ -98,7 +99,7 @@ export default function Product() {
             <img
               src={Dotreasury}
               alt=""
-              className="p-4 shadow bg-white absolute -top-9 -left-9 "
+              className="w-72px p-4 shadow bg-white absolute -top-9 -left-9 "
             />
             <p className="md:w-full text-left  md:text-left p-20-bold mb-2">
               doTreasury
@@ -129,7 +130,7 @@ export default function Product() {
             <img
               src={StateScan}
               alt=""
-              className="absolute p-4 bg-white shadow -top-9 -left-9 "
+              className="absolute w-72px p-4 bg-white shadow -top-9 -left-9 "
             />
             <p className="md:w-full text-left  md:text-left p-20-bold mb-2">
               statescan
@@ -155,7 +156,7 @@ export default function Product() {
         </div>
       </Row>
 
-      <Row className="md:flex md:w-1080px md:mx-auto mt-12 md:mt-20">
+      <Row className="md:flex md:w-1080px md:mx-auto md:mt-10">
         <h2 className="w-280px mx-auto md:mx-0 text-center h4-24-bold md:text-left pt-8 md:pt-0 pb-68px md:pb-20">
           Platform
         </h2>
@@ -164,7 +165,7 @@ export default function Product() {
             <img
               src={CoinAsk}
               alt=""
-              className="p-4 shadow bg-white absolute -top-9 -left-9 "
+              className="w-72px p-4 shadow bg-white absolute -top-9 -left-9 "
             />
             <p className="md:w-full text-left  md:text-left p-20-bold mb-2">
               CoinAsk
@@ -187,9 +188,9 @@ export default function Product() {
         <div className="md:flex md:flex-wrap md:mt-9">
           <div className="relative w-346px md:ml-76px h-192px m-auto pt-6 pr-7 pl-15 pb-6 shadow-lg">
             <img
-              src={CoinAsk}
+              src={Odes}
               alt=""
-              className="p-4 shadow bg-white absolute -top-9 -left-9 "
+              className="w-72px p-4 shadow bg-white absolute -top-9 -left-9 "
             />
             <p className="md:w-full text-left  md:text-left p-20-bold mb-2">
               Odes
