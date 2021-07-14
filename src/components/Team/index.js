@@ -30,7 +30,7 @@ export default function () {
       <PaperEntry
         className="block
         pt-4
-        pb-5
+        pb-4
         bg-gradient-to-r from-orange-400 via-red-500 to-pink-500
         sm:flex
         sm:justify-center
@@ -194,59 +194,59 @@ export default function () {
         </div>
       </div>
 
-      <div className="block sm:flex sm:mt-40 sm:w-1080px sm:mx-auto sm:items-start">
-        <h2
-          className="h4-24-bold
-         text-dark-major
-        text-center  mt-28  mb-8
-        sm:mt-0 sm:text-left sm:mr-133px
-        "
-        >
-          Carrers
-        </h2>
+      {/*<div className="block sm:flex sm:mt-40 sm:w-1080px sm:mx-auto sm:items-start">*/}
+      {/*  <h2*/}
+      {/*    className="h4-24-bold*/}
+      {/*   text-dark-major*/}
+      {/*  text-center  mt-28  mb-8*/}
+      {/*  sm:mt-0 sm:text-left sm:mr-133px*/}
+      {/*  "*/}
+      {/*  >*/}
+      {/*    Carrers*/}
+      {/*  </h2>*/}
 
-        <div>
-          <p className="px-4 p-16-normal text-dark-minor mb-4 sm:w-800px">
-            We aim to calm this mess by providing a simple user interface that
-            reduces tools to their core functionality. OpenSquare is designed to
-            keep their users focused. It optimizes for the shortest path from
-            intent to action.
-          </p>
-          <p className="px-4  p-16-normal text-dark-minor mb-4">
-            If you resonate with our mission but there isn’t an open position
-            for you, you can also send us an email at{" "}
-            <a
-              className="text-turquoise-500"
-              href="mailto:yongfeng@opensquare.com"
-            >
-              yongfeng@opensquare.com
-            </a>{" "}
-            with any information you’d think is relevant
-          </p>
+      {/*  <div>*/}
+      {/*    <p className="px-4 p-16-normal text-dark-minor mb-4 sm:w-800px">*/}
+      {/*      We aim to calm this mess by providing a simple user interface that*/}
+      {/*      reduces tools to their core functionality. OpenSquare is designed to*/}
+      {/*      keep their users focused. It optimizes for the shortest path from*/}
+      {/*      intent to action.*/}
+      {/*    </p>*/}
+      {/*    <p className="px-4  p-16-normal text-dark-minor mb-4">*/}
+      {/*      If you resonate with our mission but there isn’t an open position*/}
+      {/*      for you, you can also send us an email at{" "}*/}
+      {/*      <a*/}
+      {/*        className="text-turquoise-500"*/}
+      {/*        href="mailto:yongfeng@opensquare.com"*/}
+      {/*      >*/}
+      {/*        yongfeng@opensquare.com*/}
+      {/*      </a>{" "}*/}
+      {/*      with any information you’d think is relevant*/}
+      {/*    </p>*/}
 
-          <h3 className="mx-4 p-20-bold mt-10 pt-10 border-t border-grey-200 text-2xl text-dark-major text-left font-bold mb-8">
-            Operations Manager
-          </h3>
+      {/*    <h3 className="mx-4 p-20-bold mt-10 pt-10 border-t border-grey-200 text-2xl text-dark-major text-left font-bold mb-8">*/}
+      {/*      Operations Manager*/}
+      {/*    </h3>*/}
 
-          <p className="mx-4 p-16-normal text-dark-minor mb-4">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Imperdiet
-            diam placerat fusce nullam malesuada ipsum elit. At magna est
-            mauris, egestas et. Consectetur mi lacus semper lectus. Quis in ut
-            sed est eleifend velit magna adipiscing iaculis.
-          </p>
+      {/*    <p className="mx-4 p-16-normal text-dark-minor mb-4">*/}
+      {/*      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Imperdiet*/}
+      {/*      diam placerat fusce nullam malesuada ipsum elit. At magna est*/}
+      {/*      mauris, egestas et. Consectetur mi lacus semper lectus. Quis in ut*/}
+      {/*      sed est eleifend velit magna adipiscing iaculis.*/}
+      {/*    </p>*/}
 
-          <h3 className="mx-4 p-20-bold mt-10 pt-10 border-t border-grey-200 text-2xl text-dark-major text-left font-bold mb-8">
-            Blockchain Developer
-          </h3>
+      {/*    <h3 className="mx-4 p-20-bold mt-10 pt-10 border-t border-grey-200 text-2xl text-dark-major text-left font-bold mb-8">*/}
+      {/*      Blockchain Developer*/}
+      {/*    </h3>*/}
 
-          <p className="px-4 p-16-normal mb-20 text-dark-minor mb-4">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Enim,
-            pharetra suspendisse duis dapibus nunc in. Non felis erat feugiat mi
-            sed. Nullam eu aliquet magna turpis eu montes, et congue. Nunc enim,
-            in risus eget euismod turpis.
-          </p>
-        </div>
-      </div>
+      {/*    <p className="px-4 p-16-normal mb-20 text-dark-minor mb-4">*/}
+      {/*      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Enim,*/}
+      {/*      pharetra suspendisse duis dapibus nunc in. Non felis erat feugiat mi*/}
+      {/*      sed. Nullam eu aliquet magna turpis eu montes, et congue. Nunc enim,*/}
+      {/*      in risus eget euismod turpis.*/}
+      {/*    </p>*/}
+      {/*  </div>*/}
+      {/*</div>*/}
     </div>
   );
 }
