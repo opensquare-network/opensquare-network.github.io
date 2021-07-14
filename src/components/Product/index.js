@@ -62,7 +62,10 @@ export default function Product() {
               euismod pulvinar nisl.
             </p>
             <p className="mt-3 text-right">
-              <span className="inline-block px-3 h-6 bg-grey-300 text-white  p-12-bold">
+              <span
+                className="inline-block px-3 h-6 bg-grey-300 text-white  p-12-bold"
+                style={{ lineHeight: "24px" }}
+              >
                 Coming Soon
               </span>
             </p>
@@ -82,7 +85,10 @@ export default function Product() {
               euismod pulvinar nisl.
             </p>
             <p className="mt-3 text-right">
-              <span className="inline-block px-3 h-6 bg-grey-300 text-white  p-12-bold">
+              <span
+                className="inline-block px-3 h-6 bg-grey-300 text-white  p-12-bold"
+                style={{ lineHeight: "24px" }}
+              >
                 Coming Soon
               </span>
             </p>
@@ -200,7 +206,10 @@ export default function Product() {
               euismod pulvinar nisl.
             </p>
             <p className="mt-3 text-right">
-              <span className="inline-block px-3 h-6 bg-grey-300 text-white p-12-bold">
+              <span
+                className="inline-block px-3 h-6 bg-grey-300 text-white p-12-bold"
+                style={{ lineHeight: "24px" }}
+              >
                 Coming Soon
               </span>
             </p>
