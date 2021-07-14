@@ -41,7 +41,7 @@ export default function Product() {
       </div>
       <div className="h-1px bg-grey-200 w-full"></div>
 
-      <Row className="md:flex md:w-1080px md:mx-auto mt-12 md:mt-10">
+      <Row className="md:flex md:w-1080px md:mx-auto mt-12 md:mt-20">
         <h2 className="w-280px mx-auto md:mx-0 text-center h4-24-bold md:text-left pt-8 md:pt-0 pb-68px md:pb-20">
           Platform
         </h2>
