@@ -12,7 +12,11 @@ export default function () {
         <p className="text-dark-minor mb-8 md:mb-12 p-16-normal md:p-18-normal font-inter">
           Molestie eget lacus nisi, aliquet tincidunt tristique turpis.
         </p>
-        <img className="hidden md:block mx-auto" src={Partners} alt="" />
+        <img
+          className="hidden md:block mx-auto w-1080px "
+          src={Partners}
+          alt=""
+        />
         <img className="md:hidden mx-auto" src={PartnersY} alt="" />
       </div>
     </div>
