@@ -98,6 +98,14 @@
       line-height: 24px;
       /*text-align: center;*/
     }
+
+    .p-12-bold {
+      @apply font-inter;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 12px;
+      line-height: 18px;
+    }
   }
 }
 
