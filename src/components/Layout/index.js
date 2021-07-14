@@ -13,15 +13,14 @@ const Main = styled.main`
 `;
 
 const Wrapper = styled.div`
-  background-image: url(${background});
-  background-size: 2187px, 1460px;
-  background-repeat: no-repeat;
+  //background-image: url(${background});
+  //background-size: 2187px, 1460px;
+  //background-repeat: no-repeat;
 `;
 
 const Layout = ({ children }) => {
   return (
-    <Wrapper className="md:max-w-1400px md:mx-auto">
-      <HeaderAndBanner />
+    <Wrapper className="">
       <Main style={{}}>
         <main>{children}</main>
       </Main>
