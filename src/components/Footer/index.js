@@ -83,9 +83,12 @@ export default function Footer() {
 
           <div className="w-1/2 sm:w-200px">
             <p className="block h-6 mb-6 text-white font-semibold">Contract</p>
-            <div className="flex text-light-minor">
+            <FooterItem
+              href="mailto:yongfeng@opensquare.network"
+              className="flex text-light-minor"
+            >
               <Email width="20" height="20" /> &nbsp;&nbsp;Email
-            </div>
+            </FooterItem>
           </div>
         </Row>
 
