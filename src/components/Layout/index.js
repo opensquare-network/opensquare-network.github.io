@@ -5,7 +5,7 @@ import Footer from "../Footer";
 import styled from "styled-components";
 import HeaderAndBanner from "../HeaderAndBanner";
 import Header from "../Header";
-import background from "../HeaderAndBanner/bg.png";
+import background from "../../images/bg-1.png";
 
 const Main = styled.main`
   min-height: calc(100vh - 73px - 273px);
@@ -13,14 +13,14 @@ const Main = styled.main`
 `;
 
 const Wrapper = styled.div`
-  //background-image: url(${background});
-  background-size: 100%;
+  background-image: url(${background});
+  background-size: 2187px, 1460px;
   background-repeat: no-repeat;
 `;
 
 const Layout = ({ children }) => {
   return (
-    <Wrapper>
+    <Wrapper className="md:max-w-1400px md:mx-auto">
       <HeaderAndBanner />
       <Main style={{}}>
         <main>{children}</main>
