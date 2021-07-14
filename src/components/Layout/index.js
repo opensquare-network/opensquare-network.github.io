@@ -35,13 +35,13 @@ Layout.propTypes = {
 
 export const NormalLayout = ({ children }) => {
   return (
-    <>
+    <Wrapper>
       <Header />
       <Main style={{}}>
         <main>{children}</main>
       </Main>
       <Footer />
-    </>
+    </Wrapper>
   );
 };
 
