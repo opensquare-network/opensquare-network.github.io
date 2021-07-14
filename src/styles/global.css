@@ -149,10 +149,20 @@
 /*        !* Modern Browsers *! url("../fonts/inter-v3-latin-600.ttf") format("truetype");*/
 /*}*/
 
-.bg-cta {
-  background-image: url("../images/imgsCta.jpg");
-  background-size: 100%;
-  background-repeat: no-repeat;
+@media screen and (min-width: 1920px) {
+  .bg-cta {
+    background-image: url("../images/imgsCta.jpg");
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+}
+
+@media screen and (max-width: 1920px) {
+  .bg-cta {
+    background-image: url("../images/imgsCta.jpg");
+    background-position: center;
+  }
 }
 
 .bg-dot {
