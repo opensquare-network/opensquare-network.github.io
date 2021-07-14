@@ -6,8 +6,6 @@ import Participator from "../components/Participator";
 import Partners from "../components/Partners";
 import PapersEnter from "../components/Papers/papersEnter";
 import HeaderAndBanner from "../components/HeaderAndBanner";
-import styled from "styled-components";
-import background from "../images/bg-1.png";
 
 export default function Home() {
   return (

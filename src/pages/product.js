@@ -5,7 +5,7 @@ import Product from "../components/Product";
 
 export default function () {
   return (
-    <NormalLayout>
+    <NormalLayout bg={true}>
       <SEO title={"OpenSquare Network"} />
       <Product />
     </NormalLayout>

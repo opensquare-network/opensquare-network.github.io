@@ -16,17 +16,18 @@ const Row = styled.div``;
 export default function Product() {
   return (
     <div className="font-inter md:mb-20">
-      <div className="md:h-288px md:w-1080px md:mx-auto pt-20">
-        <div className="md:w-1080px m-auto md:flex mb-4">
-          <h1 className="h3-36-bold md:h2-48-bold text-center mb-3 md:mb-0">
-            We build for
-          </h1>
-          <h1 className="h3-36-bold md:h2-48-bold text-center">
-            collaboration
-          </h1>
-        </div>
-        <p
-          className="
+      <div className="w-full bg-white">
+        <div className="md:h-288px md:w-1080px md:mx-auto pt-20 bg-white">
+          <div className="md:w-1080px m-auto md:flex mb-4">
+            <h1 className="h3-36-bold md:h2-48-bold text-center mb-3 md:mb-0">
+              We build for
+            </h1>
+            <h1 className="h3-36-bold md:h2-48-bold text-center">
+              collaboration
+            </h1>
+          </div>
+          <p
+            className="
           p-20-normal
           text-dark-minor
           md:px-0
@@ -36,10 +37,11 @@ export default function Product() {
           m-auto md:ml-0
           pb-80px
           "
-        >
-          Et, suspendisse ornare integer felis senectus ac viverra. Sed
-          ullamcorper venenatis.
-        </p>
+          >
+            Et, suspendisse ornare integer felis senectus ac viverra. Sed
+            ullamcorper venenatis.
+          </p>
+        </div>
       </div>
       <div className="h-1px bg-grey-200 w-full"></div>
 

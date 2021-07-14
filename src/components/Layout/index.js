@@ -33,15 +33,26 @@ Layout.propTypes = {
   children: PropTypes.node.isRequired,
 };
 
-export const NormalLayout = ({ children }) => {
+export const NormalLayout = ({ children, bg = false }) => {
+  if (bg) {
+    return (
+      <Wrapper>
+        <Header />
+        <Main style={{}}>
+          <main>{children}</main>
+        </Main>
+        <Footer />
+      </Wrapper>
+    );
+  }
   return (
-    <Wrapper>
+    <>
       <Header />
       <Main style={{}}>
         <main>{children}</main>
       </Main>
       <Footer />
-    </Wrapper>
+    </>
   );
 };
 
