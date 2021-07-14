@@ -13,7 +13,7 @@ const Row = styled.div``;
 
 export default function Product() {
   return (
-    <div className="font-inter">
+    <div className="font-inter md:mb-20">
       <div className="md:h-288px md:w-1080px md:mx-auto pt-20">
         <div className="md:w-1080px m-auto md:flex mb-4">
           <h1 className="h3-36-bold md:h2-48-bold text-center mb-3 md:mb-0">
@@ -181,7 +181,7 @@ export default function Product() {
         </div>
       </Row>
 
-      <div className="md:w-1080px mx-auto mt-40 md:flex">
+      <div className="hidden md:hidden md:w-1080px mx-auto mt-40">
         <div className="md:hidden">
           <div>
             <h2
