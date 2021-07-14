@@ -23,12 +23,11 @@ export default function Products() {
             src={CoinAsk}
             className="absolute p-4 bg-white -top-9 -left-9 shadow-lg"
           />
-          <p className="p-20-bold mb-2">Pay to Ask</p>
+          <p className="p-20-bold mb-2"> Paid Q&A</p>
           <p className="text-dark-minor">
-            Paid Q&A: For specific realm of knowledge, users can post questions
-            on OpenSquare platform with relevant token locked for it. When an
-            answer is adopted by the question owner, the author can get the
-            fund.
+            Users can post questions regarding specific realm of knowledge on
+            our platform with relevant token locked. When an answer is adopted,
+            the author will get funded.
           </p>
         </div>
 
@@ -49,8 +48,8 @@ export default function Products() {
           />
           <p className="p-20-bold mb-2">Bounties</p>
           <p className="text-dark-minor">
-            Bounty Collaboration: Bounty is the core of the collaboration,
-            atomic collaborative units may include the creation, review,
+            Bounty Collaboration: Bounty is the core of the collaboration.
+            Atomic collaborative units may include the creation, review,
             application, submission and other basic processes.
           </p>
         </div>
@@ -74,8 +73,7 @@ export default function Products() {
           />
           <p className="p-20-bold mb-2">Short-term Employment</p>
           <p className="text-dark-minor">
-            Short-term Employment: Collaborators may worry about payment issues
-            during the process, for example, how to pay and the where to pay. On
+            Collaborators may worry about payment issues during the process. On
             OpenSquare platform, users can flexibly customize the payment cycle
             and manage the begining and end of the collaboration.
           </p>
@@ -95,12 +93,11 @@ export default function Products() {
             src={Collaboration}
             className="absolute p-4 bg-white  -top-9 -left-9 shadow-lg"
           />
-          <p className="p-20-bold mb-2">Custom Collaboration</p>
+          <p className="p-20-bold mb-2">Customized Collaboration</p>
           <p className="text-dark-minor">
-            Customized Collaboration: To support users' flexible needs,
-            OpenSquare will extract common collaboration units. Users can
-            combine, set and manage these units to support their customized
-            busniess.
+            To support users' flexible needs, OpenSquare will extract common
+            collaboration units for users to combine, set and manage for a
+            better customization.
           </p>
         </div>
       </div>
