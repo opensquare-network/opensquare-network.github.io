@@ -9,7 +9,7 @@ export default function Steps() {
         <img alt="" src={IconY} className="md:hidden h-32" />
         <img alt="" src={Icon} className="hidden md:block md:mb-9 h-44px" />
         <div className="w-266px ml-10 md:ml-0">
-          <h3 className="text-xl font-bold mb-4">1. Task Releasing</h3>
+          <h3 className="text-xl font-bold mb-4">Task Releasing</h3>
           <p className="text-base font-normal text-dark-minor">
             Funder issues a request, Funders apply for it.
           </p>
@@ -20,7 +20,7 @@ export default function Steps() {
         <img alt="" src={IconY} height={128} className="md:hidden h-32" />
         <img alt="" src={Icon} className="hidden md:block md:mb-9 h-44px" />
         <div className="w-266px ml-10 md:ml-0">
-          <h3 className="text-xl font-bold mb-4">2. Data Checking</h3>
+          <h3 className="text-xl font-bold mb-4">Data Checking</h3>
           <p className="text-base font-normal text-dark-minor">
             Funder check applied Hunter's profile, historic collaborations and
             credit to find a proper Hunter.
@@ -32,7 +32,7 @@ export default function Steps() {
         <img alt="" src={IconY} height={128} className="md:hidden h-32" />
         <img alt="" src={Icon} className="hidden md:block md:mb-9 h-44px" />
         <div className="w-266px ml-10 md:ml-0">
-          <h3 className="text-xl font-bold mb-4">3. Task Compeletion</h3>
+          <h3 className="text-xl font-bold mb-4">Task Compeletion</h3>
           <p className="text-base font-normal text-dark-minor">
             Funder assign the task, hunter ought to deliver it in a timely
             manner.
@@ -44,9 +44,9 @@ export default function Steps() {
         <img alt="" src={IconY} height={128} className="md:hidden h-32" />
         <img alt="" src={Icon} className="hidden md:block md:mb-9 h-44px" />
         <div className="w-266px ml-10 md:ml-0">
-          <h3 className="text-xl font-bold mb-4">4. Credit and Incentive</h3>
+          <h3 className="text-xl font-bold mb-4">Credit and Incentive</h3>
           <p className="text-base font-normal text-dark-minor">
-            Collaborators comment each other. Platform will rate the credit and
+            Collaborators comment each othePlatform will rate the credit and
             incentivize collaborators afterwards.
           </p>
         </div>

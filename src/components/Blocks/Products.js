@@ -75,7 +75,7 @@ export default function Products() {
           <p className="text-dark-minor">
             Collaborators may worry about payment issues during the process. On
             OpenSquare platform, users can flexibly customize the payment cycle
-            and manage the begining and end of the collaboration.
+            and manage the begining and end of it.
           </p>
         </div>
         <div

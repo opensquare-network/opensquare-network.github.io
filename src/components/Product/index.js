@@ -38,8 +38,7 @@ export default function Product() {
           pb-80px
           "
           >
-            Et, suspendisse ornare integer felis senectus ac viverra. Sed
-            ullamcorper venenatis.
+            The collaboration upon users' credit.
           </p>
         </div>
       </div>
@@ -113,8 +112,7 @@ export default function Product() {
               doTreasury
             </p>
             <p className="text-dark-minor p-16-normal text-left">
-              Tortor etiam duis diam est, massa nullam. Mauris enim lorem arcu
-              euismod pulvinar nisl.
+              An asset explorer for Polkadot
             </p>
             <a
               className="block text-right"
@@ -144,8 +142,7 @@ export default function Product() {
               statescan
             </p>
             <p className="text-dark-minor p-16-normal text-left">
-              Tortor etiam duis diam est, massa nullam. Mauris enim lorem arcu
-              euismod pulvinar nisl.
+              An asset explorer for Kusama
             </p>
             <a
               className="block text-right"
@@ -179,8 +176,7 @@ export default function Product() {
               CoinAsk
             </p>
             <p className="text-dark-minor p-16-normal text-left">
-              Tortor etiam duis diam est, massa nullam. Mauris enim lorem arcu
-              euismod pulvinar nisl.
+              Paid Q&A platform for chinese Blockchain Community
             </p>
             <a
               className="block text-right cursor-pointer"
@@ -204,8 +200,8 @@ export default function Product() {
               Odes
             </p>
             <p className="text-dark-minor p-16-normal text-left">
-              Tortor etiam duis diam est, massa nullam. Mauris enim lorem arcu
-              euismod pulvinar nisl.
+              Paid Q&A platform for over Blockchain Community and will be
+              launched soon.
             </p>
             <p className="mt-3 text-right">
               <span

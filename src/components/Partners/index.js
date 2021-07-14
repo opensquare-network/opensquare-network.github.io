@@ -10,7 +10,7 @@ export default function () {
           Meet our Partners
         </h2>
         <p className="text-dark-minor mb-8 md:mb-12 p-16-normal md:p-18-normal font-inter">
-          Molestie eget lacus nisi, aliquet tincidunt tristique turpis.
+          we are glad to introduce you our relaible friends.
         </p>
         <img
           className="hidden md:block mx-auto w-1080px "

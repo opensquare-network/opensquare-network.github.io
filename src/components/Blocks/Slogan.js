@@ -14,8 +14,8 @@ export default function Slogan() {
           Credit Rating on Blockchain
         </h3>
         <p className="p-16-normal md:p-18-normal text-center text-dark-minor md:text-left w-full md:w-480px">
-          Option 1: Credit (Built on) Blockchain <br />
-          Option 2: Credit (Generated from) Blockchain
+          Credit (Built on) Blockchain <br />
+          Credit (Generated from) Blockchain
         </p>
       </div>
     </div>
