@@ -12,7 +12,7 @@ export default function PapersEnter() {
       className="block md:flex md:justify-center md:items-center p-4  "
       href="/papers"
     >
-      <h3 className="text-white font-semibold text-xl w-350px md:w-auto md:m-0 text-center m-auto font-inter">
+      <h3 className="text-white p-18-medium w-300px md:w-auto md:m-0 text-center m-auto font-inter">
         Get Started with OpenSquare and Check Our Litepaper
       </h3>
       <IconGoto className="block m-auto md:mr-0 md:ml-4" />

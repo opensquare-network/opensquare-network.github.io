@@ -97,7 +97,7 @@ export default function Footer() {
             />
           </svg>
         </p>
-        <div className="rights text-light-minimal sm:text-right mt-20">
+        <div className="rights text-light-minimal sm:text-right mt-0 md:mt-20">
           © 2020 OpenSquare. All Rights Reserved.
         </div>
       </div>
