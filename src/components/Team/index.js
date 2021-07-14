@@ -1,12 +1,12 @@
 import React from "react";
-import YongfengImg from "./yongfeng.png";
+import YongfengImg from "./1-yongfeng.png";
 import Github from "../../images/github.svg";
 import Email from "../../images/email.svg";
-import ChaoJun from "./huangchaojun.png";
-import WenTao from "./chenwentao.png";
-import Alcazar from "./alcazar.png";
-import Yizhou from "./xinyizhou.jpeg";
-import Yaping from "./yaping.png";
+import ChaoJun from "./2-chaojun.png";
+import WenTao from "./3-wentao.png";
+import Alcazar from "./5-alcazar.png";
+import Yizhou from "./4-yizhou.png";
+import Yaping from "./6-yapin.png";
 import styled from "styled-components";
 import IconGoto from "./IconGoto.svg";
 
@@ -18,10 +18,10 @@ export default function () {
   return (
     <div className="font-inter">
       <div className="sm:w-1080px m-auto">
-        <h1 className="text-4xl font-bold text-center sm:text-left  pt-80px font-mont">
+        <h1 className="h3-36-bold md:h2-48-bold text-center sm:text-left mb-4 pt-80px">
           Meet the team
         </h1>
-        <p className="text-lg text-gray-400 text-center  sm:text-left w-346px sm:w-full m-auto pt-4 pb-80px">
+        <p className="p-18-normal md:p-20-normal text-dark-minor text-center sm:text-left w-346px sm:w-full m-auto pb-80px">
           OpenSquare is an open source project built by decentralized{" "}
           <br className="hidden sm:block" /> team which is reliable and
           experienced.
@@ -38,7 +38,7 @@ export default function () {
        "
         href="/papers"
       >
-        <span className="block m-auto sm:m-0 text-center text-white text-lg font-semibold ">
+        <span className="block m-auto sm:m-0 text-center text-white p-18-medium">
           Get Started with OpenSquare and <br className="sm:hidden" /> Check Our
           Litepaper
         </span>
@@ -46,11 +46,11 @@ export default function () {
       </PaperEntry>
 
       <div className="sm:flex sm:w-1080px sm:mx-auto sm:mt-20">
-        <h2 className="text-2xl font-bold text-center pt-80px sm:pt-0 pb-10">
+        <h2 className="text-2xl font-bold text-center pt-80px sm:pt-0 pb-10 whitespace-nowrap">
           Core Team
         </h2>
-        <div className="sm:ml-153px sm:flex sm:flex-wrap">
-          <div className="px-4 mr-10 mb-8 sm:mb-0 sm:h-388px sm:flex content-start w-full sm:w-240px flex-wrap">
+        <div className="sm:ml-146px sm:flex sm:flex-wrap">
+          <div className="px-4 md:px-0 mr-10 mb-8 md:mb-80px  sm:h-388px sm:flex content-start w-full sm:w-240px flex-wrap">
             <img
               className="mx-auto mb-6 sm:ml-0"
               width={100}
@@ -73,7 +73,7 @@ export default function () {
             </p>
           </div>
 
-          <div className="px-4 mr-10 mb-8 sm:mb-0 sm:h-388px sm:flex content-start w-full sm:w-240px flex-wrap">
+          <div className="px-4 mr-10 mb-8 md:mb-80px  sm:h-388px sm:flex content-start w-full sm:w-240px flex-wrap">
             <img
               className="mx-auto mb-6 sm:ml-0"
               width={100}
@@ -97,7 +97,7 @@ export default function () {
             </p>
           </div>
 
-          <div className="px-4 mr-10 mb-8 sm:mb-0 sm:h-388px sm:flex content-start w-full sm:w-240px flex-wrap">
+          <div className="px-4 mr-0 mb-8 md:mb-80px  sm:h-388px sm:flex content-start w-full sm:w-240px flex-wrap">
             <img
               className="mx-auto mb-6 sm:ml-0"
               width={100}
@@ -120,7 +120,7 @@ export default function () {
             </p>
           </div>
 
-          <div className="px-4 mr-10 mb-8 sm:mb-0 sm:h-388px sm:flex content-start w-full sm:w-240px flex-wrap">
+          <div className="px-4 mr-10 mb-8 md:mb-80px  sm:h-388px sm:flex content-start w-full sm:w-240px flex-wrap">
             <img
               className="mx-auto mb-6 sm:ml-0"
               width={100}
@@ -144,7 +144,7 @@ export default function () {
             </p>
           </div>
 
-          <div className="px-4 mr-10 mb-8 sm:mb-0 sm:h-388px sm:flex content-start w-full sm:w-240px flex-wrap">
+          <div className="px-4 mr-10 mb-8 md:mb-80px  sm:h-388px sm:flex content-start w-full sm:w-240px flex-wrap">
             <img
               className="mx-auto mb-6 sm:ml-0"
               width={100}
@@ -167,7 +167,7 @@ export default function () {
             </p>
           </div>
 
-          <div className="px-4 mr-10 mb-8 sm:mb-0 sm:h-388px sm:flex content-start w-full sm:w-240px flex-wrap">
+          <div className="px-4 mr-0 mb-8 md:mb-80px  sm:h-388px sm:flex content-start w-full sm:w-240px flex-wrap">
             <img
               className="mx-auto mb-6 sm:ml-0"
               width={100}
@@ -196,8 +196,9 @@ export default function () {
 
       <div className="block sm:flex sm:mt-40 sm:w-1080px sm:mx-auto sm:items-start">
         <h2
-          className="text-2xl text-dark-major
-        text-center font-bold mt-28  mb-8
+          className="h4-24-bold
+         text-dark-major
+        text-center  mt-28  mb-8
         sm:mt-0 sm:text-left sm:mr-133px
         "
         >
@@ -205,13 +206,13 @@ export default function () {
         </h2>
 
         <div>
-          <p className="px-4 text-dark-minor mb-4 sm:w-800px">
+          <p className="px-4 p-16-normal text-dark-minor mb-4 sm:w-800px">
             We aim to calm this mess by providing a simple user interface that
             reduces tools to their core functionality. OpenSquare is designed to
             keep their users focused. It optimizes for the shortest path from
             intent to action.
           </p>
-          <p className="px-4 text-dark-minor mb-4">
+          <p className="px-4  p-16-normal text-dark-minor mb-4">
             If you resonate with our mission but there isn’t an open position
             for you, you can also send us an email at{" "}
             <a
@@ -223,22 +224,22 @@ export default function () {
             with any information you’d think is relevant
           </p>
 
-          <h3 className="mx-4 mt-10 pt-10 border-t border-grey-200 text-2xl text-dark-major text-left font-bold mb-8">
+          <h3 className="mx-4 p-20-bold mt-10 pt-10 border-t border-grey-200 text-2xl text-dark-major text-left font-bold mb-8">
             Operations Manager
           </h3>
 
-          <p className="mx-4 text-dark-minor mb-4">
+          <p className="mx-4 p-16-normal text-dark-minor mb-4">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Imperdiet
             diam placerat fusce nullam malesuada ipsum elit. At magna est
             mauris, egestas et. Consectetur mi lacus semper lectus. Quis in ut
             sed est eleifend velit magna adipiscing iaculis.
           </p>
 
-          <h3 className="mx-4 mt-10 pt-10 border-t border-grey-200 text-2xl text-dark-major text-left font-bold mb-8">
+          <h3 className="mx-4 p-20-bold mt-10 pt-10 border-t border-grey-200 text-2xl text-dark-major text-left font-bold mb-8">
             Blockchain Developer
           </h3>
 
-          <p className="px-4 mb-20 text-dark-minor mb-4">
+          <p className="px-4 p-16-normal mb-20 text-dark-minor mb-4">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Enim,
             pharetra suspendisse duis dapibus nunc in. Non felis erat feugiat mi
             sed. Nullam eu aliquet magna turpis eu montes, et congue. Nunc enim,

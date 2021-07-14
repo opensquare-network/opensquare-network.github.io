@@ -95,8 +95,10 @@ module.exports = {
       margin: {
         "544px": "544px",
         "153px": "153px",
+        "146px": "146px",
         "133px": "133px",
         "120px": "120px",
+        "80px": "80px",
         "78px": "78px",
         "76px": "76px",
         "68px": "68px",
