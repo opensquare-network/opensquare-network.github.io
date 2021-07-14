@@ -9,11 +9,9 @@ export default function Steps() {
         <img alt="" src={IconY} className="md:hidden h-32" />
         <img alt="" src={Icon} className="hidden md:block md:mb-9 h-44px" />
         <div className="w-266px ml-10 md:ml-0">
-          <h3 className="text-xl font-bold mb-4">Pellentesque sed</h3>
+          <h3 className="text-xl font-bold mb-4">1. Task Releasing</h3>
           <p className="text-base font-normal text-dark-minor">
-            Diam, adipiscing at in non mauris phasellus volutpat. Massa pretium
-            at ullamcorper libero vestibulum. Sed lectus amet rhoncus, convallis
-            amet fusce tincidunt. Platea in enim eu a diam.
+            Funder issues a request, Funders apply for it.
           </p>
         </div>
       </div>
@@ -22,13 +20,10 @@ export default function Steps() {
         <img alt="" src={IconY} height={128} className="md:hidden h-32" />
         <img alt="" src={Icon} className="hidden md:block md:mb-9 h-44px" />
         <div className="w-266px ml-10 md:ml-0">
-          <h3 className="text-xl font-bold mb-4">Pellentesque sed</h3>
+          <h3 className="text-xl font-bold mb-4">2. Data Checking</h3>
           <p className="text-base font-normal text-dark-minor">
-            Fusce nunc sapien ultrices adipiscing ut lobortis gravida.
-            Condimentum facilisis non porta tellus dignissim ut tincidunt
-            blandit sagittis. Viverra aliquam gravida fringilla mattis pharetra
-            blandit platea viverra. Commodo lectus cras tellus pellentesque
-            euismod molestie tempor.
+            Funder check applied Hunter's profile, historic collaborations and
+            credit to find a proper Hunter.
           </p>
         </div>
       </div>
@@ -37,11 +32,10 @@ export default function Steps() {
         <img alt="" src={IconY} height={128} className="md:hidden h-32" />
         <img alt="" src={Icon} className="hidden md:block md:mb-9 h-44px" />
         <div className="w-266px ml-10 md:ml-0">
-          <h3 className="text-xl font-bold mb-4">Pellentesque sed</h3>
+          <h3 className="text-xl font-bold mb-4">3. Task Compeletion</h3>
           <p className="text-base font-normal text-dark-minor">
-            Diam, adipiscing at in non mauris phasellus volutpat. Massa pretium
-            at ullamcorper libero vestibulum. Sed lectus amet rhoncus, convallis
-            amet fusce tincidunt. Platea in enim eu a diam.
+            Funder assign the task, hunter ought to deliver it in a timely
+            manner.
           </p>
         </div>
       </div>
@@ -50,11 +44,10 @@ export default function Steps() {
         <img alt="" src={IconY} height={128} className="md:hidden h-32" />
         <img alt="" src={Icon} className="hidden md:block md:mb-9 h-44px" />
         <div className="w-266px ml-10 md:ml-0">
-          <h3 className="text-xl font-bold mb-4">Pellentesque sed</h3>
+          <h3 className="text-xl font-bold mb-4">4. Credit and Incentive</h3>
           <p className="text-base font-normal text-dark-minor">
-            Diam, adipiscing at in non mauris phasellus volutpat. Massa pretium
-            at ullamcorper libero vestibulum. Sed lectus amet rhoncus, convallis
-            amet fusce tincidunt. Platea in enim eu a diam.
+            Collaborators comment each other. Platform will rate the credit and
+            incentivize collaborators afterwards.
           </p>
         </div>
       </div>

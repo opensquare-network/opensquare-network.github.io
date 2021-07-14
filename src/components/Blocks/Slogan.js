@@ -11,11 +11,11 @@ export default function Slogan() {
           text-dark-major
           "
         >
-          Credit on the blockchain
+          Credit Rating on Blockchain
         </h3>
         <p className="p-16-normal md:p-18-normal text-center text-dark-minor md:text-left w-full md:w-480px">
-          Et, suspendisse ornare integer felis senectus ac viverra. Sed
-          ullamcorper venenatis.
+          Option 1: Credit (Built on) Blockchain <br />
+          Option 2: Credit (Generated from) Blockchain
         </p>
       </div>
     </div>

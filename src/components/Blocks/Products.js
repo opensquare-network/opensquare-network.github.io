@@ -25,8 +25,10 @@ export default function Products() {
           />
           <p className="p-20-bold mb-2">Pay to Ask</p>
           <p className="text-dark-minor">
-            Tortor etiam duis diam est, massa nullam. Mauris enim lorem arcu
-            euismod pulvinar nisl.
+            Paid Q&A: For specific realm of knowledge, users can post questions
+            on OpenSquare platform with relevant token locked for it. When an
+            answer is adopted by the question owner, the author can get the
+            fund.
           </p>
         </div>
 
@@ -47,8 +49,9 @@ export default function Products() {
           />
           <p className="p-20-bold mb-2">Bounties</p>
           <p className="text-dark-minor">
-            Nec mauris sed ligula vivamus scelerisque gravida diam. Porttitor id
-            elementum nam libero.
+            Bounty Collaboration: Bounty is the core of the collaboration,
+            atomic collaborative units may include the creation, review,
+            application, submission and other basic processes.
           </p>
         </div>
       </div>
@@ -71,8 +74,10 @@ export default function Products() {
           />
           <p className="p-20-bold mb-2">Short-term Employment</p>
           <p className="text-dark-minor">
-            Tortor etiam duis diam est, massa nullam. Mauris enim lorem arcu
-            euismod pulvinar nisl.
+            Short-term Employment: Collaborators may worry about payment issues
+            during the process, for example, how to pay and the where to pay. On
+            OpenSquare platform, users can flexibly customize the payment cycle
+            and manage the begining and end of the collaboration.
           </p>
         </div>
         <div
@@ -92,8 +97,10 @@ export default function Products() {
           />
           <p className="p-20-bold mb-2">Custom Collaboration</p>
           <p className="text-dark-minor">
-            Nec mauris sed ligula vivamus scelerisque gravida diam. Porttitor id
-            elementum nam libero.
+            Customized Collaboration: To support users' flexible needs,
+            OpenSquare will extract common collaboration units. Users can
+            combine, set and manage these units to support their customized
+            busniess.
           </p>
         </div>
       </div>

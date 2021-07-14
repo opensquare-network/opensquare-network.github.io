@@ -14,13 +14,13 @@ export default function Menu({ className = "", liClassName = "" }) {
   return (
     <ul className={className}>
       <li className={liClassName}>
-        <a href="/team">Lightpaper</a>
+        <a href="/aboutus">Lightpaper</a>
       </li>
       <li className={liClassName}>
         <a href="/product">Product</a>
       </li>
       <li className={liClassName}>
-        <a href="/team">About us</a>
+        <a href="/aboutus">About us</a>
       </li>
       <li className={liClassName}>
         <a

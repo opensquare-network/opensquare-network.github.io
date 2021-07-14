@@ -7,7 +7,7 @@ export default function ProductSlogan() {
         We build for collaboration
       </h3>
       <p className="p-16-normal md:p-18-normal text-dark-minor text-center">
-        Molestie eget lacus nisi, aliquet tincidunt.
+        The collaboration upon users' credit
       </p>
     </div>
   );
