@@ -9,7 +9,7 @@ export default function () {
         <h2 className="h4-24-bold md:h3-36-bold mb-1 md:mb-4 text-dark-major">
           Meet our Partners
         </h2>
-        <p className="text-dark-minor mb-8 p-16-normal md:p-18-normal font-inter">
+        <p className="text-dark-minor mb-8 md:mb-12 p-16-normal md:p-18-normal font-inter">
           Molestie eget lacus nisi, aliquet tincidunt tristique turpis.
         </p>
         <img className="hidden md:block mx-auto" src={Partners} alt="" />

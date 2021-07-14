@@ -49,17 +49,17 @@ export default function Footer() {
             <p className="block h-10 text-white font-semibold">Social Links</p>
             <a
               href="https://github.com/opensquare-network/"
-              className="flex h-10 text-light-minor"
+              className="flex h-10 text-light-minor items-center"
             >
               <Github width="20" height="20" /> &nbsp;&nbsp;Github
             </a>
-            <a href="/" className="flex h-10 text-light-minor">
+            <a href="/" className="flex h-10 text-light-minor items-center">
               <Telegram width="20" height="20" /> &nbsp;&nbsp;Telegram
             </a>
-            <a href="/" className="flex h-10 text-light-minor">
+            <a href="/" className="flex h-10 text-light-minor items-center">
               <Twitter width="20" height="20" /> &nbsp;&nbsp;Twitter
             </a>
-            <a href="/" className="flex h-10 text-light-minor">
+            <a href="/" className="flex h-10 text-light-minor items-center">
               <SubSocial width="20" height="20" /> &nbsp;&nbsp;Subsocial
             </a>
           </div>
@@ -102,7 +102,7 @@ export default function Footer() {
             </svg>
           </p>
           <div className="rights text-light-minimal sm:text-right mt-0 md:mt-20">
-            © 2020 OpenSquare. All Rights Reserved.
+            © 2021 OpenSquare. All Rights Reserved.
           </div>
         </div>
       </div>

@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Slogan() {
   return (
-    <div className="w-full mb-8 md:mb-61px">
+    <div className="w-full mb-8 md:mb-0">
       <div className="block w-full md:w-1080px mx-auto">
         <h3
           className="
