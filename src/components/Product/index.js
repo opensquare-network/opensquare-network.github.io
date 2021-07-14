@@ -8,6 +8,7 @@ import Vote from "./votes.png";
 
 import ExternalLink from "./externalLink.svg";
 import KusamaTreasury from "./kusamaTreasury.svg";
+import StateMintTreasury from "./statemintTreasury.svg";
 
 const Row = styled.div``;
 
@@ -40,99 +41,6 @@ export default function Product() {
         </p>
       </div>
       <div className="h-1px bg-grey-200 w-full"></div>
-
-      <Row className="md:flex md:w-1080px md:mx-auto mt-12 md:mt-20">
-        <h2 className="w-280px mx-auto md:mx-0 text-center h4-24-bold md:text-left pt-8 md:pt-0 pb-68px md:pb-20">
-          Platform
-        </h2>
-        <div className="md:flex md:flex-wrap md:mt-9">
-          <div className="relative w-346px h-192px m-auto pt-6 pr-7 pl-15 pb-6 shadow-lg">
-            <img
-              src={CoinAsk}
-              alt=""
-              className="p-4 shadow bg-white absolute -top-9 -left-9 "
-            />
-            <p className="md:w-full text-left  md:text-left p-20-bold mb-2">
-              CoinAsk
-            </p>
-            <p className="text-dark-minor p-16-normal text-left">
-              Tortor etiam duis diam est, massa nullam. Mauris enim lorem arcu
-              euismod pulvinar nisl.
-            </p>
-            <a
-              className="block text-right cursor-pointer"
-              href="https://www.coinask.io/"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <ExternalLink className="inline absolute bottom-7 right-7" />
-            </a>
-          </div>
-        </div>
-      </Row>
-
-      <Row className="md:flex md:w-1080px md:mx-auto md:mt-10">
-        <h2 className="w-280px mx-auto md:mx-0 text-center h4-24-bold md:text-left pt-8 md:pt-0 pb-68px md:pb-20">
-          Explorer
-        </h2>
-        <div className="md:flex md:flex-wrap md:mt-9">
-          <div className="relative w-346px h-233px m-auto pt-6 pr-7 pl-15 pb-6 shadow-lg mb-16 md:mb-0">
-            <img
-              src={Dotreasury}
-              alt=""
-              className="p-4 shadow bg-white absolute -top-9 -left-9 "
-            />
-            <p className="md:w-full text-left  md:text-left p-20-bold mb-2">
-              doTreasury
-            </p>
-            <p className="text-dark-minor p-16-normal text-left">
-              Tortor etiam duis diam est, massa nullam. Mauris enim lorem arcu
-              euismod pulvinar nisl.
-            </p>
-            <a
-              className="block text-right"
-              href="https://www.dotreasury.com/"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <ExternalLink className="inline" />
-            </a>
-            <p className="border-t border-grey-200 mt-3 pt-2">
-              <a href="/">
-                <KusamaTreasury />
-              </a>
-            </p>
-          </div>
-
-          <div className="relative w-346px  h-233px md:ml-76px m-auto pt-6 pr-7 pl-15 pb-6 shadow-lg">
-            <img
-              src={StateScan}
-              alt=""
-              className="absolute p-4 bg-white shadow -top-9 -left-9 "
-            />
-            <p className="md:w-full text-left  md:text-left p-20-bold mb-2">
-              statescan
-            </p>
-            <p className="text-dark-minor p-16-normal text-left">
-              Tortor etiam duis diam est, massa nullam. Mauris enim lorem arcu
-              euismod pulvinar nisl.
-            </p>
-            <a
-              className="block text-right"
-              href="https://www.statescan.io/"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <ExternalLink className="inline" />
-            </a>
-            <p className="border-t  border-grey-200  mt-3 pt-2">
-              <a href="/">
-                <KusamaTreasury />
-              </a>
-            </p>
-          </div>
-        </div>
-      </Row>
 
       <Row className="md:flex md:w-1080px md:mx-auto md:mt-10">
         <h2 className="w-280px mx-auto md:mx-0 text-center h4-24-bold md:text-left pt-8 md:pt-0 pb-68px md:pb-20">
@@ -167,6 +75,124 @@ export default function Product() {
             />
             <p className="md:w-full text-left  md:text-left p-20-bold mb-2">
               doTreasury
+            </p>
+            <p className="text-dark-minor p-16-normal text-left">
+              Tortor etiam duis diam est, massa nullam. Mauris enim lorem arcu
+              euismod pulvinar nisl.
+            </p>
+            <p className="mt-3 text-right">
+              <span className="inline-block px-3 h-6 bg-grey-300 text-white font-bold">
+                Coming Soon
+              </span>
+            </p>
+          </div>
+        </div>
+      </Row>
+
+      <Row className="md:flex md:w-1080px md:mx-auto md:mt-10">
+        <h2 className="w-280px mx-auto md:mx-0 text-center h4-24-bold md:text-left pt-8 md:pt-0 pb-68px md:pb-20">
+          Explorer
+        </h2>
+        <div className="md:flex md:flex-wrap md:mt-9">
+          <div className="relative w-346px h-233px m-auto pt-6 pr-7 pl-15 pb-6 shadow-lg mb-16 md:mb-0">
+            <img
+              src={Dotreasury}
+              alt=""
+              className="p-4 shadow bg-white absolute -top-9 -left-9 "
+            />
+            <p className="md:w-full text-left  md:text-left p-20-bold mb-2">
+              doTreasury
+            </p>
+            <p className="text-dark-minor p-16-normal text-left">
+              Tortor etiam duis diam est, massa nullam. Mauris enim lorem arcu
+              euismod pulvinar nisl.
+            </p>
+            <a
+              className="block text-right"
+              href="https://www.dotreasury.com/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <ExternalLink className="inline" />
+            </a>
+            <p className="border-t border-grey-200 mt-3 pt-2 flex">
+              <a className="mr-6" href="/">
+                <KusamaTreasury />
+              </a>
+              <a href="/">
+                <StateMintTreasury />
+              </a>
+            </p>
+          </div>
+
+          <div className="relative w-346px  h-233px md:ml-76px m-auto pt-6 pr-7 pl-15 pb-6 shadow-lg">
+            <img
+              src={StateScan}
+              alt=""
+              className="absolute p-4 bg-white shadow -top-9 -left-9 "
+            />
+            <p className="md:w-full text-left  md:text-left p-20-bold mb-2">
+              statescan
+            </p>
+            <p className="text-dark-minor p-16-normal text-left">
+              Tortor etiam duis diam est, massa nullam. Mauris enim lorem arcu
+              euismod pulvinar nisl.
+            </p>
+            <a
+              className="block text-right"
+              href="https://www.statescan.io/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <ExternalLink className="inline" />
+            </a>
+            <p className="border-t  border-grey-200  mt-3 pt-2">
+              <a href="/">
+                <KusamaTreasury />
+              </a>
+            </p>
+          </div>
+        </div>
+      </Row>
+
+      <Row className="md:flex md:w-1080px md:mx-auto mt-12 md:mt-20">
+        <h2 className="w-280px mx-auto md:mx-0 text-center h4-24-bold md:text-left pt-8 md:pt-0 pb-68px md:pb-20">
+          Platform
+        </h2>
+        <div className="md:flex md:flex-wrap md:mt-9">
+          <div className="relative w-346px h-192px m-auto pt-6 pr-7 pl-15 pb-6 shadow-lg">
+            <img
+              src={CoinAsk}
+              alt=""
+              className="p-4 shadow bg-white absolute -top-9 -left-9 "
+            />
+            <p className="md:w-full text-left  md:text-left p-20-bold mb-2">
+              CoinAsk
+            </p>
+            <p className="text-dark-minor p-16-normal text-left">
+              Tortor etiam duis diam est, massa nullam. Mauris enim lorem arcu
+              euismod pulvinar nisl.
+            </p>
+            <a
+              className="block text-right cursor-pointer"
+              href="https://www.coinask.io/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <ExternalLink className="inline absolute bottom-7 right-7" />
+            </a>
+          </div>
+        </div>
+
+        <div className="md:flex md:flex-wrap md:mt-9">
+          <div className="relative w-346px md:ml-76px h-192px m-auto pt-6 pr-7 pl-15 pb-6 shadow-lg">
+            <img
+              src={CoinAsk}
+              alt=""
+              className="p-4 shadow bg-white absolute -top-9 -left-9 "
+            />
+            <p className="md:w-full text-left  md:text-left p-20-bold mb-2">
+              Odes
             </p>
             <p className="text-dark-minor p-16-normal text-left">
               Tortor etiam duis diam est, massa nullam. Mauris enim lorem arcu
