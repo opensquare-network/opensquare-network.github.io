@@ -13,12 +13,12 @@ const Main = styled.main`
 `;
 
 const Wrapper = styled.div`
-  @media screen and (min-width: 1440px) {
-    background-image: url(${background});
-    background-position-x: center;
-    background-size: 2187px, 1460px;
-    background-repeat: no-repeat;
-  }
+  //@media screen and (min-width: 1440px) {
+  background-image: url(${background});
+  background-position-x: center;
+  background-size: 2187px, 1460px;
+  background-repeat: no-repeat;
+  //}
 `;
 
 const Layout = ({ children }) => {

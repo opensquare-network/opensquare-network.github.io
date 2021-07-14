@@ -11,9 +11,9 @@ import background from "../images/bg-1.png";
 
 const Wrapper = styled.div`
   @media screen and (max-width: 1440px) {
-    background-image: url(${background});
-    background-size: 2187px, 1460px;
-    background-repeat: no-repeat;
+    // background-image: url(${background});
+    // background-size: 2187px, 1460px;
+    // background-repeat: no-repeat;
   }
 `;
 
@@ -21,10 +21,10 @@ export default function Home() {
   return (
     <Layout>
       <SEO title={"OpenSquare Network"} />
-      <Wrapper className="md:max-w-1400px md:mx-auto">
-        <HeaderAndBanner />
-        <Blocks />
-      </Wrapper>
+      {/*<Wrapper className="md:max-w-1400px md:mx-auto">*/}
+      <HeaderAndBanner />
+      <Blocks />
+      {/*</Wrapper>*/}
       <Participator />
       <Partners />
       <PapersEnter />
