@@ -90,7 +90,7 @@ export default function Product() {
         </div>
       </Row>
 
-      <Row className="md:flex md:w-1080px md:mx-auto md:mt-10">
+      <Row className="md:flex md:w-1080px md:mx-auto md:mt-20">
         <h2 className="w-280px mx-auto md:mx-0 text-center h4-24-bold md:text-left pt-8 md:pt-0 pb-68px md:pb-20">
           Explorer
         </h2>
@@ -156,7 +156,7 @@ export default function Product() {
         </div>
       </Row>
 
-      <Row className="md:flex md:w-1080px md:mx-auto md:mt-10">
+      <Row className="md:flex md:w-1080px md:mx-auto md:mt-20">
         <h2 className="w-280px mx-auto md:mx-0 text-center h4-24-bold md:text-left pt-8 md:pt-0 pb-68px md:pb-20">
           Platform
         </h2>
