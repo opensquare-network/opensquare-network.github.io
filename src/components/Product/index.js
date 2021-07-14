@@ -125,12 +125,12 @@ export default function Product() {
               <ExternalLink className="inline" />
             </a>
             <p className="border-t border-grey-200 mt-3 pt-2 flex">
-              <a className="mr-6" href="/">
+              <span className="mr-6" relative bg-white>
                 <KusamaTreasury />
-              </a>
-              <a href="/">
+              </span>
+              <span relative bg-white>
                 <StateMintTreasury />
-              </a>
+              </span>
             </p>
           </div>
 
@@ -156,9 +156,9 @@ export default function Product() {
               <ExternalLink className="inline" />
             </a>
             <p className="border-t  border-grey-200  mt-3 pt-2">
-              <a href="/">
+              <span relative bg-white>
                 <KusamaTreasury />
-              </a>
+              </span>
             </p>
           </div>
         </div>
