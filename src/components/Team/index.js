@@ -45,7 +45,7 @@ export default function () {
         <IconGoto className="m-auto sm:m-0 sm:ml-5" />
       </PaperEntry>
 
-      <div className="sm:flex sm:w-1080px sm:mx-auto sm:mt-20">
+      <div className="sm:flex sm:w-1080px sm:mx-auto sm:mt-20 sm:mb-20">
         <h2 className="text-2xl font-bold text-center pt-80px sm:pt-0 pb-10 whitespace-nowrap">
           Core Team
         </h2>
