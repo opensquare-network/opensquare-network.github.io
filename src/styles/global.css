@@ -108,11 +108,7 @@
   font-weight: 400;
   src: url("../fonts/inter-v3-latin-regular.woff2") format("woff2"),
     /* Super Modern Browsers */ url("../fonts/inter-v3-latin-regular.woff")
-      format("woff"),
-    /* Modern Browsers */ url("../fonts/inter-v3-latin-regular.ttf")
-      format("truetype"),
-    /* Safari, Android, iOS */ url("../fonts/inter-v3-latin-regular.svg#Inter")
-      format("svg"); /* Legacy iOS */
+      format("woff");
 }
 
 /* font-inter-500 - latin */
@@ -122,11 +118,7 @@
   font-weight: 500;
   src: url("../fonts/inter-v3-latin-500.woff2") format("woff2"),
     /* Super Modern Browsers */ url("../fonts/inter-v3-latin-500.woff")
-      format("woff"),
-    /* Modern Browsers */ url("../fonts/inter-v3-latin-500.ttf")
-      format("truetype"),
-    /* Safari, Android, iOS */ url("../fonts/inter-v3-latin-500.svg#Inter")
-      format("svg"); /* Legacy iOS */
+      format("woff");
 }
 
 /* font-inter-700 - latin */
@@ -136,11 +128,7 @@
   font-weight: 700;
   src: url("../fonts/inter-v3-latin-700.woff2") format("woff2"),
     /* Super Modern Browsers */ url("../fonts/inter-v3-latin-700.woff")
-      format("woff"),
-    /* Modern Browsers */ url("../fonts/inter-v3-latin-700.ttf")
-      format("truetype"),
-    /* Safari, Android, iOS */ url("../fonts/inter-v3-latin-700.svg#Inter")
-      format("svg"); /* Legacy iOS */
+      format("woff");
 }
 
 /*!* font-inter-600 - latin *!*/
@@ -152,14 +140,6 @@
 /*        !* Super Modern Browsers *! url("../fonts/inter-v3-latin-600.woff") format("woff"),*/
 /*        !* Modern Browsers *! url("../fonts/inter-v3-latin-600.ttf") format("truetype");*/
 /*}*/
-
-.montserrat {
-  font-family: Montserrat, sans-serif;
-}
-
-.inter {
-  font-family: font-inter, sans-serif;
-}
 
 .bg-cta {
   background-image: url("../images/imgsCta.jpg");
