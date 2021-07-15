@@ -22,9 +22,7 @@ export default function () {
           Meet the team
         </h1>
         <p className="p-18-normal md:p-20-normal text-dark-minor text-center sm:text-left w-346px sm:w-full m-auto pb-80px">
-          OpenSquare is an open source project built by decentralized{" "}
-          <br className="hidden sm:block" /> team which is reliable and
-          experienced.
+          Decentralized, reliable and experienced.
         </p>
       </div>
       <PaperEntry
@@ -92,8 +90,8 @@ export default function () {
             </p>
             <p className="text-dark-minor font-normal w-360px sm:w-full text-center sm:text-left m-auto">
               10+ years experience on developing complex backend service and
-              rich frontend application. Has rich experience on both enterprise
-              application and internet application.
+              rich frontend application. Has rich experience on either
+              enterprise or internet applications.
             </p>
           </div>
 
