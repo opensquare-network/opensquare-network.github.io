@@ -23,7 +23,7 @@ export default function Product() {
               We build for
             </h1>
             <h1 className="h3-36-bold md:h2-48-bold text-center">
-              collaboration
+              &nbsp;collaboration
             </h1>
           </div>
           <p
@@ -58,10 +58,7 @@ export default function Product() {
             <p className="md:w-full text-left  md:text-left p-20-bold mb-2">
               OpenSquare Bounties
             </p>
-            <p className="text-dark-minor p-16-normal text-left">
-              Tortor etiam duis diam est, massa nullam. Mauris enim lorem arcu
-              euismod pulvinar nisl.
-            </p>
+            <p className="text-dark-minor p-16-normal text-left">需要补充</p>
             <p className="mt-3 text-right">
               <span
                 className="inline-block px-3 h-6 bg-grey-300 text-white  p-12-bold"
@@ -81,10 +78,7 @@ export default function Product() {
             <p className="md:w-full text-left  md:text-left p-20-bold mb-2">
               doTreasury
             </p>
-            <p className="text-dark-minor p-16-normal text-left">
-              Tortor etiam duis diam est, massa nullam. Mauris enim lorem arcu
-              euismod pulvinar nisl.
-            </p>
+            <p className="text-dark-minor p-16-normal text-left">需要补充</p>
             <p className="mt-3 text-right">
               <span
                 className="inline-block px-3 h-6 bg-grey-300 text-white  p-12-bold"
