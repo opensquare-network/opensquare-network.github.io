@@ -23,7 +23,7 @@ export default function Product() {
               We build for
             </h1>
             <h1 className="h3-36-bold md:h2-48-bold text-center">
-              &nbsp;collaboration
+              &nbsp;collaborations
             </h1>
           </div>
           <p
@@ -59,11 +59,7 @@ export default function Product() {
               OpenSquare Bounties
             </p>
             <p className="text-dark-minor p-16-normal text-left">
-              {" "}
-              <br />{" "}
-            </p>
-            <p className="text-dark-minor p-16-normal text-left">
-              to be continued
+              A decentralized bounty collaboration platform.
             </p>
             <p className="mt-3 text-right">
               <span
@@ -85,11 +81,7 @@ export default function Product() {
               OpenSquare Votes
             </p>
             <p className="text-dark-minor p-16-normal text-left">
-              {" "}
-              <br />{" "}
-            </p>
-            <p className="text-dark-minor p-16-normal text-left">
-              to be continued
+              An off-chain voting system for Polkadot ecosystem.
             </p>
             <p className="mt-3 text-right">
               <span
@@ -118,13 +110,8 @@ export default function Product() {
               doTreasury
             </p>
             <p className="text-dark-minor p-16-normal text-left">
-              <br />
-            </p>
-            <p className="text-dark-minor p-16-normal text-left">
-              An asset explorer for Polkadot
-            </p>
-            <p className="text-dark-minor p-16-normal text-left">
-              <br />
+              Aims to introduce a retrospect mechanism to Kusama | Polkadot
+              treasury.
             </p>
             <a
               className="block text-right"
@@ -151,13 +138,10 @@ export default function Product() {
               className="absolute w-72px p-4 bg-white shadow -top-9 -left-9 "
             />
             <p className="md:w-full text-left  md:text-left p-20-bold mb-2">
-              statescan
+              Statescan
             </p>
             <p className="text-dark-minor p-16-normal text-left">
-              <br />
-            </p>
-            <p className="text-dark-minor p-16-normal text-left">
-              An asset explorer for Kusama
+              An set of explorers for Polkadot statemint chains.
             </p>
             <p className="text-dark-minor p-16-normal text-left">
               <br />
@@ -218,8 +202,7 @@ export default function Product() {
               Odes
             </p>
             <p className="text-dark-minor p-16-normal text-left">
-              Paid Q&A platform for over Blockchain Community and will be
-              launched soon.
+              Paid Q&A platform for English blockchain community.
             </p>
             <p className="mt-3 text-right">
               <span
