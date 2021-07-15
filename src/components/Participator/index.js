@@ -9,10 +9,10 @@ export default function () {
         A trusted collaboration network
       </h4>
       <p className="p-16-normal text-center text-light-minor w-350px md:w-476px mx-auto mt-4 font-inter">
-        OpenSquare is a collaborative platform under Web3.0 by facilitating
-        users' collaboration. The data will be stored openly and transparently
-        which is guaranteed by the blockchain. The users' collaborate according
-        to their credit building from historical behaviors.
+        Our vision is to build a decentralized, trusted collaboration network.
+        Collaboration data will be stored on blockchain, while credit will be
+        build on this. This will empower the credible profiles and reduce the
+        cost for collaborations.
       </p>
     </div>
   );

@@ -25,9 +25,8 @@ export default function Products() {
           />
           <p className="p-20-bold mb-2"> Paid Q&A</p>
           <p className="text-dark-minor">
-            Users can post questions regarding specific realm of knowledge on
-            our platform with relevant token locked. When an answer is adopted,
-            the author will get funded.
+            Crypto currencies are paid for questions/topics, best answers got
+            them.
           </p>
         </div>
 
@@ -48,9 +47,8 @@ export default function Products() {
           />
           <p className="p-20-bold mb-2">Bounties</p>
           <p className="text-dark-minor">
-            Bounty Collaboration: Bounty is the core of the collaboration.
-            Atomic collaborative units may include the creation, review,
-            application, submission and other basic processes.
+            Task fund is secured and all processes are guaranteed by smart
+            contracts or substrate pallets.
           </p>
         </div>
       </div>
@@ -73,9 +71,7 @@ export default function Products() {
           />
           <p className="p-20-bold mb-2">Short-term Employment</p>
           <p className="text-dark-minor">
-            Collaborators may worry about payment issues during the process. On
-            OpenSquare platform, users can flexibly customize the payment cycle
-            and manage the begining and end of it.
+            Mitigate trust & payment worries by code and on-chain credit.
           </p>
         </div>
         <div
@@ -95,9 +91,8 @@ export default function Products() {
           />
           <p className="p-20-bold mb-2">Customized Collaboration</p>
           <p className="text-dark-minor">
-            To support users' flexible needs, OpenSquare will extract common
-            collaboration units for users to combine, set and manage for a
-            better customization.
+            Compose the extracted atomic collaboration elements to serve your
+            businesses.
           </p>
         </div>
       </div>
