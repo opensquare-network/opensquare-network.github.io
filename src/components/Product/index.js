@@ -168,7 +168,7 @@ export default function Product() {
           Platform
         </h2>
         <div className="md:flex md:flex-wrap md:mt-9">
-          <div className="relative bg-white w-286px sm:w-346px h-192px m-auto pt-6 pr-7 pl-15 pb-6 shadow-lg mb-16 md:mb-0">
+          <div className="relative bg-white w-286px sm:w-346px m-auto pt-6 pr-7 pl-15 pb-6 shadow-lg mb-16 md:mb-0">
             <img
               src={CoinAsk}
               alt=""
@@ -181,18 +181,18 @@ export default function Product() {
               Paid Q&A platform for chinese Blockchain Community
             </p>
             <a
-              className="block text-right cursor-pointer"
+              className="block text-right cursor-pointer mt-2"
               href="https://www.coinask.io/"
               target="_blank"
               rel="noreferrer"
             >
-              <ExternalLink className="inline absolute bottom-7 right-7" />
+              <ExternalLink className="inline" />
             </a>
           </div>
         </div>
 
         <div className="md:flex md:flex-wrap md:mt-9">
-          <div className="relative bg-white w-286px sm:w-346px md:ml-76px h-192px m-auto pt-6 pr-7 pl-15 pb-6 shadow-lg  mb-16 md:mb-0">
+          <div className="relative bg-white w-286px sm:w-346px md:ml-76px  m-auto pt-6 pr-7 pl-15 pb-6 shadow-lg  mb-16 md:mb-0">
             <img
               src={Odes}
               alt=""
