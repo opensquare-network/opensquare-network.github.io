@@ -90,6 +90,7 @@ module.exports = {
         "150px": "150px",
         "72px": "72px",
         "64px": "64px",
+        "56px": "56px",
       },
       padding: {
         "120px": "120px",
