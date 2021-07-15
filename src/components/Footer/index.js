@@ -14,7 +14,7 @@ const FooterItem = styled.a`
 
 export default function Footer() {
   return (
-    <div className="bg-gray-800 ">
+    <div className="bg-gray-800 " style={{ backgroundColor: "#191E27" }}>
       <div className="max-w-1400px mx-auto pl-4 py-80px sm:flex sm:pl-9 font-inter">
         <Row className="flex">
           <div className="w-1/2 sm:w-200px">
