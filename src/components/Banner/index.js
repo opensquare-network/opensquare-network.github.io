@@ -46,6 +46,7 @@ export default function () {
           <a
             href="/product"
             className="p-16-medium flex px-6 py-3 bg-grey-900 text-white w-242px m-auto md:ml-0 md:mr-auto whitespace-nowrap"
+            style={{ backgroundColor: "#191E27" }}
           >
             Check Our Product&nbsp;&nbsp;&nbsp;
             <GotoIcon />
