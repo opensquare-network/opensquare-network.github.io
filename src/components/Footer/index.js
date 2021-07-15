@@ -34,17 +34,20 @@ export default function Footer() {
             >
               CoinAsk.io
             </FooterItem>
-            <FooterItem href="/" className="block h-6 mb-4 text-light-minor">
-              OpenGenerator
-            </FooterItem>
           </div>
 
           <div className="w-1/2 sm:w-200px">
             <p className="block h-6 mb-6 text-white font-semibold">Resources</p>
-            <FooterItem href="/" className="block h-6 mb-4 text-light-minor">
+            <FooterItem
+              href="https://github.com/opensquare-network/papers"
+              className="block h-6 mb-4 text-light-minor"
+            >
               Lightpaper
             </FooterItem>
-            <FooterItem href="/" className="block h-6 mb-4 text-light-minor">
+            <FooterItem
+              href="https://drive.google.com/drive/folders/1nA6PTJJYfnpvB8wu9cgQaHopMRM4bqQg?usp=sharing"
+              className="block h-6 mb-4 text-light-minor"
+            >
               Media Kits
             </FooterItem>
           </div>
