@@ -11,7 +11,7 @@ export default function Steps() {
         <div className="w-266px ml-10 md:ml-0">
           <h3 className="text-xl font-bold mb-4">Task Releasing</h3>
           <p className="text-base font-normal text-dark-minor">
-            Funder issues a request, Funders apply for it.
+            Funder issues a request, hunters apply for it.
           </p>
         </div>
       </div>
@@ -22,8 +22,8 @@ export default function Steps() {
         <div className="w-266px ml-10 md:ml-0">
           <h3 className="text-xl font-bold mb-4">Data Checking</h3>
           <p className="text-base font-normal text-dark-minor">
-            Funder check applied Hunter's profile, historic collaborations and
-            credit to find a proper Hunter.
+            Funder check candidates' profile, historic collaborations and
+            credits to pick the best one.
           </p>
         </div>
       </div>
@@ -34,8 +34,8 @@ export default function Steps() {
         <div className="w-266px ml-10 md:ml-0">
           <h3 className="text-xl font-bold mb-4">Task Compeletion</h3>
           <p className="text-base font-normal text-dark-minor">
-            Funder assign the task, hunter ought to deliver it in a timely
-            manner.
+            Be assigned, hunters should deliver it on time and maybe report it
+            in a timely manner.
           </p>
         </div>
       </div>
@@ -46,8 +46,8 @@ export default function Steps() {
         <div className="w-266px ml-10 md:ml-0">
           <h3 className="text-xl font-bold mb-4">Credit and Incentive</h3>
           <p className="text-base font-normal text-dark-minor">
-            Collaborators comment each othePlatform will rate the credit and
-            incentivize collaborators afterwards.
+            Credits built by the subjective comments and objective behaviors,
+            incetivized with OpenSquare tokens.
           </p>
         </div>
       </div>

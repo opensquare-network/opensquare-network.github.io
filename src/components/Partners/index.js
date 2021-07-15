@@ -10,7 +10,7 @@ export default function () {
           Meet our Partners
         </h2>
         <p className="text-dark-minor mb-8 md:mb-12 p-16-normal md:p-18-normal font-inter">
-          we are glad to introduce you our relaible friends.
+          we partner with each other to build the Web 3.0.
         </p>
         <img
           className="hidden md:block mx-auto w-1080px "

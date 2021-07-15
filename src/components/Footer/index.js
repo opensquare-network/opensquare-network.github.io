@@ -18,10 +18,10 @@ export default function Footer() {
       <div className="max-w-1400px mx-auto pl-4 py-80px sm:flex sm:pl-9 font-inter">
         <Row className="flex">
           <div className="w-1/2 sm:w-200px">
-            <p className="block h-6 mb-6 text-white font-semibold">Product</p>
-            <FooterItem href="/" className="block h-6 mb-4 text-light-minor">
-              Bounty
-            </FooterItem>
+            <p className="block h-6 mb-6 text-white font-semibold">Products</p>
+            {/*<FooterItem href="/" className="block h-6 mb-4 text-light-minor">*/}
+            {/*  Bounty*/}
+            {/*</FooterItem>*/}
             <FooterItem
               href="https://www.dotreasury.com/"
               className="block h-6 mb-4 text-light-minor"
@@ -32,19 +32,22 @@ export default function Footer() {
               href="https://coinask.io"
               className="block h-6 mb-4 text-light-minor"
             >
-              dotAsk
-            </FooterItem>
-            <FooterItem href="/" className="block h-6 mb-4 text-light-minor">
-              OpenGenerator
+              CoinAsk.io
             </FooterItem>
           </div>
 
           <div className="w-1/2 sm:w-200px">
             <p className="block h-6 mb-6 text-white font-semibold">Resources</p>
-            <FooterItem href="/" className="block h-6 mb-4 text-light-minor">
+            <FooterItem
+              href="https://github.com/opensquare-network/papers"
+              className="block h-6 mb-4 text-light-minor"
+            >
               Lightpaper
             </FooterItem>
-            <FooterItem href="/" className="block h-6 mb-4 text-light-minor">
+            <FooterItem
+              href="https://drive.google.com/drive/folders/1nA6PTJJYfnpvB8wu9cgQaHopMRM4bqQg?usp=sharing"
+              className="block h-6 mb-4 text-light-minor"
+            >
               Media Kits
             </FooterItem>
           </div>
@@ -62,19 +65,19 @@ export default function Footer() {
               <Github width="20" height="20" /> &nbsp;&nbsp;Github
             </FooterItem>
             <FooterItem
-              href="/"
+              href="https://t.me/opensquare"
               className="flex h-6 mb-4 text-light-minor items-center"
             >
               <Telegram width="20" height="20" /> &nbsp;&nbsp;Telegram
             </FooterItem>
             <FooterItem
-              href="/"
+              href="https://twitter.com/OpensquareN"
               className="flex h-6 mb-4 text-light-minor items-center"
             >
               <Twitter width="20" height="20" /> &nbsp;&nbsp;Twitter
             </FooterItem>
             <FooterItem
-              href="/"
+              href="https://app.subsocial.network/@opensquare"
               className="flex h-6 mb-4 text-light-minor items-center"
             >
               <SubSocial width="20" height="20" /> &nbsp;&nbsp;Subsocial
@@ -82,9 +85,9 @@ export default function Footer() {
           </div>
 
           <div className="w-1/2 sm:w-200px">
-            <p className="block h-6 mb-6 text-white font-semibold">Contract</p>
+            <p className="block h-6 mb-6 text-white font-semibold">Contact</p>
             <FooterItem
-              href="mailto:yongfeng@opensquare.network"
+              href="mailto:hi@opensquare.network"
               className="flex text-light-minor"
             >
               <Email width="20" height="20" /> &nbsp;&nbsp;Email

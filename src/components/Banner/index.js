@@ -39,16 +39,16 @@ export default function () {
             with Blockchain
           </h1>
           <p className="p-20-normal w-346px md:w-full mx-auto md:text-left mt-4 md:mt-6 mb-12 md:mb-16 text-dark-minor text-center md:text-left">
-            Collaboration on bounties and your credit score{" "}
+            Collaboration on OpenSquare and your credit{" "}
             <br className="hidden md:inline" /> will be calculated from your
-            daily activities.
+            on-chain activities.
           </p>
           <a
             href="/product"
             className="p-16-medium flex px-6 py-3 bg-grey-900 text-white w-242px m-auto md:ml-0 md:mr-auto whitespace-nowrap"
             style={{ backgroundColor: "#191E27" }}
           >
-            Check Our Product&nbsp;&nbsp;&nbsp;
+            Check Our Products&nbsp;&nbsp;&nbsp;
             <GotoIcon />
           </a>
         </div>
