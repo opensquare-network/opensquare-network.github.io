@@ -4,7 +4,7 @@ import React from "react";
 
 export default function () {
   return (
-    <div className="py-20 h-336px md:h-284px bg-cta">
+    <div className="py-20 bg-cta">
       <h4 className="text-center h4-24-bold md:h3-36-bold md:text-4xl w-310px md:w-full mx-auto font-bold text-white  font-mont">
         A trusted collaboration network
       </h4>

@@ -162,6 +162,7 @@
   .bg-cta {
     background-image: url("../images/imgsCta.jpg");
     background-position: center;
+    background-repeat: no-repeat;
   }
 }
 

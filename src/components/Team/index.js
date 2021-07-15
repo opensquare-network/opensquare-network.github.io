@@ -8,7 +8,6 @@ import Alcazar from "./5-alcazar.png";
 import Yizhou from "./4-yizhou.png";
 import Yaping from "./6-yapin.png";
 import styled from "styled-components";
-import IconGoto from "./IconGoto.svg";
 
 const PaperEntry = styled.a`
   background: linear-gradient(270deg, #04d2c5 2.06%, #6848ff 100%);
@@ -37,10 +36,9 @@ export default function () {
         href="https://github.com/opensquare-network/papers"
       >
         <span className="block m-auto sm:m-0 text-center text-white p-18-medium">
-          Get Started with OpenSquare and <br className="sm:hidden" /> Check Our
-          Litepaper
+          We're looking for passionate people{" "}
+          <br className="inline sm:hidden" /> to join us
         </span>
-        <IconGoto className="m-auto sm:m-0 sm:ml-5" />
       </PaperEntry>
 
       <div className="sm:flex sm:w-1080px sm:mx-auto sm:mt-20 sm:mb-20">

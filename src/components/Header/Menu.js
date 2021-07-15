@@ -28,7 +28,7 @@ export default function Menu({ className = "", liClassName = "" }) {
           target="_blank"
           rel="noreferrer"
         >
-          Blogs
+          Blog
         </a>
       </li>
     </ul>
