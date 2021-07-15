@@ -2,6 +2,9 @@ module.exports = {
   purge: ["./src/**/*.{js,jsx,ts,tsx}"],
   darkMode: false, // or 'media' or 'class'
   theme: {
+    screens: {
+      smsm: "414px",
+    },
     fontFamily: {
       inter: ["inter", "sans-serif"],
       mont: ["montserrat", "sans-serif"],
@@ -46,11 +49,13 @@ module.exports = {
         "284px": "284px",
         "240px": "240px",
         "233px": "233px",
+        "200px": "200px",
         "192px": "192px",
         "160px": "160px",
         "136px": "136px",
         "124px": "124px",
         "72px": "72px",
+        "56px": "56px",
         "50px": "50px",
         "44px": "44px",
         "1px": "1px",
@@ -76,6 +81,7 @@ module.exports = {
         "346px": "346px",
         "310px": "310px",
         "300px": "300px",
+        "286px": "286px",
         "280px": "280px",
         "266px": "266px",
         "242px": "242px",
@@ -83,6 +89,7 @@ module.exports = {
         "200px": "200px",
         "150px": "150px",
         "72px": "72px",
+        "64px": "64px",
       },
       padding: {
         "120px": "120px",

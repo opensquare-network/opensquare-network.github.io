@@ -49,7 +49,7 @@ export default function Product() {
           Collaboration
         </h2>
         <div className=" md:flex md:flex-wrap md:mt-9">
-          <div className="relative bg-white w-346px m-auto pt-6 pr-7 pl-15 pb-6 shadow-lg mb-16 md:mb-0">
+          <div className="relative bg-white w-286px sm:w-346px m-auto pt-6 pr-7 pl-15 pb-6 shadow-lg mb-16 md:mb-0">
             <img
               src={Bounty}
               alt=""
@@ -71,7 +71,7 @@ export default function Product() {
             </p>
           </div>
 
-          <div className="relative bg-white w-346px md:ml-76px m-auto pt-6 pr-7 pl-15 pb-6 shadow-lg">
+          <div className="relative bg-white w-286px sm:w-346px md:ml-76px m-auto pt-6 pr-7 pl-15 pb-6 shadow-lg">
             <img
               src={Vote}
               alt=""
@@ -100,7 +100,7 @@ export default function Product() {
           Explorer
         </h2>
         <div className="md:flex md:flex-wrap md:mt-9">
-          <div className="relative bg-white w-346px h-233px m-auto pt-6 pr-7 pl-15 pb-6 shadow-lg mb-16 md:mb-0">
+          <div className="relative bg-white w-286px sm:w-346px h-233px m-auto pt-6 pr-7 pl-15 pb-6 shadow-lg mb-16 md:mb-0">
             <img
               src={Dotreasury}
               alt=""
@@ -131,7 +131,7 @@ export default function Product() {
             </p>
           </div>
 
-          <div className="relative bg-white w-346px  h-233px md:ml-76px m-auto pt-6 pr-7 pl-15 pb-6 shadow-lg">
+          <div className="relative bg-white w-286px sm:w-346px  h-233px md:ml-76px m-auto pt-6 pr-7 pl-15 pb-6 shadow-lg">
             <img
               src={StateScan}
               alt=""
@@ -168,7 +168,7 @@ export default function Product() {
           Platform
         </h2>
         <div className="md:flex md:flex-wrap md:mt-9">
-          <div className="relative bg-white w-346px h-192px m-auto pt-6 pr-7 pl-15 pb-6 shadow-lg">
+          <div className="relative bg-white w-286px sm:w-346px h-192px m-auto pt-6 pr-7 pl-15 pb-6 shadow-lg mb-16 md:mb-0">
             <img
               src={CoinAsk}
               alt=""
@@ -192,7 +192,7 @@ export default function Product() {
         </div>
 
         <div className="md:flex md:flex-wrap md:mt-9">
-          <div className="relative bg-white w-346px md:ml-76px h-192px m-auto pt-6 pr-7 pl-15 pb-6 shadow-lg">
+          <div className="relative bg-white w-286px sm:w-346px md:ml-76px h-192px m-auto pt-6 pr-7 pl-15 pb-6 shadow-lg  mb-16 md:mb-0">
             <img
               src={Odes}
               alt=""
