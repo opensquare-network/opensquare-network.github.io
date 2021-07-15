@@ -58,7 +58,13 @@ export default function Product() {
             <p className="md:w-full text-left  md:text-left p-20-bold mb-2">
               OpenSquare Bounties
             </p>
-            <p className="text-dark-minor p-16-normal text-left">需要补充</p>
+            <p className="text-dark-minor p-16-normal text-left">
+              {" "}
+              <br />{" "}
+            </p>
+            <p className="text-dark-minor p-16-normal text-left">
+              to be continued
+            </p>
             <p className="mt-3 text-right">
               <span
                 className="inline-block px-3 h-6 bg-grey-300 text-white  p-12-bold"
@@ -76,9 +82,15 @@ export default function Product() {
               className="w-72px p-4 shadow bg-white absolute -top-9 -left-9 "
             />
             <p className="md:w-full text-left  md:text-left p-20-bold mb-2">
-              doTreasury
+              OpenSquare Votes
             </p>
-            <p className="text-dark-minor p-16-normal text-left">需要补充</p>
+            <p className="text-dark-minor p-16-normal text-left">
+              {" "}
+              <br />{" "}
+            </p>
+            <p className="text-dark-minor p-16-normal text-left">
+              to be continued
+            </p>
             <p className="mt-3 text-right">
               <span
                 className="inline-block px-3 h-6 bg-grey-300 text-white  p-12-bold"
@@ -106,7 +118,13 @@ export default function Product() {
               doTreasury
             </p>
             <p className="text-dark-minor p-16-normal text-left">
+              <br />
+            </p>
+            <p className="text-dark-minor p-16-normal text-left">
               An asset explorer for Polkadot
+            </p>
+            <p className="text-dark-minor p-16-normal text-left">
+              <br />
             </p>
             <a
               className="block text-right"
@@ -136,7 +154,13 @@ export default function Product() {
               statescan
             </p>
             <p className="text-dark-minor p-16-normal text-left">
+              <br />
+            </p>
+            <p className="text-dark-minor p-16-normal text-left">
               An asset explorer for Kusama
+            </p>
+            <p className="text-dark-minor p-16-normal text-left">
+              <br />
             </p>
             <a
               className="block text-right"
