@@ -19,7 +19,7 @@ export default function Products() {
           <img
             alt=""
             src={CoinAsk}
-            className="absolute w-56px sm:w-72px p-4 bg-white -top-9 -left-9 shadow-lg"
+            className="absolute w-56px sm:w-72px p-4 bg-white -top-7 sm: -top-9 -left-7 sm:-left-9shadow-lg"
           />
           <p className="p-20-bold mb-2"> Paid Q&A</p>
           <p className="text-dark-minor">
@@ -39,7 +39,7 @@ export default function Products() {
           <img
             alt=""
             src={Bounty}
-            className="absolute w-56px sm:w-72px p-4 bg-white  -top-9 -left-9 shadow-lg"
+            className="absolute w-56px sm:w-72px p-4 bg-white  -top-7 sm: -top-9 -left-7 sm:-left-9shadow-lg"
           />
           <p className="p-20-bold mb-2">Bounties</p>
           <p className="text-dark-minor">
@@ -61,7 +61,7 @@ export default function Products() {
           <img
             alt=""
             src={Employ}
-            className="absolute w-56px sm:w-72px p-4 bg-white  -top-9 -left-9 shadow-lg"
+            className="absolute w-56px sm:w-72px p-4 bg-white  -top-7 sm: -top-9 -left-7 sm:-left-9shadow-lg"
           />
           <p className="p-20-bold mb-2">Short-term Employment</p>
           <p className="text-dark-minor">
@@ -79,7 +79,7 @@ export default function Products() {
           <img
             alt=""
             src={Collaboration}
-            className="absolutew-56px sm:w-72px p-4 bg-white  -top-9 -left-9 shadow-lg"
+            className="absolutew-56px sm:w-72px p-4 bg-white  -top-7 sm: -top-9 -left-7 sm:-left-9shadow-lg"
           />
           <p className="p-20-bold mb-2">Customized Collaboration</p>
           <p className="text-dark-minor">
