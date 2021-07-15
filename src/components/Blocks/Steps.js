@@ -23,7 +23,7 @@ export default function Steps() {
           <h3 className="text-xl font-bold mb-4">Data Checking</h3>
           <p className="text-base font-normal text-dark-minor">
             Funder check candidates' profile, historic collaborations and
-            credits to find the best one.
+            credits to pick the best one.
           </p>
         </div>
       </div>

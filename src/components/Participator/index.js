@@ -10,9 +10,9 @@ export default function () {
       </h4>
       <p className="p-16-normal text-center text-light-minor w-350px md:w-476px mx-auto mt-4 font-inter">
         Our vision is to build a decentralized, trusted collaboration network.
-        Collaboration data will be stored on blockchain, while credit will be
-        build on this. This will empower the credible profiles and reduce the
-        cost for collaborations.
+        Collaboration data will be stored on blockchain, and personal credit
+        will be built on it. This will empower the credible profiles and reduce
+        the cost for collaborations.
       </p>
     </div>
   );
