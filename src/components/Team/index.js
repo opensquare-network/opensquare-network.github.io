@@ -36,7 +36,7 @@ export default function () {
         sm:justify-center
         sm:items-center
        "
-        href="/papers"
+        href="https://github.com/opensquare-network/papers"
       >
         <span className="block m-auto sm:m-0 text-center text-white p-18-medium">
           Get Started with OpenSquare and <br className="sm:hidden" /> Check Our
