@@ -14,7 +14,7 @@ export default function Menu({ className = "", liClassName = "" }) {
   return (
     <ul className={className}>
       <li className={liClassName}>
-        <a href="/aboutus">Lightpaper</a>
+        <a href="https://github.com/opensquare-network/papers">Lightpaper</a>
       </li>
       <li className={liClassName}>
         <a href="/product">Product</a>
