@@ -11,7 +11,7 @@ export default function Products() {
         <div
           className="
           relative pt-6 pl-15 pr-6 mb-68px  sm:ml-0 mr-8
-          sm:mr-76px w-286px sm:w-346px sm:w-484px h-200px sm:h-160px
+          sm:mr-76px w-286px smsm:w-346px sm:w-484px h-200px sm:h-160px
           sm:h-136px shadow-lg sm:even:mt-78px
           bg-white text-dark-major
           "
@@ -31,7 +31,7 @@ export default function Products() {
         <div
           className="
           relative pt-6 pl-15 pr-6 sm:ml-0 mr-8 mb-68px md:mb-0
-          sm:mr-0 w-286px sm:w-346px sm:w-484px h-200px sm:h-160px
+          sm:mr-0 w-286px smsm:w-346px sm:w-484px h-200px sm:h-160px
           sm:h-136px shadow-lg sm:even:mt-78px
           bg-white
           "
@@ -53,7 +53,7 @@ export default function Products() {
         <div
           className="
           relative pt-6 pl-15 pr-6 mb-68px  sm:ml-0 mr-8
-          sm:mr-76px w-286px sm:w-346px sm:w-484px h-200px sm:h-160px
+          sm:mr-76px w-286px smsm:w-346px sm:w-484px h-200px sm:h-160px
           sm:h-136px shadow-lg sm:even:mt-78px
           bg-white
           "
@@ -71,7 +71,7 @@ export default function Products() {
         <div
           className="
           relative pt-6 pl-15 pr-6  sm:ml-0 mr-8
-          sm:mr-0 w-286px sm:w-346px sm:w-484px h-200px sm:h-160px
+          sm:mr-0 w-286px smsm:w-346px sm:w-484px h-200px sm:h-160px
           sm:h-136px shadow-lg sm:even:mt-78px
           bg-white
           "
