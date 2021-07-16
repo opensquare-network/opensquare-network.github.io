@@ -19,16 +19,18 @@ export default function Footer() {
         <Row className="flex">
           <div className="w-1/2 sm:w-200px">
             <p className="block h-6 mb-6 text-white font-semibold">Products</p>
-            {/*<FooterItem href="/" className="block h-6 mb-4 text-light-minor">*/}
+            {/*<FooterItem target="_blank" href="/" className="block h-6 mb-4 text-light-minor">*/}
             {/*  Bounty*/}
             {/*</FooterItem>*/}
             <FooterItem
+              target="_blank"
               href="https://www.dotreasury.com/"
               className="block h-6 mb-4 text-light-minor"
             >
               doTreasury
             </FooterItem>
             <FooterItem
+              target="_blank"
               href="https://coinask.io"
               className="block h-6 mb-4 text-light-minor"
             >
@@ -39,12 +41,14 @@ export default function Footer() {
           <div className="w-1/2 sm:w-200px">
             <p className="block h-6 mb-6 text-white font-semibold">Resources</p>
             <FooterItem
+              target="_blank"
               href="https://github.com/opensquare-network/papers"
               className="block h-6 mb-4 text-light-minor"
             >
               Lightpaper
             </FooterItem>
             <FooterItem
+              target="_blank"
               href="https://drive.google.com/drive/folders/1nA6PTJJYfnpvB8wu9cgQaHopMRM4bqQg?usp=sharing"
               className="block h-6 mb-4 text-light-minor"
             >
@@ -59,24 +63,28 @@ export default function Footer() {
               Social Links
             </p>
             <FooterItem
+              target="_blank"
               href="https://github.com/opensquare-network/"
               className="flex h-6 mb-4 text-light-minor items-center"
             >
               <Github width="20" height="20" /> &nbsp;&nbsp;Github
             </FooterItem>
             <FooterItem
+              target="_blank"
               href="https://t.me/opensquare"
               className="flex h-6 mb-4 text-light-minor items-center"
             >
               <Telegram width="20" height="20" /> &nbsp;&nbsp;Telegram
             </FooterItem>
             <FooterItem
+              target="_blank"
               href="https://twitter.com/OpensquareN"
               className="flex h-6 mb-4 text-light-minor items-center"
             >
               <Twitter width="20" height="20" /> &nbsp;&nbsp;Twitter
             </FooterItem>
             <FooterItem
+              target="_blank"
               href="https://app.subsocial.network/@opensquare"
               className="flex h-6 mb-4 text-light-minor items-center"
             >
@@ -87,6 +95,7 @@ export default function Footer() {
           <div className="w-1/2 sm:w-200px">
             <p className="block h-6 mb-6 text-white font-semibold">Contact</p>
             <FooterItem
+              target="_blank"
               href="mailto:hi@opensquare.network"
               className="flex text-light-minor"
             >
