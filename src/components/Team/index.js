@@ -9,7 +9,7 @@ import Yizhou from "./4-yizhou.png";
 import Yaping from "./6-yapin.png";
 import styled from "styled-components";
 
-const PaperEntry = styled.a`
+const PaperEntry = styled.p`
   background: linear-gradient(270deg, #04d2c5 2.06%, #6848ff 100%);
 `;
 
@@ -33,7 +33,7 @@ export default function () {
         sm:justify-center
         sm:items-center
        "
-        href="https://github.com/opensquare-network/papers"
+        // href="https://github.com/opensquare-network/papers"
       >
         <span className="block m-auto sm:m-0 text-center text-white p-18-medium">
           We're looking for passionate people{" "}
