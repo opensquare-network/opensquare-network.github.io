@@ -23,7 +23,11 @@ export default function Menu({ className = "", liClassName = "" }) {
         <a href="/team">Team</a>
       </li>
       <li className={liClassName}>
-        <a href="https://github.com/opensquare-network/papers" target="_blank">
+        <a
+          href="https://github.com/opensquare-network/papers"
+          target="_blank"
+          rel="noreferrer"
+        >
           Lightpaper
         </a>
       </li>

@@ -24,6 +24,7 @@ export default function Footer() {
             {/*</FooterItem>*/}
             <FooterItem
               target="_blank"
+              rel="noreferrer"
               href="https://www.dotreasury.com/"
               className="block h-6 mb-4 text-light-minor"
             >
@@ -31,6 +32,7 @@ export default function Footer() {
             </FooterItem>
             <FooterItem
               target="_blank"
+              rel="noreferrer"
               href="https://coinask.io"
               className="block h-6 mb-4 text-light-minor"
             >
@@ -42,6 +44,7 @@ export default function Footer() {
             <p className="block h-6 mb-6 text-white font-semibold">Resources</p>
             <FooterItem
               target="_blank"
+              rel="noreferrer"
               href="https://github.com/opensquare-network/papers"
               className="block h-6 mb-4 text-light-minor"
             >
@@ -49,6 +52,7 @@ export default function Footer() {
             </FooterItem>
             <FooterItem
               target="_blank"
+              rel="noreferrer"
               href="https://drive.google.com/drive/folders/1nA6PTJJYfnpvB8wu9cgQaHopMRM4bqQg?usp=sharing"
               className="block h-6 mb-4 text-light-minor"
             >
@@ -64,6 +68,7 @@ export default function Footer() {
             </p>
             <FooterItem
               target="_blank"
+              rel="noreferrer"
               href="https://github.com/opensquare-network/"
               className="flex h-6 mb-4 text-light-minor items-center"
             >
@@ -71,6 +76,7 @@ export default function Footer() {
             </FooterItem>
             <FooterItem
               target="_blank"
+              rel="noreferrer"
               href="https://t.me/opensquare"
               className="flex h-6 mb-4 text-light-minor items-center"
             >
@@ -78,6 +84,7 @@ export default function Footer() {
             </FooterItem>
             <FooterItem
               target="_blank"
+              rel="noreferrer"
               href="https://twitter.com/OpensquareN"
               className="flex h-6 mb-4 text-light-minor items-center"
             >
@@ -85,6 +92,7 @@ export default function Footer() {
             </FooterItem>
             <FooterItem
               target="_blank"
+              rel="noreferrer"
               href="https://app.subsocial.network/@opensquare"
               className="flex h-6 mb-4 text-light-minor items-center"
             >
@@ -96,6 +104,7 @@ export default function Footer() {
             <p className="block h-6 mb-6 text-white font-semibold">Contact</p>
             <FooterItem
               target="_blank"
+              rel="noreferrer"
               href="mailto:hi@opensquare.network"
               className="flex text-light-minor"
             >

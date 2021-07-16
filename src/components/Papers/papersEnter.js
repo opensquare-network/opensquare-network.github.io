@@ -12,6 +12,7 @@ export default function PapersEnter() {
       className="block md:flex md:justify-center md:items-center p-4  "
       href="https://github.com/opensquare-network/papers"
       target="_blank"
+      rel="noreferrer"
     >
       <h3 className="text-white p-18-medium w-300px md:w-auto md:m-0 text-center m-auto font-inter">
         Get Started with OpenSquare and Check Our Litepaper
