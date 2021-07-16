@@ -1,6 +1,8 @@
 import styled from "styled-components";
 import { BaseInner } from "../baseComponents";
 
+export const Row = styled.div``;
+
 export const StyledFooter = styled.footer`
   display: flex;
   justify-content: space-around;

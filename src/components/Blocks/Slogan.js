@@ -1,44 +1,23 @@
 import React from "react";
-import styled from "styled-components";
 
-const InnerSection = styled.section`
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-
-  h3,
-  p {
-    margin: 0;
-  }
-
-  @media screen and (min-width: 1080px) {
-    width: 1080px;
-  }
-`;
-
-const Title = styled.h3`
-  text-align: center;
-  min-width: 204px;
-  font-weight: 600;
-  font-size: 1.75rem;
-  color: #1d253c;
-  letter-spacing: 0.2px;
-  line-height: 1.5;
-`;
-
-const Detail = styled.p`
-  font-size: 1rem;
-  color: rgba(29, 37, 60, 0.64);
-  letter-spacing: 0.12px;
-  text-align: center;
-  line-height: 1.5;
-`;
-
-export default function () {
+export default function Slogan() {
   return (
-    <InnerSection>
-      <Title>Transparent & Credible</Title>
-      <Detail>Provided by on-chain collaboration and credit calculation</Detail>
-    </InnerSection>
+    <div className="w-full mb-8 md:mb-0">
+      <div className="block w-full md:w-1080px mx-auto">
+        <h3
+          className="
+          h4-24-bold md:h3-36-bold
+          mb-1 md:mb-4 text-center md:text-left
+          text-dark-major
+          "
+        >
+          Credit generation on Blockchain
+        </h3>
+        <p className="p-16-normal md:p-18-normal text-center text-dark-minor md:text-left w-full md:w-480px">
+          Collaboration behaviors stored on-chain and credit built by the
+          objective and subjective elements.
+        </p>
+      </div>
+    </div>
   );
 }

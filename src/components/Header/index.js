@@ -1,44 +1,41 @@
-/* eslint-disable */
-
 import Logo from "./logo.svg";
-import { InnerSection, StyledHeader } from "./styledComponents";
 import React, { useState } from "react";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faChevronDown } from "@fortawesome/free-solid-svg-icons";
 import Menu from "./Menu";
+import MenuIcon from "./menuIcon";
+import CloseIcon from "./closeIcon";
 
 export default function Header() {
   const [openMenu, setOpenMenu] = useState(false);
-
+  const open = () => {
+    setOpenMenu(true);
+  };
+  const close = () => {
+    setOpenMenu(false);
+  };
   return (
-    <StyledHeader>
-      <InnerSection>
-        <a href="/">
-          <Logo height={60} width={230} />
+    <div className="">
+      <div
+        className={`h-20 flex items-center justify-between pr-6 w-full max-w-1400px mx-auto
+          ${openMenu ? "shadow-md" : ""}
+           md:shadow-none
+          `}
+      >
+        <a className="ml-52px" href="/">
+          <Logo />
         </a>
-        <ul>
-          <li>
-            <a href="/">Home</a>
-          </li>
-          <li>
-            <a href="/team">Team</a>
-          </li>
-          <li className="tools" onClick={() => setOpenMenu(true)}>
-            Tools
-            <FontAwesomeIcon icon={faChevronDown} size="1x" />
-            {openMenu && <Menu close={() => setOpenMenu(false)} />}
-          </li>
-          <li>
-            <a
-              href="https://app.subsocial.network/1327"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Blogs
-            </a>
-          </li>
-        </ul>
-      </InnerSection>
-    </StyledHeader>
+
+        {/*menu for bigger devices*/}
+        <Menu
+          className="hidden font-inter md:flex font-semibold text-dark-major "
+          liClassName="mr-10"
+        />
+        {openMenu ? <CloseIcon onClick={close} /> : <MenuIcon onClick={open} />}
+      </div>
+
+      {/*menu for mobile*/}
+      {openMenu && (
+        <Menu className="md:hidden font-inter pt-4 text-center text-base font-semibold leading-54px" />
+      )}
+    </div>
   );
 }

@@ -1,12 +1,12 @@
 import React from "react";
 import styled from "styled-components";
-import { BaseInner } from "../baseComponents";
+// import { BaseInner } from "../baseComponents";
+import GotoIcon from "./goto.svg";
 
 const Wrapper = styled.section`
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  min-height: 500px;
 `;
 
 const StyledSection = styled.section`
@@ -15,41 +15,43 @@ const StyledSection = styled.section`
   align-items: center;
 `;
 
-export const InnerSection = styled(BaseInner)`
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: center;
-  h1 {
-    font-size: 46px;
-    font-weight: bold;
-    margin: 0;
-    width: 75%;
-    text-align: center;
-    color: #1d253c;
-    line-height: 1.5;
-  }
-  h3 {
-    margin-top: 10px;
-    font-weight: normal;
-    font-size: 16px;
-    width: 50%;
-    text-align: center;
-    color: rgba(29, 37, 60, 0.64);
-    line-height: 1.5;
-  }
+const ColorText = styled.span`
+  background: linear-gradient(270deg, #04d2c5 2.06%, #6848ff 100%);
+  -webkit-background-clip: text;
+  color: transparent;
 `;
 
 export default function () {
   return (
     <Wrapper>
-      <StyledSection>
-        <InnerSection>
-          <h1>Empower Credit Building with Blockchain </h1>
-          <h3>
-            Do collaboration on OpenSquare platform and your credit score will
-            be calculated from your daily activities
-          </h3>
-        </InnerSection>
+      <StyledSection className="h-476px sm:h-576px">
+        <div className="w-1080px">
+          <div className="block sm:flex">
+            <h1 className="h3-36-bold sm:h1-60-bold text-center text-dark-major">
+              {/*pb-5 sm:pb-6 text-4xl leading-tight text-center sm:text-left text-mark-major font-bold*/}
+              Empower &nbsp;
+            </h1>
+            <h1 className="h3-36-bold sm:h1-60-bold text-center  mt-3 sm:mt-0  whitespace-nowrap">
+              <ColorText>Credit Building</ColorText>
+            </h1>
+          </div>
+          <h1 className="h3-36-bold sm:h1-60-bold text-center sm:text-left mt-3 sm:mt-4 text-dark-major">
+            with Blockchain
+          </h1>
+          <p className="p-20-normal w-346px sm:w-full mx-auto sm:text-left mt-4 sm:mt-6 mb-12 sm:mb-16 text-dark-minor text-center sm:text-left">
+            Collaboration on OpenSquare and your credit{" "}
+            <br className="hidden sm:inline" /> will be calculated from your
+            on-chain activities.
+          </p>
+          <a
+            href="/product"
+            className="p-16-medium flex px-6 py-3 bg-grey-900 text-white w-242px m-auto sm:ml-0 sm:mr-auto whitespace-nowrap"
+            style={{ backgroundColor: "#191E27" }}
+          >
+            Check Our Products&nbsp;&nbsp;&nbsp;
+            <GotoIcon />
+          </a>
+        </div>
       </StyledSection>
     </Wrapper>
   );

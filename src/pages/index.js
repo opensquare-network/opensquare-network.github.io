@@ -3,23 +3,19 @@ import SEO from "../components/seo";
 import Layout from "../components/Layout";
 import Blocks from "../components/Blocks";
 import Participator from "../components/Participator";
-import CodeMoney from "../components/CodeMoney";
-import Scores from "../components/Scores";
-import Papers from "../components/Papers";
-import CollaborationNetwork from "../components/CollaborationNetwork";
-import Friends from "../components/Friends";
+import Partners from "../components/Partners";
+import PapersEnter from "../components/Papers/papersEnter";
+import HeaderAndBanner from "../components/HeaderAndBanner";
 
 export default function Home() {
   return (
     <Layout>
       <SEO title={"OpenSquare Network"} />
+      <HeaderAndBanner />
       <Blocks />
       <Participator />
-      <CodeMoney />
-      <Scores />
-      <CollaborationNetwork />
-      <Friends />
-      <Papers />
+      <Partners />
+      <PapersEnter />
     </Layout>
   );
 }

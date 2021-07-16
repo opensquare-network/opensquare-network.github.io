@@ -1,25 +1,21 @@
 import React from "react";
-import styled from "styled-components";
+import ProductSlogan from "./ProductSlogan";
 import Slogan from "./Slogan";
+import Products from "./Products";
 import Steps from "./Steps";
 
-const StyledSection = styled.section`
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  align-items: center;
-  margin-top: 3rem;
-
-  @media screen and (max-width: 768px) {
-    padding: 0 20px;
-  }
-`;
-
-export default function () {
+export default function Blocks() {
   return (
-    <StyledSection>
-      <Slogan />
-      <Steps />
-    </StyledSection>
+    <div className="md:w-1080px mx-auto mt-12 md:mt-20 px-4 py-0 md:px-0 font-inter  ">
+      <div className="mb-20">
+        <ProductSlogan />
+        <Products />
+      </div>
+
+      <div className="mb-120px md:pt-80px">
+        <Slogan />
+        <Steps />
+      </div>
+    </div>
   );
 }

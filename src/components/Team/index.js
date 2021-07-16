@@ -1,237 +1,248 @@
-import styled from "styled-components";
 import React from "react";
-import YongfengImg from "./yongfeng.png";
+import YongfengImg from "./1-yongfeng.png";
 import Github from "../../images/github.svg";
 import Email from "../../images/email.svg";
-import ChaoJun from "./huangchaojun.png";
-import WenTao from "./chenwentao.png";
-import Alcazar from "./alcazar.png";
-import Yizhou from "./xinyizhou.jpeg";
-import Yaping from "./yaping.png";
+import ChaoJun from "./2-chaojun.png";
+import WenTao from "./3-wentao.png";
+import Alcazar from "./5-alcazar.png";
+import Yizhou from "./4-yizhou.png";
+import Yaping from "./6-yapin.png";
+import styled from "styled-components";
 
-const StyledSection = styled.section`
-  background: #ffffff;
-  display: flex;
-  justify-content: space-around;
-  min-height: calc(100vh - 90px - 72px);
-
-  @media screen and (max-width: 1080px) {
-    padding: 0 20px;
-    justify-content: space-around;
-  }
-`;
-
-export const InnerSection = styled.main`
-  margin-bottom: 50px;
-  @media screen and (min-width: 1080px) {
-    width: 1080px;
-  }
-
-  @media screen and (max-width: 1080px) {
-    width: 100%;
-  }
-
-  h2:first-of-type {
-    margin-top: 50px;
-  }
-
-  & > h2:not(:first-of-type) {
-    margin-top: 50px;
-  }
-`;
-
-const Members = styled.section`
-  display: flex;
-  flex-wrap: wrap;
-  margin-top: 24px;
-`;
-
-const Member = styled.div`
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  padding: 16px 20px 0;
-  box-sizing: border-box;
-
-  img {
-    max-width: 7rem;
-    box-sizing: border-box;
-    border-radius: 50%;
-  }
-
-  h4 {
-    margin: 10px 0;
-  }
-
-  p {
-    margin-top: 10px;
-    text-align: justify;
-    line-height: 1.5;
-
-    a {
-      color: #000;
-    }
-  }
-
-  @media (min-width: 768px) {
-    flex: 0 0 33.333333%;
-    max-width: 33.333333%;
-  }
-`;
-
-const Contacts = styled.div`
-  min-height: 20px;
-  a:not(:first-of-type) {
-    margin-left: 12px;
-  }
+const PaperEntry = styled.p`
+  background: linear-gradient(270deg, #04d2c5 2.06%, #6848ff 100%);
 `;
 
 export default function () {
   return (
-    <StyledSection>
-      <InnerSection>
-        <h2>Our Team</h2>
-        <p>We are a reliable and experienced team.</p>
+    <div className="font-inter">
+      <div className="sm:w-1080px m-auto">
+        <h1 className="h3-36-bold md:h2-48-bold text-center sm:text-left mb-4 pt-80px">
+          Meet the team
+        </h1>
+        <p className="p-18-normal md:p-20-normal text-dark-minor text-center sm:text-left w-346px sm:w-full m-auto pb-80px">
+          Decentralized, reliable and experienced.
+        </p>
+      </div>
+      <PaperEntry
+        className="block
+        pt-4
+        pb-4
+        bg-gradient-to-r from-orange-400 via-red-500 to-pink-500
+        sm:flex
+        sm:justify-center
+        sm:items-center
+       "
+        // href="https://github.com/opensquare-network/papers"
+      >
+        <span className="block m-auto sm:m-0 text-center text-white p-18-medium">
+          We're looking for passionate people{" "}
+          <br className="inline sm:hidden" /> to join us
+        </span>
+      </PaperEntry>
 
-        <Members>
-          <Member>
-            <img src={YongfengImg} alt="yongfeng" />
-            <h4>Yongfeng Li</h4>
-            <Contacts>
-              <a
-                href="https://github.com/wliyongfeng"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <Github width="16" height="16" />
-              </a>
-              <a
-                href="mailto:yongfeng@opensquare.network"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <Email width="16" height="16" />
-              </a>
-            </Contacts>
-            <p>
-              Yongfeng, founder, proficient in software development with 10+
-              years experience, focusing on blockchain development in recent 4
-              years. Located in Hangzhou, China.
+      <div className="sm:flex sm:w-1080px sm:mx-auto sm:mt-20 sm:mb-20">
+        <h2 className="text-2xl font-bold text-center pt-80px sm:pt-0 pb-10 whitespace-nowrap">
+          Core Team
+        </h2>
+        <div className="sm:ml-146px sm:flex sm:flex-wrap">
+          <div className="px-4 md:px-0 mr-10 mb-8 md:mb-80px  sm:h-388px sm:flex content-start w-full sm:w-240px flex-wrap">
+            <img
+              className="mx-auto mb-6 sm:ml-0"
+              width={100}
+              src={YongfengImg}
+              alt=""
+            />
+            <p className="sm:w-full text-center sm:text-left text-lg font-semibold">
+              Yongfeng Li
             </p>
-          </Member>
-          <Member>
-            <img src={ChaoJun} alt="junchao" />
-            <h4>Chaojun Huang</h4>
-            <Contacts>
-              <a
-                href="https://github.com/hyifeng"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <Github width="16" height="16" />
-              </a>
-              <a
-                href="mailto:chaojun@opensquare.network"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <Email width="16" height="16" />
-              </a>
-            </Contacts>
-            <p>
-              Chaojun is a developer with 10+ years experience on complex
-              backend and frontend application developing service. His rich
-              experience vary from both enterprise and internet applications.
+            <p className="sm:w-full text-center sm:text-left text-base font-semibold text-turquoise-500 mb-3 ">
+              Founder
             </p>
-          </Member>
-          <Member>
-            <img src={WenTao} alt="wentao" />
-            <h4>Wentao Chen</h4>
-            <Contacts>
-              <a
-                href="https://github.com/qiyisi"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <Github width="16" height="16" />
-              </a>
-              <a
-                href="mailto:wentao@opensquare.network"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <Email width="16" height="16" />
-              </a>
-            </Contacts>
-            <p>
-              Wentao has years of full stack development experience. His
-              perfectionism toward work and life drives him on building perfect
-              website for everyone.
+            <p className="sm:w-full flex justify-center sm:justify-start mb-4">
+              <Github className="mr-4" width={24} height={24} />
+              <Email width={24} height={24} />
             </p>
-          </Member>
-          <Member>
-            <img src={Alcazar} alt="wentao" />
-            <h4>Alcazar</h4>
-            <Contacts>
-              <a
-                href="mailto:alcazarrr@outlook.com"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <Email width="16" height="16" />
-              </a>
-            </Contacts>
-            <p>
-              5 years of relevant digital experience of UI/UX design in Web and
-              Mobile Apps. Bearing a passion for system designing. Figma fan.
+            <p className="text-dark-minor font-normal w-360px sm:w-full text-center sm:text-left m-auto">
+              10+ years software development experience, focusing on blockchain
+              development recent 4 years. Located in Hangzhou China.
             </p>
-          </Member>
-          <Member>
-            <img src={Yizhou} alt="yizhou" />
-            <h4>Yizhou Xin</h4>
-            <Contacts>
-              <a
-                href="https://github.com/YoshiyukiSakura"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <Github width="16" height="16" />
-              </a>
-              <a
-                href="mailto:yizhou@opensquare.network"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <Email width="16" height="16" />
-              </a>
-            </Contacts>
-            <p>
+          </div>
+
+          <div className="px-4 mr-10 mb-8 md:mb-80px  sm:h-388px sm:flex content-start w-full sm:w-240px flex-wrap">
+            <img
+              className="mx-auto mb-6 sm:ml-0"
+              width={100}
+              src={ChaoJun}
+              alt=""
+            />
+            <p className="sm:w-full text-center sm:text-left text-lg font-semibold">
+              Chaojun Huang
+            </p>
+            <p className="sm:w-full text-center sm:text-left text-base font-semibold text-turquoise-500 mb-3 ">
+              Developer
+            </p>
+            <p className="sm:w-full flex justify-center sm:justify-start mb-4">
+              <Github className="mr-4" width={24} height={24} />
+              <Email width={24} height={24} />
+            </p>
+            <p className="text-dark-minor font-normal w-360px sm:w-full text-center sm:text-left m-auto">
+              10+ years experience on developing complex backend service and
+              rich frontend application. Has rich experience on either
+              enterprise or internet applications.
+            </p>
+          </div>
+
+          <div className="px-4 mr-0 mb-8 md:mb-80px  sm:h-388px sm:flex content-start w-full sm:w-240px flex-wrap">
+            <img
+              className="mx-auto mb-6 sm:ml-0"
+              width={100}
+              src={WenTao}
+              alt=""
+            />
+            <p className="sm:w-full text-center sm:text-left text-lg font-semibold">
+              Wentao Chen
+            </p>
+            <p className="sm:w-full text-center sm:text-left text-base font-semibold text-turquoise-500 mb-3 ">
+              Developer
+            </p>
+            <p className="sm:w-full flex justify-center sm:justify-start mb-4">
+              <Github className="mr-4" width={24} height={24} />
+              <Email width={24} height={24} />
+            </p>
+            <p className="text-dark-minor font-normal w-360px sm:w-full text-center sm:text-left m-auto">
+              Years of full stack development experience, focusing on building
+              perfect website for everyone.
+            </p>
+          </div>
+
+          <div className="px-4 mr-10 mb-8 md:mb-80px  sm:h-388px sm:flex content-start w-full sm:w-240px flex-wrap">
+            <img
+              className="mx-auto mb-6 sm:ml-0"
+              width={100}
+              src={Yizhou}
+              alt=""
+            />
+            <p className="sm:w-full text-center sm:text-left text-lg font-semibold">
+              Yizhou Xin
+            </p>
+            <p className="sm:w-full text-center sm:text-left text-base font-semibold text-turquoise-500 mb-3 ">
+              Developer
+            </p>
+            <p className="sm:w-full flex justify-center sm:justify-start mb-4">
+              <Github className="mr-4" width={24} height={24} />
+              <Email width={24} height={24} />
+            </p>
+            <p className="text-dark-minor font-normal w-360px sm:w-full text-center sm:text-left m-auto">
               Yizhou, creative coder, blockchain industry enthusiast.
               Engineering mindset from solid academic background and aims for a
               persistent self-improvement. Cat addict.
             </p>
-          </Member>
-          <Member>
-            <img src={Yaping} alt="yaping" />
-            <h4>Yaping Wu</h4>
-            <Contacts>
-              <a
-                href="mailto:yizhou@opensquare.network"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <Email width="16" height="16" />
-              </a>
-            </Contacts>
-            <p>
+          </div>
+
+          <div className="px-4 mr-10 mb-8 md:mb-80px  sm:h-388px sm:flex content-start w-full sm:w-240px flex-wrap">
+            <img
+              className="mx-auto mb-6 sm:ml-0"
+              width={100}
+              src={Alcazar}
+              alt=""
+            />
+            <p className="sm:w-full text-center sm:text-left text-lg font-semibold">
+              Alcazar
+            </p>
+            <p className="sm:w-full text-center sm:text-left text-base font-semibold text-turquoise-500 mb-3 ">
+              Product Designer
+            </p>
+            <p className="sm:w-full flex justify-center sm:justify-start mb-4">
+              <Github className="mr-4" width={24} height={24} />
+              <Email width={24} height={24} />
+            </p>
+            <p className="text-dark-minor font-normal w-360px sm:w-full text-center sm:text-left m-auto">
+              5 years of experience in Web and Mobile Apps UI/UX design, have a
+              passion for the product design and design system. Figma fan.
+            </p>
+          </div>
+
+          <div className="px-4 mr-0 mb-8 md:mb-80px  sm:h-388px sm:flex content-start w-full sm:w-240px flex-wrap">
+            <img
+              className="mx-auto mb-6 sm:ml-0"
+              width={100}
+              src={Yaping}
+              alt=""
+            />
+            <p className="sm:w-full text-center sm:text-left text-lg font-semibold">
+              Yaping
+            </p>
+            <p className="sm:w-full text-center sm:text-left text-base font-semibold text-turquoise-500 mb-3 ">
+              BD & Operation
+            </p>
+            <p className="sm:w-full flex justify-center sm:justify-start mb-4">
+              <Github className="mr-4" width={24} height={24} />
+              <Email width={24} height={24} />
+            </p>
+            <p className="text-dark-minor font-normal w-360px sm:w-full text-center sm:text-left m-auto">
               Yaping, passionate about Blockchain. Intergrating her media
               experience with commercial mindset in this trendy industry to
               collaborate the decentralized future. Reading and outdoor. Logic,
               abstract and intuitive.
             </p>
-          </Member>
-        </Members>
-      </InnerSection>
-    </StyledSection>
+          </div>
+        </div>
+      </div>
+
+      {/*<div className="block sm:flex sm:mt-40 sm:w-1080px sm:mx-auto sm:items-start">*/}
+      {/*  <h2*/}
+      {/*    className="h4-24-bold*/}
+      {/*   text-dark-major*/}
+      {/*  text-center  mt-28  mb-8*/}
+      {/*  sm:mt-0 sm:text-left sm:mr-133px*/}
+      {/*  "*/}
+      {/*  >*/}
+      {/*    Carrers*/}
+      {/*  </h2>*/}
+
+      {/*  <div>*/}
+      {/*    <p className="px-4 p-16-normal text-dark-minor mb-4 sm:w-800px">*/}
+      {/*      We aim to calm this mess by providing a simple user interface that*/}
+      {/*      reduces tools to their core functionality. OpenSquare is designed to*/}
+      {/*      keep their users focused. It optimizes for the shortest path from*/}
+      {/*      intent to action.*/}
+      {/*    </p>*/}
+      {/*    <p className="px-4  p-16-normal text-dark-minor mb-4">*/}
+      {/*      If you resonate with our mission but there isn’t an open position*/}
+      {/*      for you, you can also send us an email at{" "}*/}
+      {/*      <a*/}
+      {/*        className="text-turquoise-500"*/}
+      {/*        href="mailto:yongfeng@opensquare.com"*/}
+      {/*      >*/}
+      {/*        yongfeng@opensquare.com*/}
+      {/*      </a>{" "}*/}
+      {/*      with any information you’d think is relevant*/}
+      {/*    </p>*/}
+
+      {/*    <h3 className="mx-4 p-20-bold mt-10 pt-10 border-t border-grey-200 text-2xl text-dark-major text-left font-bold mb-8">*/}
+      {/*      Operations Manager*/}
+      {/*    </h3>*/}
+
+      {/*    <p className="mx-4 p-16-normal text-dark-minor mb-4">*/}
+      {/*      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Imperdiet*/}
+      {/*      diam placerat fusce nullam malesuada ipsum elit. At magna est*/}
+      {/*      mauris, egestas et. Consectetur mi lacus semper lectus. Quis in ut*/}
+      {/*      sed est eleifend velit magna adipiscing iaculis.*/}
+      {/*    </p>*/}
+
+      {/*    <h3 className="mx-4 p-20-bold mt-10 pt-10 border-t border-grey-200 text-2xl text-dark-major text-left font-bold mb-8">*/}
+      {/*      Blockchain Developer*/}
+      {/*    </h3>*/}
+
+      {/*    <p className="px-4 p-16-normal mb-20 text-dark-minor mb-4">*/}
+      {/*      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Enim,*/}
+      {/*      pharetra suspendisse duis dapibus nunc in. Non felis erat feugiat mi*/}
+      {/*      sed. Nullam eu aliquet magna turpis eu montes, et congue. Nunc enim,*/}
+      {/*      in risus eget euismod turpis.*/}
+      {/*    </p>*/}
+      {/*  </div>*/}
+      {/*</div>*/}
+    </div>
   );
 }

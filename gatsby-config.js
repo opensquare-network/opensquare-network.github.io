@@ -33,22 +33,8 @@ module.exports = {
         icons: [],
       },
     },
-    {
-      resolve: `gatsby-plugin-google-fonts-v2`,
-      options: {
-        fonts: [
-          {
-            family: "Montserrat",
-            variable: true,
-            weights: ["200..900"],
-          },
-        ],
-      },
-    },
     `gatsby-plugin-styled-components`,
     `gatsby-plugin-react-svg`,
-    // this (optional) plugin enables Progressive Web App + Offline functionality
-    // To learn more, visit: https://gatsby.dev/offline
-    // `gatsby-plugin-offline`,
+    `gatsby-plugin-postcss`,
   ],
 };

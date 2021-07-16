@@ -1,0 +1,174 @@
+@import url("../fonts/montserrat.css");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    -webkit-font-smoothing: antialiased;
+  }
+}
+
+@layer utilities {
+  @variants responsive {
+    .h1-60-bold {
+      @apply font-mont;
+      @apply text-6xl;
+      @apply leading-60px;
+      @apply font-bold;
+    }
+
+    .h2-48-bold {
+      @apply font-mont;
+      @apply text-5xl;
+      @apply leading-48px;
+      @apply font-bold;
+    }
+
+    .h3-36-bold {
+      @apply font-mont;
+      @apply text-4xl;
+      @apply leading-9;
+      @apply font-bold;
+    }
+
+    .h4-24-bold {
+      @apply font-mont;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 24px;
+      line-height: 32px;
+    }
+
+    .p-20-bold {
+      @apply font-inter;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 20px;
+      line-height: 32px;
+    }
+
+    .p-20-normal {
+      @apply font-inter;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 20px;
+      line-height: 32px;
+    }
+
+    .p-18-medium {
+      @apply font-inter;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 18px;
+      line-height: 24px;
+    }
+
+    .p-18-normal {
+      @apply font-inter;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 18px;
+      line-height: 24px;
+    }
+
+    .p-16-normal {
+      @apply font-inter;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 16px;
+      line-height: 24px;
+    }
+
+    .p-16-medium {
+      @apply font-inter;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 24px;
+      /*text-align: center;*/
+    }
+
+    .p-16-normal {
+      @apply font-inter;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 24px;
+      /*text-align: center;*/
+    }
+
+    .p-12-bold {
+      @apply font-inter;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 12px;
+      line-height: 18px;
+    }
+  }
+}
+
+/* font-inter-regular - latin */
+@font-face {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/inter-v3-latin-regular.woff2") format("woff2"),
+    /* Super Modern Browsers */ url("../fonts/inter-v3-latin-regular.woff")
+      format("woff");
+}
+
+/* font-inter-500 - latin */
+@font-face {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  src: url("../fonts/inter-v3-latin-500.woff2") format("woff2"),
+    /* Super Modern Browsers */ url("../fonts/inter-v3-latin-500.woff")
+      format("woff");
+}
+
+/* font-inter-700 - latin */
+@font-face {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/inter-v3-latin-700.woff2") format("woff2"),
+    /* Super Modern Browsers */ url("../fonts/inter-v3-latin-700.woff")
+      format("woff");
+}
+
+/*!* font-inter-600 - latin *!*/
+/*@font-face {*/
+/*    font-family: "Inter";*/
+/*    font-style: normal;*/
+/*    font-weight: 600;*/
+/*    src: url("../fonts/inter-v3-latin-600.woff2") format("woff2"),*/
+/*        !* Super Modern Browsers *! url("../fonts/inter-v3-latin-600.woff") format("woff"),*/
+/*        !* Modern Browsers *! url("../fonts/inter-v3-latin-600.ttf") format("truetype");*/
+/*}*/
+
+@media screen and (min-width: 1920px) {
+  .bg-cta {
+    background-image: url("../images/imgsCta.jpg");
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+}
+
+@media screen and (max-width: 1920px) {
+  .bg-cta {
+    background-image: url("../images/imgsCta.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+}
+
+.bg-dot {
+  background-image: url("../images/imgsDot.png");
+  background-position-x: 0;
+  background-position-y: -200px;
+  background-repeat: no-repeat;
+}
