@@ -14,13 +14,18 @@ export default function Menu({ className = "", liClassName = "" }) {
   return (
     <ul className={className}>
       <li className={liClassName}>
-        <a href="https://github.com/opensquare-network/papers">Lightpaper</a>
+        <a href="/">Home</a>
       </li>
       <li className={liClassName}>
-        <a href="/product">Product</a>
+        <a href="/products">Products</a>
       </li>
       <li className={liClassName}>
-        <a href="/aboutus">About us</a>
+        <a href="/team">Team</a>
+      </li>
+      <li className={liClassName}>
+        <a href="https://github.com/opensquare-network/papers" target="_blank">
+          Lightpaper
+        </a>
       </li>
       <li className={liClassName}>
         <a

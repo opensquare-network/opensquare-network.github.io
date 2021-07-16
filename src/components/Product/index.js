@@ -181,7 +181,7 @@ export default function Product() {
               Paid Q&A platform for chinese Blockchain Community
             </p>
             <a
-              className="block text-right cursor-pointer mt-2"
+              className="block text-right cursor-pointer mt-3"
               href="https://www.coinask.io/"
               target="_blank"
               rel="noreferrer"
