@@ -15,14 +15,14 @@ const Row = styled.div``;
 
 export default function Product() {
   return (
-    <div className="font-inter md:mb-20">
+    <div className="font-inter lg:mb-20">
       <div className="w-full bg-white">
-        <div className="md:h-288px md:w-1080px md:mx-auto pt-20 bg-white">
-          <div className="md:w-1080px m-auto md:flex mb-4">
-            <h1 className="h3-36-bold md:h2-48-bold text-center mb-3 md:mb-0">
+        <div className="lg:h-288px lg:w-1080px lg:mx-auto pt-20 bg-white">
+          <div className="lg:w-1080px m-auto lg:flex mb-4">
+            <h1 className="h3-36-bold lg:h2-48-bold text-center mb-3 lg:mb-0">
               We build for
             </h1>
-            <h1 className="h3-36-bold md:h2-48-bold text-center">
+            <h1 className="h3-36-bold lg:h2-48-bold text-center">
               &nbsp;collaborations
             </h1>
           </div>
@@ -30,11 +30,11 @@ export default function Product() {
             className="
           p-20-normal
           text-dark-minor
-          md:px-0
-          md:w-612px
-          text-center md:text-left
+          lg:px-0
+          lg:w-612px
+          text-center lg:text-left
           px-20
-          m-auto md:ml-0
+          m-auto lg:ml-0
           pb-80px
           "
           >
@@ -44,18 +44,18 @@ export default function Product() {
       </div>
       <div className="h-1px bg-grey-200 w-full"></div>
 
-      <Row className="md:flex md:w-1080px md:mx-auto  mt-12 md:mt-20 ">
-        <h2 className="w-280px mx-auto md:mx-0 text-center h4-24-bold md:text-left pt-8 md:pt-0 pb-68px md:pb-20">
+      <Row className="lg:flex lg:w-1080px lg:mx-auto  mt-12 lg:mt-20 ">
+        <h2 className="w-280px mx-auto lg:mx-0 text-center h4-24-bold lg:text-left pt-8 lg:pt-0 pb-68px lg:pb-20">
           Collaboration
         </h2>
-        <div className=" md:flex md:flex-wrap md:mt-9">
-          <div className="relative bg-white w-286px sm:w-346px m-auto pt-6 pr-7 pl-15 pb-6 shadow-lg mb-16 md:mb-0">
+        <div className=" lg:flex lg:flex-wrap lg:mt-9">
+          <div className="relative bg-white w-286px sm:w-346px m-auto pt-6 pr-7 pl-15 pb-6 shadow-lg mb-16 lg:mb-0">
             <img
               src={Bounty}
               alt=""
               className="w-72px p-4 shadow bg-white absolute -top-9 -left-9 "
             />
-            <p className="md:w-full text-left  md:text-left p-20-bold mb-2">
+            <p className="lg:w-full text-left  lg:text-left p-20-bold mb-2">
               OpenSquare Bounties
             </p>
             <p className="text-dark-minor p-16-normal text-left">
@@ -71,13 +71,13 @@ export default function Product() {
             </p>
           </div>
 
-          <div className="relative bg-white w-286px sm:w-346px md:ml-76px m-auto pt-6 pr-7 pl-15 pb-6 shadow-lg">
+          <div className="relative bg-white w-286px sm:w-346px lg:ml-76px m-auto pt-6 pr-7 pl-15 pb-6 shadow-lg">
             <img
               src={Vote}
               alt=""
               className="w-72px p-4 shadow bg-white absolute -top-9 -left-9 "
             />
-            <p className="md:w-full text-left  md:text-left p-20-bold mb-2">
+            <p className="lg:w-full text-left  lg:text-left p-20-bold mb-2">
               OpenSquare Votes
             </p>
             <p className="text-dark-minor p-16-normal text-left">
@@ -95,18 +95,18 @@ export default function Product() {
         </div>
       </Row>
 
-      <Row className="md:flex md:w-1080px md:mx-auto md:mt-20">
-        <h2 className="w-280px mx-auto md:mx-0 text-center h4-24-bold md:text-left pt-8 md:pt-0 pb-68px md:pb-20">
+      <Row className="lg:flex lg:w-1080px lg:mx-auto lg:mt-20">
+        <h2 className="w-280px mx-auto lg:mx-0 text-center h4-24-bold lg:text-left pt-8 lg:pt-0 pb-68px lg:pb-20">
           Explorer
         </h2>
-        <div className="md:flex md:flex-wrap md:mt-9">
-          <div className="relative bg-white w-286px sm:w-346px h-233px m-auto pt-6 pr-7 pl-15 pb-6 shadow-lg mb-16 md:mb-0">
+        <div className="lg:flex lg:flex-wrap lg:mt-9">
+          <div className="relative bg-white w-286px sm:w-346px h-233px m-auto pt-6 pr-7 pl-15 pb-6 shadow-lg mb-16 lg:mb-0">
             <img
               src={Dotreasury}
               alt=""
               className="w-72px p-4 shadow bg-white absolute -top-9 -left-9 "
             />
-            <p className="md:w-full text-left  md:text-left p-20-bold mb-2">
+            <p className="lg:w-full text-left  lg:text-left p-20-bold mb-2">
               doTreasury
             </p>
             <p className="text-dark-minor p-16-normal text-left">
@@ -131,13 +131,13 @@ export default function Product() {
             </p>
           </div>
 
-          <div className="relative bg-white w-286px sm:w-346px  h-233px md:ml-76px m-auto pt-6 pr-7 pl-15 pb-6 shadow-lg">
+          <div className="relative bg-white w-286px sm:w-346px  h-233px lg:ml-76px m-auto pt-6 pr-7 pl-15 pb-6 shadow-lg">
             <img
               src={StateScan}
               alt=""
               className="absolute w-72px p-4 bg-white shadow -top-9 -left-9 "
             />
-            <p className="md:w-full text-left  md:text-left p-20-bold mb-2">
+            <p className="lg:w-full text-left  lg:text-left p-20-bold mb-2">
               Statescan
             </p>
             <p className="text-dark-minor p-16-normal text-left">
@@ -163,18 +163,18 @@ export default function Product() {
         </div>
       </Row>
 
-      <Row className="md:flex md:w-1080px md:mx-auto md:mt-20">
-        <h2 className="w-280px mx-auto md:mx-0 text-center h4-24-bold md:text-left pt-8 md:pt-0 pb-68px md:pb-20">
+      <Row className="lg:flex lg:w-1080px lg:mx-auto lg:mt-20">
+        <h2 className="w-280px mx-auto lg:mx-0 text-center h4-24-bold lg:text-left pt-8 lg:pt-0 pb-68px lg:pb-20">
           Platform
         </h2>
-        <div className="md:flex md:flex-wrap md:mt-9">
-          <div className="relative bg-white w-286px sm:w-346px m-auto pt-6 pr-7 pl-15 pb-6 shadow-lg mb-16 md:mb-0">
+        <div className="lg:flex lg:flex-wrap lg:mt-9">
+          <div className="relative bg-white w-286px sm:w-346px m-auto pt-6 pr-7 pl-15 pb-6 shadow-lg mb-16 lg:mb-0">
             <img
               src={CoinAsk}
               alt=""
               className="w-72px p-4 shadow bg-white absolute -top-9 -left-9 "
             />
-            <p className="md:w-full text-left  md:text-left p-20-bold mb-2">
+            <p className="lg:w-full text-left  lg:text-left p-20-bold mb-2">
               CoinAsk
             </p>
             <p className="text-dark-minor p-16-normal text-left">
@@ -191,14 +191,14 @@ export default function Product() {
           </div>
         </div>
 
-        <div className="md:flex md:flex-wrap md:mt-9">
-          <div className="relative bg-white w-286px sm:w-346px md:ml-76px  m-auto pt-6 pr-7 pl-15 pb-6 shadow-lg  mb-16 md:mb-0">
+        <div className="lg:flex lg:flex-wrap lg:mt-9">
+          <div className="relative bg-white w-286px sm:w-346px lg:ml-76px  m-auto pt-6 pr-7 pl-15 pb-6 shadow-lg  mb-16 lg:mb-0">
             <img
               src={Odes}
               alt=""
               className="w-72px p-4 shadow bg-white absolute -top-9 -left-9 "
             />
-            <p className="md:w-full text-left  md:text-left p-20-bold mb-2">
+            <p className="lg:w-full text-left  lg:text-left p-20-bold mb-2">
               Odes
             </p>
             <p className="text-dark-minor p-16-normal text-left">
@@ -216,44 +216,44 @@ export default function Product() {
         </div>
       </Row>
 
-      <div className="hidden md:hidden md:w-1080px mx-auto mt-40">
-        <div className="md:hidden">
+      <div className="hidden lg:hidden lg:w-1080px mx-auto mt-40">
+        <div className="lg:hidden">
           <div>
             <h2
               className="
-                h4-24-bold md:h3-36-bold
-                text-center  md:text-left
+                h4-24-bold lg:h3-36-bold
+                text-center  lg:text-left
                 whitespace-nowrap
                 mb-1
               "
             >
               Building with OpenSquare
             </h2>
-            <p className="px-8 mb-8 text-dark-minor p-16-normal text-center md:text-left md:w-512px">
+            <p className="px-8 mb-8 text-dark-minor p-16-normal text-center lg:text-left lg:w-512px">
               In mauris mauris amet vitae curabitur.{" "}
-              <br className="md:hidden" /> Convallis eu, et tincidunt laoreet
+              <br className="lg:hidden" /> Convallis eu, et tincidunt laoreet
               morbi lectus volutpat. Sit lectus nisl arcu porttitor pulvinar id.
             </p>
           </div>
         </div>
 
-        <div className="md:w-480px h-60 bg-grey-200 mx-4 md:ml-0 md:mr-16 mb-20"></div>
+        <div className="lg:w-480px h-60 bg-grey-200 mx-4 lg:ml-0 lg:mr-16 mb-20"></div>
 
-        <div className="md:float-right hidden md:flex md:items-center md:w-560px md:h-240px">
+        <div className="lg:float-right hidden lg:flex lg:items-center lg:w-560px lg:h-240px">
           <div>
             <h2
               className="
-                h4-24-bold md:h3-36-bold
-                text-center  md:text-left
+                h4-24-bold lg:h3-36-bold
+                text-center  lg:text-left
                 whitespace-nowrap
-                md:mb-4
+                lg:mb-4
               "
             >
               Building with OpenSquare
             </h2>
-            <p className="text-dark-minor p-16-normal text-center md:text-left md:w-512px">
+            <p className="text-dark-minor p-16-normal text-center lg:text-left lg:w-512px">
               In mauris mauris amet vitae curabitur.{" "}
-              <br className="md:hidden" /> Convallis eu, et tincidunt laoreet
+              <br className="lg:hidden" /> Convallis eu, et tincidunt laoreet
               morbi lectus volutpat. Sit lectus nisl arcu porttitor pulvinar id.
             </p>
           </div>
