@@ -3,7 +3,6 @@ import Patract from "./patract.png";
 import Phala from "./phala.png";
 import Subsocial from "./subsocial.png";
 import Litentry from "./litentry.png";
-import PolkaBase from "./polkabase.png";
 import Crust from "./crust.png";
 import Merico from "./merico.png";
 import ChainX from "./chainx.png";
@@ -77,12 +76,12 @@ export default function () {
           <div className="md:flex justify-center">
             <div className="flex  justify-center">
               <a
-                className="mr-10"
-                href="https://polkabase.com/"
+                className="md:mr-10"
+                href="https://bifrost.finance"
                 target="_blank"
                 rel="noreferrer"
               >
-                <img className="w-150px md:w-240px " src={PolkaBase} alt="" />
+                <img className="w-150px md:w-240px " src={Bifrost} alt="" />
               </a>
               <a
                 className="md:mr-10"
@@ -130,13 +129,8 @@ export default function () {
               >
                 <img className="w-150px md:w-240px " src={Darwinia} alt="" />
               </a>
-              <a
-                className="md:mr-10"
-                href="https://bifrost.finance"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <img className="w-150px md:w-240px " src={Bifrost} alt="" />
+              <a href="https://dorahacks.com/" target="_blank" rel="noreferrer">
+                <img className="w-150px md:w-240px " src={DoraHacks} alt="" />
               </a>
             </div>
             <div className="flex justify-center md:hidden">
@@ -150,9 +144,6 @@ export default function () {
                 rel="noreferrer"
               >
                 <img className="w-150px md:w-240px " src={Stafi} alt="" />
-              </a>
-              <a href="https://dorahacks.com/" target="_blank" rel="noreferrer">
-                <img className="w-150px md:w-240px " src={DoraHacks} alt="" />
               </a>
             </div>
           </div>
