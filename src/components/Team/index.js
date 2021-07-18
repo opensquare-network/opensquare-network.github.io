@@ -1,13 +1,12 @@
 import React from "react";
 import YongfengImg from "./1-yongfeng.png";
-import Github from "../../images/github.svg";
-import Email from "../../images/email.svg";
 import ChaoJun from "./2-chaojun.png";
 import WenTao from "./3-wentao.png";
 import Alcazar from "./5-alcazar.png";
 import Yizhou from "./4-yizhou.png";
 import Yaping from "./6-yapin.png";
 import styled from "styled-components";
+import Contacts from "../Contacts";
 
 const PaperEntry = styled.p`
   background: linear-gradient(270deg, #04d2c5 2.06%, #6848ff 100%);
@@ -60,8 +59,10 @@ export default function () {
               Founder
             </p>
             <p className="md:w-full flex justify-center md:justify-start mb-4">
-              <Github className="mr-4" width={24} height={24} />
-              <Email width={24} height={24} />
+              <Contacts
+                github="https://github.com/wliyongfeng"
+                email="yongfeng@opensquare.network"
+              />
             </p>
             <p className="text-dark-minor font-normal w-360px md:w-full text-center md:text-left m-auto">
               10+ years software development experience, focusing on blockchain
@@ -83,8 +84,10 @@ export default function () {
               Developer
             </p>
             <p className="md:w-full flex justify-center md:justify-start mb-4">
-              <Github className="mr-4" width={24} height={24} />
-              <Email width={24} height={24} />
+              <Contacts
+                github="https://github.com/hyifeng"
+                email="chaojun@opensquare.network"
+              />
             </p>
             <p className="text-dark-minor font-normal w-360px md:w-full text-center md:text-left m-auto">
               10+ years experience on developing complex backend service and
@@ -107,8 +110,10 @@ export default function () {
               Developer
             </p>
             <p className="md:w-full flex justify-center md:justify-start mb-4">
-              <Github className="mr-4" width={24} height={24} />
-              <Email width={24} height={24} />
+              <Contacts
+                github="https://github.com/qiyisi"
+                email="wentao@opensquare.network"
+              />
             </p>
             <p className="text-dark-minor font-normal w-360px md:w-full text-center md:text-left m-auto">
               Years of full stack development experience, focusing on building
@@ -130,8 +135,10 @@ export default function () {
               Developer
             </p>
             <p className="md:w-full flex justify-center md:justify-start mb-4">
-              <Github className="mr-4" width={24} height={24} />
-              <Email width={24} height={24} />
+              <Contacts
+                github="https://github.com/YoshiyukiSakura"
+                email="yizhou@opensquare.network"
+              />
             </p>
             <p className="text-dark-minor font-normal w-360px md:w-full text-center md:text-left m-auto">
               Yizhou, creative coder, blockchain industry enthusiast.
@@ -154,8 +161,7 @@ export default function () {
               Product Designer
             </p>
             <p className="md:w-full flex justify-center md:justify-start mb-4">
-              <Github className="mr-4" width={24} height={24} />
-              <Email width={24} height={24} />
+              <Contacts github="https://github.com/Popoulosss" />
             </p>
             <p className="text-dark-minor font-normal w-360px md:w-full text-center md:text-left m-auto">
               5 years of experience in Web and Mobile Apps UI/UX design, have a
@@ -177,8 +183,7 @@ export default function () {
               BD & Operation
             </p>
             <p className="md:w-full flex justify-center md:justify-start mb-4">
-              <Github className="mr-4" width={24} height={24} />
-              <Email width={24} height={24} />
+              <Contacts email="yaping@opensquare.network" />
             </p>
             <p className="text-dark-minor font-normal w-360px md:w-full text-center md:text-left m-auto">
               Yaping, passionate about Blockchain. Intergrating her media
