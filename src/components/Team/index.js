@@ -40,7 +40,7 @@ export default function () {
         </span>
       </PaperEntry>
 
-      <div className="md:flex md:w-1080px md:mx-auto md:mt-20 md:mb-20">
+      <div className="md:flex lg:w-1080px md:mx-auto md:mt-20 md:mb-20">
         <h2 className="text-2xl font-bold text-center pt-80px md:pt-0 pb-10 whitespace-nowrap">
           Core Team
         </h2>
@@ -96,7 +96,7 @@ export default function () {
             </p>
           </div>
 
-          <div className="px-4 mr-0 mb-8 lg:mb-80px  md:h-388px md:flex content-start w-full md:w-240px flex-wrap">
+          <div className="px-4 mr-10 lg:mr-0 mb-8 lg:mb-80px  md:h-388px md:flex content-start w-full md:w-240px flex-wrap">
             <img
               className="mx-auto mb-6 md:ml-0"
               width={100}
@@ -169,7 +169,7 @@ export default function () {
             </p>
           </div>
 
-          <div className="px-4 mr-0 mb-8 lg:mb-80px  md:h-388px md:flex content-start w-full md:w-240px flex-wrap">
+          <div className="px-4 mr-10 lg:mr-0 mb-8 lg:mb-80px  md:h-388px md:flex content-start w-full md:w-240px flex-wrap">
             <img
               className="mx-auto mb-6 md:ml-0"
               width={100}
