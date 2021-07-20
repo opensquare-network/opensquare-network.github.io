@@ -14,9 +14,9 @@ const FooterItem = styled.a`
 
 export default function Footer() {
   return (
-    <div className="bg-gray-800 " style={{ backgroundColor: "#191E27" }}>
+    <div className="bg-gray-800" style={{ backgroundColor: "#191E27" }}>
       <div className="lg:max-w-1400px mx-auto pl-4 py-80px sm:flex sm:pl-9 font-inter overflow-x-scroll">
-        <Row className="flex flex-wrap">
+        <Row className="flex flex-wrap sm:flex-nowrap">
           <div className="w-171px sm:w-200px">
             <p className="block h-6 mb-6 text-white font-semibold">Products</p>
             {/*<FooterItem target="_blank" href="/" className="block h-6 mb-4 text-light-minor">*/}
