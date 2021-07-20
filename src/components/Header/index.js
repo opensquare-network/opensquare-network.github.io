@@ -20,7 +20,7 @@ export default function Header() {
            md:shadow-none
           `}
       >
-        <a className="ml-52px" href="/">
+        <a className="ml-4 lg:ml-52px" href="/">
           <Logo />
         </a>
 

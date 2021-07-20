@@ -74,7 +74,7 @@ export default function Products() {
         <div
           className="
           relative pt-6 pl-15 pr-6
-          sm:ml-0 mr-8  sm:mr-0 mb-68px md:mb-0 lg:mt-76px
+          sm:ml-0 mr-0  sm:mr-0 mb-68px md:mb-0 lg:mt-76px
           w-286px smsm:w-346px sm:w-484px
           h-200px sm:h-136px
           bg-white  shadow-lg
