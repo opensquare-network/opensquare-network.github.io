@@ -1,5 +1,5 @@
 import Logo from "./logo.svg";
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import Menu from "./Menu";
 import MenuIcon from "./menuIcon";
 import CloseIcon from "./closeIcon";
@@ -12,8 +12,25 @@ export default function Header() {
   const close = () => {
     setOpenMenu(false);
   };
+  const [scrollPosition, setScrollPosition] = useState(0);
+  const handleScroll = () => {
+    const position = window.pageYOffset;
+    setScrollPosition(position);
+  };
+
+  useEffect(() => {
+    window.addEventListener("scroll", handleScroll, { passive: true });
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
   return (
-    <div className="">
+    <div
+      className={`${
+        scrollPosition > 10 && "fixed w-full bg-white z-10 shadow-200"
+      }`}
+    >
       <div
         className={`h-20 flex items-center justify-between pr-6 w-full max-w-1400px mx-auto
           ${openMenu ? "shadow-md" : ""}

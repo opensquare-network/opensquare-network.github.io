@@ -10,6 +10,10 @@ import styled from "styled-components";
 const FooterItem = styled.a`
   display: flex;
   align-items: center;
+
+  &:hover {
+    color: #ffffff;
+  }
 `;
 
 export default function Footer() {
