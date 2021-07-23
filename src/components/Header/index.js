@@ -27,8 +27,8 @@ export default function Header() {
   }, []);
   return (
     <div
-      className={`${
-        scrollPosition > 10 && "fixed w-full bg-white z-10 shadow-200"
+      className={`fixed  w-full ${
+        scrollPosition > 0 && " w-full bg-white z-10 shadow-200 slow"
       }`}
     >
       <div
