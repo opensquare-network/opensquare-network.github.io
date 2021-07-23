@@ -23,22 +23,6 @@ const Ul = styled.ul`
 
 const Item = styled.a`
   position: relative;
-
-  &:hover {
-    :after {
-      position: absolute;
-      margin-left: auto;
-      margin-right: auto;
-      left: 0;
-      right: 0;
-      text-align: center;
-      bottom: -12px;
-      content: "";
-      width: 32px;
-      height: 3px;
-      background-color: #04d2c5;
-    }
-  }
 `;
 
 export default function Menu({ className = "", liClassName = "" }) {
@@ -72,7 +56,7 @@ export default function Menu({ className = "", liClassName = "" }) {
           target="_blank"
           rel="noreferrer"
         >
-          lightpaper
+          Lightpaper
         </Item>
       </li>
       <li className={liClassName}>
