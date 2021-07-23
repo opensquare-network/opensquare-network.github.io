@@ -10,14 +10,18 @@ import styled from "styled-components";
 const FooterItem = styled.a`
   display: flex;
   align-items: center;
+
+  &:hover {
+    color: #ffffff;
+  }
 `;
 
 export default function Footer() {
   return (
-    <div className="bg-gray-800 " style={{ backgroundColor: "#191E27" }}>
+    <div className="bg-gray-800" style={{ backgroundColor: "#191E27" }}>
       <div className="lg:max-w-1400px mx-auto pl-4 py-80px sm:flex sm:pl-9 font-inter overflow-x-scroll">
-        <Row className="flex">
-          <div className="lg:w-1/2 sm:w-200px">
+        <Row className="flex flex-wrap sm:flex-nowrap">
+          <div className="w-171px sm:w-200px">
             <p className="block h-6 mb-6 text-white font-semibold">Products</p>
             {/*<FooterItem target="_blank" href="/" className="block h-6 mb-4 text-light-minor">*/}
             {/*  Bounty*/}
@@ -40,7 +44,7 @@ export default function Footer() {
             </FooterItem>
           </div>
 
-          <div className="w-1/2 sm:w-200px">
+          <div className="w-171px sm:w-200px">
             <p className="block h-6 mb-6 text-white font-semibold">Resources</p>
             <FooterItem
               target="_blank"
@@ -62,7 +66,7 @@ export default function Footer() {
         </Row>
 
         <Row className="flex">
-          <div className="w-1/2 sm:w-200px">
+          <div className="w-171px sm:w-200px">
             <p className="block h-6 mb-6 text-white font-semibold">
               Social Links
             </p>
@@ -100,7 +104,7 @@ export default function Footer() {
             </FooterItem>
           </div>
 
-          <div className="w-1/2 sm:w-200px">
+          <div className="w-171px sm:w-200px">
             <p className="block h-6 mb-6 text-white font-semibold">Contact</p>
             <FooterItem
               target="_blank"

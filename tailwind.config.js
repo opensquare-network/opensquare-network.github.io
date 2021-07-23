@@ -29,6 +29,7 @@ module.exports = {
       lg: "0px 4px 31px rgba(26, 33, 44, 0.04), 0px 0.751293px 3.88168px rgba(26, 33, 44, 0.03)",
       xl: "0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04)",
       none: "none",
+      200: "0px 4px 31px rgba(26, 33, 44, 0.06), 0px 0.751293px 8px rgba(26, 33, 44, 0.04)",
     },
     backgroundColor: (theme) => ({
       ...theme("colors"),
@@ -81,6 +82,7 @@ module.exports = {
         "484px": "484px",
         "480px": "480px",
         "476px": "476px",
+        "400px": "400px",
         "360px": "360px",
         "350px": "350px",
         "346px": "346px",
@@ -92,6 +94,7 @@ module.exports = {
         "242px": "242px",
         "240px": "240px",
         "200px": "200px",
+        "171px": "171px",
         "150px": "150px",
         "72px": "72px",
         "64px": "64px",
@@ -106,6 +109,7 @@ module.exports = {
         15: "3.75rem",
       },
       margin: {
+        "minus1/2": "-50%",
         "544px": "544px",
         "264px": "264px",
         "246px": "246px",
