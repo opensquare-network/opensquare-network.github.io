@@ -51,8 +51,9 @@ export default function Header() {
 
       {/*menu for mobile*/}
       {openMenu && (
-        <Menu className="md:hidden font-inter pt-4 text-center text-base font-semibold leading-54px" />
+        <Menu className="bg-white md:hidden font-inter pt-4 text-center text-base font-semibold leading-54px" />
       )}
+      <div className="w-full m-0 h-20"></div>
     </div>
   );
 }
