@@ -11,7 +11,7 @@ export default function Slogan() {
           text-dark-major
           "
         >
-          Credit generation on Blockchain
+          Credit generation on blockchain
         </h3>
         <p className="p-16-normal lg:p-18-normal text-center text-dark-minor lg:text-left w-full lg:w-480px">
           Collaboration behaviors stored on-chain and credit built by the

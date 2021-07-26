@@ -20,7 +20,7 @@ export default function () {
           Meet the team
         </h1>
         <p className="p-18-normal lg:p-20-normal text-dark-minor text-center md:text-left w-346px md:w-full m-auto pb-80px">
-          Decentralized, reliable and experienced.
+          Reliable, experienced and decentralized.
         </p>
       </div>
       <PaperEntry
