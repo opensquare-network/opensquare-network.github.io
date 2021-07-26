@@ -7,6 +7,7 @@ export default function () {
   return (
     <NormalLayout>
       <SEO title={"OpenSquare Network"} />
+      <div className="w-full m-0 h-20"></div>
       <Team />
     </NormalLayout>
   );

@@ -33,7 +33,7 @@ export default function Menu({ className = "", liClassName = "" }) {
     setPath(location.pathname);
   }, [location]);
   return (
-    <Ul className={className}>
+    <Ul className={`${className}`}>
       <li className={`${liClassName} ${path === "/" && "bottom-bar"}`}>
         <Item className="hover:text-turquoise-500" href="/">
           Home
