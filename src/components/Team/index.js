@@ -56,7 +56,7 @@ export default function () {
               Yongfeng Li
             </p>
             <p className="md:w-full text-center md:text-left text-base font-semibold text-turquoise-500 mb-3 ">
-              Founder
+              Developer & Founder
             </p>
             <p className="md:w-full flex justify-center md:justify-start mb-4">
               <Contacts
