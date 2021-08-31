@@ -42,6 +42,14 @@ export default function Footer() {
             >
               CoinAsk.io
             </FooterItem>
+            <FooterItem
+              target="_blank"
+              rel="noreferrer"
+              href="https://statescan.io/"
+              className="block h-6 mb-4 text-light-minor"
+            >
+              Statescan
+            </FooterItem>
           </div>
 
           <div className="w-171px sm:w-200px">
