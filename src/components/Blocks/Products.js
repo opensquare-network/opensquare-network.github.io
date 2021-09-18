@@ -19,13 +19,13 @@ export default function Products() {
         >
           <img
             alt=""
-            src={CoinAsk}
-            className="absolute w-56px sm:w-72px p-4 bg-white -top-7 sm:-top-9 -left-7 sm:-left-9 shadow-lg"
+            src={Bounty}
+            className="absolute w-56px sm:w-72px p-4 bg-white  -top-7 sm:-top-9 -left-7 sm:-left-9 shadow-lg"
           />
-          <p className="p-20-bold mb-2"> Paid Q&A</p>
+          <p className="p-20-bold mb-2">Bounties</p>
           <p className="text-dark-minor">
-            Crypto currencies are paid for questions/topics, best answers got
-            them.
+            Task fund is secured and all processes are guaranteed by smart
+            contracts or substrate pallets.
           </p>
         </div>
 
@@ -40,13 +40,12 @@ export default function Products() {
         >
           <img
             alt=""
-            src={Bounty}
+            src={Employ}
             className="absolute w-56px sm:w-72px p-4 bg-white  -top-7 sm:-top-9 -left-7 sm:-left-9 shadow-lg"
           />
-          <p className="p-20-bold mb-2">Bounties</p>
+          <p className="p-20-bold mb-2">Short-term Employment</p>
           <p className="text-dark-minor">
-            Task fund is secured and all processes are guaranteed by smart
-            contracts or substrate pallets.
+            Mitigate trust & payment worries by code and on-chain credit.
           </p>
         </div>
       </div>
@@ -63,12 +62,13 @@ export default function Products() {
         >
           <img
             alt=""
-            src={Employ}
-            className="absolute w-56px sm:w-72px p-4 bg-white  -top-7 sm:-top-9 -left-7 sm:-left-9 shadow-lg"
+            src={CoinAsk}
+            className="absolute w-56px sm:w-72px p-4 bg-white -top-7 sm:-top-9 -left-7 sm:-left-9 shadow-lg"
           />
-          <p className="p-20-bold mb-2">Short-term Employment</p>
+          <p className="p-20-bold mb-2"> Paid Q&A</p>
           <p className="text-dark-minor">
-            Mitigate trust & payment worries by code and on-chain credit.
+            Crypto currencies are paid for questions/topics, best answers got
+            them.
           </p>
         </div>
         <div
