@@ -33,13 +33,14 @@ module.exports = {
     },
     backgroundColor: (theme) => ({
       ...theme("colors"),
+      "grey-100": "#E2E8F0",
       "grey-200": "#F0F3F8",
       "grey-300": "#E2E8F0",
       "grey-900": "#1A212C",
     }),
     textColor: {
-      "dark-major": "#2E343D",
-      "dark-minor": "#A1A8B2",
+      "dark-major": "#1E2134",
+      "dark-minor": "#506176",
       white: "#fff",
       "light-minor": "rgba(255, 255, 255, 0.65)",
       "light-minimal": "rgba(255, 255, 255, 0.35)",
@@ -67,9 +68,11 @@ module.exports = {
         "1px": "1px",
       },
       maxWidth: {
+        "1440px": "1440px",
         "1400px": "1400px",
       },
       width: {
+        "1440px": "1440px",
         "1400px": "1400px",
         "1280px": "1280px",
         "1080px": "1080px",
@@ -106,6 +109,7 @@ module.exports = {
         "68px": "68px",
         "60px": "60px",
         "24px": "24px",
+        "22px": "22px",
         15: "3.75rem",
       },
       margin: {
