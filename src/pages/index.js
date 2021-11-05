@@ -6,6 +6,7 @@ import PapersEnter from "../components/Papers/papersEnter";
 import HeaderAndBanner from "../components/HeaderAndBanner";
 import SectionOne from "../components/SectionOne";
 import SectionTwo from "../components/SectionTwo";
+import SectionThree from "../components/SectionThree";
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
       <Blocks />
       <SectionOne />
       <SectionTwo />
+      <SectionThree />
       <PapersEnter />
     </Layout>
   );
