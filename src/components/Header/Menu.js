@@ -1,26 +1,6 @@
 import React, { useEffect, useState } from "react";
 import styled from "styled-components";
 
-const Ul = styled.ul`
-  .bottom-bar {
-    a {
-      :after {
-        position: absolute;
-        margin-left: auto;
-        margin-right: auto;
-        left: 0;
-        right: 0;
-        text-align: center;
-        bottom: -12px;
-        content: "";
-        width: 32px;
-        height: 3px;
-        background-color: #04d2c5;
-      }
-    }
-  }
-`;
-
 const Item = styled.a`
   position: relative;
 `;
@@ -33,18 +13,22 @@ export default function Menu({ className = "", liClassName = "" }) {
     setPath(location.pathname);
   }, [location]);
   return (
-    <Ul className={`${className}`}>
-      <li className={`${liClassName} ${path === "/" && "bottom-bar"}`}>
+    <ul className={`${className}`}>
+      <li className={`${liClassName} ${path === "/" && "text-dark-major"}`}>
         <Item className="hover:text-turquoise-500" href="/">
           Home
         </Item>
       </li>
-      <li className={`${liClassName} ${path === "/products/" && "bottom-bar"}`}>
+      <li
+        className={`${liClassName} ${
+          path === "/products" && "text-dark-major"
+        }`}
+      >
         <Item className="hover:text-turquoise-500" href="/products">
           Products
         </Item>
       </li>
-      <li className={`${liClassName} ${path === "/team/" && "bottom-bar"}`}>
+      <li className={`${liClassName} ${path === "/team" && "text-dark-major"}`}>
         <Item className="hover:text-turquoise-500" href="/team">
           Team
         </Item>
@@ -69,6 +53,6 @@ export default function Menu({ className = "", liClassName = "" }) {
           Blog
         </Item>
       </li>
-    </Ul>
+    </ul>
   );
 }

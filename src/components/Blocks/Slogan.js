@@ -6,7 +6,7 @@ export default function Slogan() {
       <div className="block w-full lg:w-1080px mx-auto">
         <h3
           className="
-          h4-24-bold lg:h3-36-bold
+          h4-24-bold lg:h2-44-bold
           mb-1 lg:mb-4 text-center lg:text-left
           text-dark-major
           "

@@ -27,31 +27,34 @@ export default function Header() {
   }, []);
   return (
     <div
-      className={`fixed  w-full ${
-        scrollPosition > 0 && " w-full bg-white z-10 shadow-200 slow"
+      className={`fixed w-full ${
+        scrollPosition > 0 && "  bg-white z-10 shadow-200 slow"
       }`}
     >
       <div
-        className={`h-20 flex items-center justify-between pr-6 w-full max-w-1400px mx-auto
+        className={`h-20 flex items-center justify-between pl-8 pr-22px w-full max-w-1440px mx-auto
           ${openMenu ? "shadow-md" : ""}
            md:shadow-none
           `}
       >
-        <a className="ml-4 lg:ml-52px" href="/">
+        <a href="/">
           <Logo />
         </a>
 
         {/*menu for bigger devices*/}
         <Menu
-          className="hidden font-inter md:flex font-semibold text-dark-major "
+          className="hidden font-inter lg:flex font-semibold text-dark-minor leading-6"
           liClassName="mr-10"
         />
+        <a className="hidden lg:block text-white bg-grey-100 font-inter font-medium text-sm leading-6 py-2 px-4">
+          Off-chain Voting
+        </a>
         {openMenu ? <CloseIcon onClick={close} /> : <MenuIcon onClick={open} />}
       </div>
 
       {/*menu for mobile*/}
       {openMenu && (
-        <Menu className="bg-white md:hidden font-inter pt-4 text-center text-base font-semibold leading-54px" />
+        <Menu className="bg-white lg:hidden font-inter pt-4 text-center text-base font-semibold leading-54px text-dark-minor" />
       )}
     </div>
   );

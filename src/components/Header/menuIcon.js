@@ -2,7 +2,7 @@ import React from "react";
 
 export default function MenuIcon({ onClick }) {
   return (
-    <button className="md:hidden" onClick={onClick}>
+    <button className="lg:hidden" onClick={onClick}>
       <svg
         width="24"
         height="24"
