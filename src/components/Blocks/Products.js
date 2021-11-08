@@ -6,14 +6,14 @@ import Employ from "./employ.png";
 
 export default function Products() {
   return (
-    <div className="flex flex-wrap pl-9 justify-center w-full lg:w-1080px font-inter  mt-12 pt-9 break-all">
+    <div className="flex flex-wrap pl-9 justify-center w-full lg:w-1080px font-inter  mt-60px pt-9 break-all">
       <div className="flex flex-wrap justify-center md:mx-auto">
         <div
           className="
           relative pt-6 pl-15 pr-6
           sm:ml-0 mr-0 lg:mr-76px mb-68px lg:mb-0
           w-286px smsm:w-346px sm:w-484px
-          h-200px sm:h-136px
+          h-200px sm:h-144px
           bg-white  shadow-lg
           "
         >
@@ -34,7 +34,7 @@ export default function Products() {
           relative pt-6 pl-15 pr-6
           sm:ml-0 mr-0 mb-68px lg:mb-0 lg:mt-76px
           w-286px smsm:w-346px sm:w-484px
-          h-200px sm:h-136px
+          h-200px sm:h-144px
           bg-white  shadow-lg
           "
         >
@@ -56,7 +56,7 @@ export default function Products() {
           relative pt-6 pl-15 pr-6
           sm:ml-0 mr-0 lg:mr-76px mb-68px lg:mb-0
           w-286px smsm:w-346px sm:w-484px
-          h-200px sm:h-136px
+          h-200px sm:h-144px
           bg-white  shadow-lg
           "
         >
@@ -76,7 +76,7 @@ export default function Products() {
           relative pt-6 pl-15 pr-6
           sm:ml-0 mr-0  sm:mr-0 mb-68px md:mb-0 lg:mt-76px
           w-286px smsm:w-346px sm:w-484px
-          h-200px sm:h-136px
+          h-200px sm:h-144px
           bg-white  shadow-lg
           "
         >

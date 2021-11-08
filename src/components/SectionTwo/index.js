@@ -11,6 +11,7 @@ const Img = styled.img`
   height: 270px;
   width: 1426px;
   left: 50%;
+  max-width: none;
   transform: translateX(-50%);
 `;
 
