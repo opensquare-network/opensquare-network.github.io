@@ -15,7 +15,7 @@ export default function Menu({ className = "", liClassName = "" }) {
   return (
     <ul className={`${className}`}>
       <li className={`${liClassName} ${path === "/" && "text-dark-major"}`}>
-        <Item className="hover:text-turquoise-500" href="/">
+        <Item className="hover:text-dark-major" href="/">
           Home
         </Item>
       </li>
@@ -24,18 +24,18 @@ export default function Menu({ className = "", liClassName = "" }) {
           path === "/products" && "text-dark-major"
         }`}
       >
-        <Item className="hover:text-turquoise-500" href="/products">
+        <Item className="hover:text-dark-major" href="/products">
           Products
         </Item>
       </li>
       <li className={`${liClassName} ${path === "/team" && "text-dark-major"}`}>
-        <Item className="hover:text-turquoise-500" href="/team">
+        <Item className="hover:text-dark-major" href="/team">
           Team
         </Item>
       </li>
       <li className={liClassName}>
         <Item
-          className="hover:text-turquoise-500"
+          className="hover:text-dark-major"
           href="https://github.com/opensquare-network/papers"
           target="_blank"
           rel="noreferrer"
@@ -45,7 +45,7 @@ export default function Menu({ className = "", liClassName = "" }) {
       </li>
       <li className={liClassName}>
         <Item
-          className="hover:text-turquoise-500"
+          className="hover:text-dark-major"
           href="https://app.subsocial.network/1327"
           target="_blank"
           rel="noreferrer"

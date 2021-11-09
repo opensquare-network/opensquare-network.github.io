@@ -25,18 +25,18 @@ const ColorText = styled.span`
 export default function () {
   return (
     <Wrapper>
-      <StyledSection className="py-40">
+      <StyledSection className="lg:py-40 py-20">
         <div className="lg:w-1080px flex flex-col items-center">
-          <div className="block sm:flex">
-            <h1 className="h3-36-bold md:h1-64-bold text-center text-dark-major">
+          <div className="block lg:flex">
+            <h1 className="h2-40-bold lg:h1-64-bold text-center text-dark-major">
               {/*pb-5 sm:pb-6 text-4xl leading-tight text-center sm:text-left text-mark-major font-bold*/}
               Empower&nbsp;
             </h1>
-            <h1 className="h3-36-bold md:h1-64-bold text-center whitespace-nowrap mt-4 sm:mt-0">
+            <h1 className="h2-40-bold lg:h1-64-bold text-center whitespace-nowrap mt-4 lg:mt-0">
               <ColorText>Credit Building</ColorText>
             </h1>
           </div>
-          <h1 className="h3-36-bold md:h1-64-bold text-center mt-3 sm:mt-4 text-dark-major">
+          <h1 className="h2-40-bold lg:h1-64-bold text-center mt-3 sm:mt-4 text-dark-major">
             with Blockchain
           </h1>
           <p className="p-20-normal w-346px sm:w-full mx-auto mt-4 sm:mt-6 mb-12 sm:mb-16 text-dark-minor text-center ">
