@@ -7,13 +7,13 @@ import Fram from "./frame.png";
 
 const StyledSection = styled.section`
   background-image: url(${Bg});
-  height: 644px;
+  height: 684px;
 `;
 
 const ImgFrame = styled.img`
   position: absolute;
-  right: 0;
-  top: 50%;
+  left: 440px;
+  top: calc(50% + 20px);
   transform: translateY(-50%);
 `;
 
@@ -21,9 +21,9 @@ export default function () {
   return (
     <StyledSection>
       <div className="lg:w-1080px mx-auto font-inter  ">
-        <div className="py-120px relative">
+        <div className="py-144px relative">
           <div className="w-440px">
-            <div className="h2-44-bold">In est mi commodo semper.</div>
+            <div className="h2-40-bold">In est mi commodo semper.</div>
             <div className="mt-4 p-18-normal text-dark-minor">
               Dolor ullamcorper massa elit mattis ac scelerisque. A consectetur
               pharetra maecenas amet.

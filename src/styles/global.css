@@ -36,6 +36,13 @@
       line-height: 44px;
     }
 
+    .h2-40-bold {
+      @apply font-mont;
+      @apply font-bold;
+      font-size: 40px;
+      line-height: 40px;
+    }
+
     .h3-36-bold {
       @apply font-mont;
       @apply text-4xl;

@@ -93,6 +93,7 @@ module.exports = {
         "476px": "476px",
         "440px": "440px",
         "400px": "400px",
+        "396px": "396px",
         "360px": "360px",
         "350px": "350px",
         "346px": "346px",
@@ -111,6 +112,7 @@ module.exports = {
         "56px": "56px",
       },
       padding: {
+        "144px": "144px",
         "120px": "120px",
         "100px": "100px",
         "80px": "80px",
