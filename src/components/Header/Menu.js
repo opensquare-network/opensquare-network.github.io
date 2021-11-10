@@ -13,7 +13,7 @@ export default function Menu({ className = "", liClassName = "" }) {
     setPath(location.pathname);
   }, [location]);
   return (
-    <ul className={`${className}`}>
+    <ul className={`${className}`} onClick={(e) => e.stopPropagation()}>
       <li className={`${liClassName} ${path === "/" && "text-dark-major"}`}>
         <Item className="hover:text-dark-major" href="/">
           Home
