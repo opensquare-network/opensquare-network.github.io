@@ -6,90 +6,103 @@ import Employ from "./employ.png";
 
 export default function Products() {
   return (
-    <div className="flex flex-wrap pl-9 justify-center w-full lg:w-1080px font-inter  mt-60px pt-9 break-all lg:flex-row flex-col mx-auto">
-      <div className="flex flex-wrap justify-center lg:mx-auto lg:flex-row flex-col items-center ">
+    <div className="flex flex-wrap justify-center lg:w-1080px font-inter lg:mt-60px mt-10 lg:flex-row flex-col mx-auto">
+      <div className="flex flex-wrap w-full justify-between lg:flex-row flex-col items-start">
         <div
           className="
-          relative pt-6 pl-15 pr-6
-          sm:ml-0 mr-0 lg:mr-76px mb-68px lg:mb-0
-          w-286px sm:w-484px
-          h-200px sm:h-144px
-          bg-white  shadow-lg
+          relative pt-9 pl-9
           "
         >
           <img
             alt=""
             src={Bounty}
-            className="absolute w-56px sm:w-72px p-4 bg-white  -top-7 sm:-top-9 -left-7 sm:-left-9 shadow-lg"
+            className="absolute w-72px left-0 top-0 shadow-lg bg-white p-4 z-10"
           />
-          <p className="p-20-bold mb-2">Bounties</p>
-          <p className="text-dark-minor">
-            Task fund is secured and all processes are guaranteed by smart
-            contracts or substrate pallets.
-          </p>
+          <div
+            className="
+            relative pt-6 pr-6 lg:pb-8 pb-6 pl-60px
+            bg-white  shadow-lg lg:w-484px
+            "
+          >
+            <p className="p-20-bold mb-2">Bounties</p>
+            <p className="text-dark-minor">
+              Task fund is secured and all processes are guaranteed by smart
+              contracts or substrate pallets.
+            </p>
+          </div>
         </div>
 
         <div
           className="
-          relative pt-6 pl-15 pr-6
-          sm:ml-0 mr-0 mb-68px lg:mb-0 lg:mt-76px
-          w-286px sm:w-484px
-          h-200px sm:h-144px
-          bg-white  shadow-lg
+          relative pt-9 pl-9 lg:mt-80px mt-10
           "
         >
           <img
             alt=""
             src={Employ}
-            className="absolute w-56px sm:w-72px p-4 bg-white  -top-7 sm:-top-9 -left-7 sm:-left-9 shadow-lg"
+            className="absolute w-72px left-0 top-0 shadow-lg bg-white p-4 z-10"
           />
-          <p className="p-20-bold mb-2">Short-term Employment</p>
-          <p className="text-dark-minor">
-            Mitigate trust & payment worries by code and on-chain credit.
-          </p>
+          <div
+            className="
+            relative pt-6 pr-6 lg:pb-8 pb-6 pl-60px
+            bg-white  shadow-lg lg:w-484px
+            "
+          >
+            <p className="p-20-bold mb-2">Short-term Employment</p>
+            <p className="text-dark-minor">
+              Mitigate trust & payment worries by code and on-chain credit.
+            </p>
+          </div>
         </div>
       </div>
 
-      <div className="flex flex-wrap justify-center lg:flex-row flex-col items-center">
+      <div className="flex flex-wrap w-full justify-between lg:flex-row flex-col items-start">
         <div
           className="
-          relative pt-6 pl-15 pr-6
-          sm:ml-0 mr-0 lg:mr-76px mb-68px lg:mb-0
-          w-286px sm:w-484px
-          h-200px sm:h-144px
-          bg-white  shadow-lg
+          relative pt-9 pl-9 lg:-mt-8 mt-10
           "
         >
           <img
             alt=""
             src={CoinAsk}
-            className="absolute w-56px sm:w-72px p-4 bg-white -top-7 sm:-top-9 -left-7 sm:-left-9 shadow-lg"
+            className="absolute w-72px left-0 top-0 shadow-lg bg-white p-4 z-10"
           />
-          <p className="p-20-bold mb-2"> Paid Q&A</p>
-          <p className="text-dark-minor">
-            Crypto currencies are paid for questions/topics, best answers got
-            them.
-          </p>
+          <div
+            className="
+            relative pt-6 pr-6 lg:pb-8 pb-6 pl-60px
+            bg-white  shadow-lg lg:w-484px
+            "
+          >
+            <p className="p-20-bold mb-2">Paid Q&A</p>
+            <p className="text-dark-minor">
+              Crypto currencies are paid for questions/topics, best answers got
+              them.
+            </p>
+          </div>
         </div>
+
         <div
           className="
-          relative pt-6 pl-15 pr-6
-          sm:ml-0 mr-0  sm:mr-0 mb-68px md:mb-0 lg:mt-76px
-          w-286px sm:w-484px
-          h-200px sm:h-144px
-          bg-white  shadow-lg
+          relative pt-9 pl-9 mt-10
           "
         >
           <img
             alt=""
             src={Collaboration}
-            className="absolute w-56px sm:w-72px p-4 bg-white  -top-7 sm:-top-9 -left-7 sm:-left-9 shadow-lg"
+            className="absolute w-72px left-0 top-0 shadow-lg bg-white p-4 z-10"
           />
-          <p className="p-20-bold mb-2">Customized Collaboration</p>
-          <p className="text-dark-minor">
-            Compose the extracted atomic collaboration elements to serve your
-            businesses.
-          </p>
+          <div
+            className="
+            relative pt-6 pr-6 lg:pb-8 pb-6 pl-60px
+            bg-white  shadow-lg lg:w-484px
+            "
+          >
+            <p className="p-20-bold mb-2">Customized Collaboration</p>
+            <p className="text-dark-minor">
+              Compose the extracted atomic collaboration elements to serve your
+              businesses.
+            </p>
+          </div>
         </div>
       </div>
     </div>

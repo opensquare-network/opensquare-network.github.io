@@ -3,11 +3,11 @@ import styled from "styled-components";
 
 import Bg from "./bg.png";
 import Check from "./check.png";
-import Fram from "./frame.png";
+import Frame from "./frame.png";
 
 const StyledSection = styled.section`
   background-image: url(${Bg});
-  height: 684px;
+  background-size: auto 100%;
 `;
 
 const ImgFrame = styled.img`
@@ -17,18 +17,26 @@ const ImgFrame = styled.img`
   transform: translateY(-50%);
 `;
 
+const ImgFrameSmall = styled.img`
+  margin-left: -32px;
+  margin-right: -32px;
+  max-width: 512px;
+`;
+
 export default function () {
   return (
-    <StyledSection>
-      <div className="lg:w-1080px mx-auto font-inter  ">
-        <div className="py-144px relative">
-          <div className="w-440px">
-            <div className="h2-40-bold">In est mi commodo semper.</div>
+    <StyledSection className="lg:h-684px">
+      <div className="lg:w-1080px mx-auto font-inter max-w-lg lg:max-w-none ">
+        <div className="lg:py-144px pt-60px pb-10 px-8 lg:px-0 relative">
+          <div className="lg:w-440px">
+            <div className="lg:h2-40-bold h4-24-bold">
+              In est mi commodo semper.
+            </div>
             <div className="mt-4 p-18-normal text-dark-minor">
               Dolor ullamcorper massa elit mattis ac scelerisque. A consectetur
               pharetra maecenas amet.
             </div>
-            <div className="mt-60px">
+            <div className="lg:mt-60px mt-10">
               <div className="flex items-start ">
                 <img src={Check} className="mr-4" />
                 <div className="p-18-normal">
@@ -52,7 +60,8 @@ export default function () {
               </div>
             </div>
           </div>
-          <ImgFrame src={Fram} />
+          <ImgFrame src={Frame} className="hidden lg:block" />
+          <ImgFrameSmall src={Frame} className="w-screen mt-10 lg:hidden" />
         </div>
       </div>
     </StyledSection>
