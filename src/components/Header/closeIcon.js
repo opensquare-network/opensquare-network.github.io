@@ -2,7 +2,7 @@ import React from "react";
 
 export default function CloseIcon({ onClick }) {
   return (
-    <button onClick={onClick} className="md:hidden">
+    <button onClick={onClick} className="lg:hidden">
       <svg
         width="24"
         height="24"
