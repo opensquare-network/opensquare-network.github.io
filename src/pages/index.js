@@ -2,11 +2,10 @@ import React from "react";
 import SEO from "../components/seo";
 import Layout from "../components/Layout";
 import Blocks from "../components/Blocks";
+import Participator from "../components/Participator";
+import Partners from "../components/Partners";
 import PapersEnter from "../components/Papers/papersEnter";
 import HeaderAndBanner from "../components/HeaderAndBanner";
-import SectionOne from "../components/SectionOne";
-import SectionTwo from "../components/SectionTwo";
-import SectionThree from "../components/SectionThree";
 
 export default function Home() {
   return (
@@ -14,9 +13,8 @@ export default function Home() {
       <SEO title={"OpenSquare Network"} />
       <HeaderAndBanner />
       <Blocks />
-      <SectionOne />
-      <SectionTwo />
-      <SectionThree />
+      <Participator />
+      <Partners />
       <PapersEnter />
     </Layout>
   );

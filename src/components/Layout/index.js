@@ -5,7 +5,7 @@ import Footer from "../Footer";
 import styled from "styled-components";
 // import HeaderAndBanner from "../HeaderAndBanner";
 import Header from "../Header";
-import background from "../../images/bg.png";
+import background from "../../images/bg-1.png";
 
 const Main = styled.main`
   min-height: calc(100vh - 73px - 273px);
