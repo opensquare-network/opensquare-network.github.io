@@ -13,7 +13,10 @@ export default function () {
         <div className="lg:p-18-normal p-16-normal text-dark-minor mt-4 text-center">
           Sed fringilla quam lobortis sit velit pulvinar nulla aliquam.
         </div>
-        <img src={ImgSrc} className="mx-auto my-60px hidden lg:block" />
+        <img
+          src={ImgSrc}
+          className="mx-auto my-60px hidden lg:block max-w-1250px"
+        />
         <img src={ImgSmallSrc} className="mx-auto my-5 lg:hidden w-full" />
         <div className="lg:p-18-normal p-16-normal text-dark-minor text-center max-w-720px mx-auto">
           Placerat volutpat ultricies sed id maecenas. Urna a sit nec id. Mauris

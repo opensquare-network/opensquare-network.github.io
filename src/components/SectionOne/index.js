@@ -1,12 +1,16 @@
 import React from "react";
 import styled from "styled-components";
 
-import Img from "./img.png";
+import Img from "./img.jpg";
 import Logo from "./logo.svg";
 
 const Left = styled.div`
-  background: linear-gradient(225deg, #04d2c5 0%, #6848ff 100%), #ffffff;
   flex-basis: 50%;
+  overflow: hidden;
+  > img {
+    object-fit: cover;
+    min-height: 100%;
+  }
 `;
 
 const Right = styled.div`
@@ -17,10 +21,10 @@ const Right = styled.div`
 export default function () {
   return (
     <section className="w-full lg:my-10 my-5 flex flex-row lg:h-472px">
-      <Left className="flex-grow relative lg:block hidden lg:h-472px">
+      <Left className="flex-grow lg:block hidden lg:h-472px">
         <img
           src={Img}
-          className="absolute h-472px w-960px max-w-none right-0"
+          // className="absolute h-472px w-960px max-w-none right-0"
         />
       </Left>
       <Right className="flex-grow relative lg:h-472px">
