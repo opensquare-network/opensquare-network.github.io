@@ -43,13 +43,13 @@ export default function Header() {
         }`}
       >
         <div
-          className={`h-20 flex items-center justify-between pl-8 pr-22px w-full max-w-1440px mx-auto
+          className={`h-20 flex items-center justify-between px-8 w-full max-w-1440px mx-auto
           ${openMenu ? "shadow-md" : ""}
            md:shadow-none
           `}
         >
           <a href="/">
-            <Logo />
+            <Logo width="200" height="36" />
           </a>
 
           {/*menu for bigger devices*/}

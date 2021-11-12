@@ -7,14 +7,16 @@ import Frame from "./frame.png";
 
 const StyledSection = styled.section`
   background-image: url(${Bg});
-  background-size: auto 100%;
+  background-size: cover;
 `;
 
 const ImgFrame = styled.img`
   position: absolute;
   left: 440px;
-  top: calc(50% + 20px);
+  top: 50%;
   transform: translateY(-50%);
+  height: 644px;
+  width: 880px;
 `;
 
 const ImgFrameSmall = styled.img`
