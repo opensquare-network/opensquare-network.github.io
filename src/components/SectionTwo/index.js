@@ -11,7 +11,7 @@ export default function () {
           Trading code, design and ideas
         </div>
         <div className="lg:p-18-normal p-16-normal text-dark-minor mt-4 text-center">
-          Sed fringilla quam lobortis sit velit pulvinar nulla aliquam.
+          Collaboration is another way of trading, instead of tokens, but work.
         </div>
         <img
           src={ImgSrc}
@@ -19,9 +19,11 @@ export default function () {
         />
         <img src={ImgSmallSrc} className="mx-auto my-5 lg:hidden w-full" />
         <div className="lg:p-18-normal p-16-normal text-dark-minor text-center max-w-720px mx-auto">
-          Placerat volutpat ultricies sed id maecenas. Urna a sit nec id. Mauris
-          in arcu pulvinar tristique lectus egestas. Interdum praesent urna
-          sagittis, rhoncus vitae tellus.
+          Blockchain will make the work trading more transparent and payment
+          secure. Objective collaboration rules can be enacted on-chain.
+          Collaborators subjective remarks will be recorded on-chain. Either the
+          objective behaviors or the subjective remarks will make the credit
+          building possible.
         </div>
       </div>
     </section>
