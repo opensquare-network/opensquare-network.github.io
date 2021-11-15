@@ -30,7 +30,7 @@ export default function () {
       <Right className="flex-grow relative lg:h-472px">
         <Logo className="absolute right-0 top-4 z-0 hidden lg:block" />
         <div className="lg:absolute lg:py-86px py-10 px-8 lg:px-100px w-full h-full lg:max-w-none max-w-lg mx-auto">
-          <div className="lg:max-w-440px h2-40-bold text-white">
+          <div className="lg:max-w-440px lg:h2-40-bold text-white h4-24-bold">
             A trusted collaboration network
           </div>
           <div className="lg:max-w-440px p-16-normal text-light-minor lg:mt-60px mt-10">
