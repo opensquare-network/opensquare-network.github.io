@@ -24,6 +24,7 @@ export default function () {
       <Left className="flex-grow lg:block hidden lg:h-472px">
         <img
           src={Img}
+          alt=""
           // className="absolute h-472px w-960px max-w-none right-0"
         />
       </Left>

@@ -40,21 +40,21 @@ export default function () {
             </div>
             <div className="lg:mt-60px mt-10">
               <div className="flex items-start ">
-                <img src={Check} className="mr-4 w-8 p-1" />
+                <img src={Check} className="mr-4 w-8 p-1" alt="" />
                 <div className="p-18-normal">
                   Collaborators include projects, enterprises, developers,
                   designers, etc.
                 </div>
               </div>
               <div className="flex items-start mt-6">
-                <img src={Check} className="mr-4 w-8 p-1" />
+                <img src={Check} className="mr-4 w-8 p-1" alt="" />
                 <div className="p-18-normal">
                   Collaborators’ profile will be stored in IPFS and recorded
                   on-chain.
                 </div>
               </div>
               <div className="flex items-start mt-6">
-                <img src={Check} className="mr-4 w-8 p-1" />
+                <img src={Check} className="mr-4 w-8 p-1" alt="" />
                 <div className="p-18-normal">
                   History on-chain collaborations will verify their profile
                   items.

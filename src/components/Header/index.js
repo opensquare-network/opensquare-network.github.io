@@ -57,9 +57,9 @@ export default function Header() {
             className="hidden font-inter lg:flex font-semibold text-dark-minor leading-6"
             liClassName="mr-10"
           />
-          <a className="hidden lg:block text-white bg-grey-100 font-inter font-medium text-sm leading-6 py-2 px-4">
+          <div className="hidden lg:block text-white bg-grey-100 font-inter font-medium text-sm leading-6 py-2 px-4">
             Off-chain Voting
-          </a>
+          </div>
           {openMenu ? (
             <CloseIcon onClick={close} />
           ) : (
