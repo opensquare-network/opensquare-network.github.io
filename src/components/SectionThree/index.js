@@ -32,11 +32,11 @@ export default function () {
         <div className="lg:py-144px pt-60px pb-10 px-8 lg:px-0 relative">
           <div className="lg:w-440px">
             <div className="lg:h2-40-bold h4-24-bold">
-              In est mi commodo semper.
+              Collaboration network
             </div>
             <div className="mt-4 p-18-normal text-dark-minor">
-              Dolor ullamcorper massa elit mattis ac scelerisque. A consectetur
-              pharetra maecenas amet.
+              OpenSquare builds infrastructure and provides services to
+              collaborators.
             </div>
             <div className="lg:mt-60px mt-10">
               <div className="flex items-start ">
@@ -49,14 +49,14 @@ export default function () {
               <div className="flex items-start mt-6">
                 <img src={Check} className="mr-4 w-8 p-1" alt="" />
                 <div className="p-18-normal">
-                  Collaborators’ profile will be uploaded and stored in public
-                  and permanently.
+                  Collaborators’ profile will be stored in IPFS and recorded
+                  on-chain.
                 </div>
               </div>
               <div className="flex items-start mt-6">
                 <img src={Check} className="mr-4 w-8 p-1" alt="" />
                 <div className="p-18-normal">
-                  History onchain collaborations will verify their profile
+                  History on-chain collaborations will verify their profile
                   items.
                 </div>
               </div>
