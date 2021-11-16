@@ -13,46 +13,55 @@ export default function Menu({ className = "", liClassName = "" }) {
     setPath(location.pathname);
   }, [location]);
   return (
-    <ul className={`${className}`} onClick={(e) => e.stopPropagation()}>
-      <li className={`${liClassName} ${path === "/" && "text-dark-major"}`}>
-        <Item className="hover:text-dark-major" href="/">
-          Home
-        </Item>
-      </li>
-      <li
-        className={`${liClassName} ${
-          path === "/products" && "text-dark-major"
-        }`}
-      >
-        <Item className="hover:text-dark-major" href="/products">
-          Products
-        </Item>
-      </li>
-      <li className={`${liClassName} ${path === "/team" && "text-dark-major"}`}>
-        <Item className="hover:text-dark-major" href="/team">
-          Team
-        </Item>
-      </li>
-      <li className={liClassName}>
-        <Item
-          className="hover:text-dark-major"
-          href="https://github.com/opensquare-network/papers"
-          target="_blank"
-          rel="noreferrer"
+    <div
+      role="button"
+      onClick={(e) => e.stopPropagation()}
+      onKeyDown={(e) => e.stopPropagation()}
+      tabIndex={0}
+    >
+      <ul className={`${className}`}>
+        <li className={`${liClassName} ${path === "/" && "text-dark-major"}`}>
+          <Item className="hover:text-dark-major" href="/">
+            Home
+          </Item>
+        </li>
+        <li
+          className={`${liClassName} ${
+            path === "/products" && "text-dark-major"
+          }`}
         >
-          Lightpaper
-        </Item>
-      </li>
-      <li className={liClassName}>
-        <Item
-          className="hover:text-dark-major"
-          href="https://app.subsocial.network/1327"
-          target="_blank"
-          rel="noreferrer"
+          <Item className="hover:text-dark-major" href="/products">
+            Products
+          </Item>
+        </li>
+        <li
+          className={`${liClassName} ${path === "/team" && "text-dark-major"}`}
         >
-          Blog
-        </Item>
-      </li>
-    </ul>
+          <Item className="hover:text-dark-major" href="/team">
+            Team
+          </Item>
+        </li>
+        <li className={liClassName}>
+          <Item
+            className="hover:text-dark-major"
+            href="https://github.com/opensquare-network/papers"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Lightpaper
+          </Item>
+        </li>
+        <li className={liClassName}>
+          <Item
+            className="hover:text-dark-major"
+            href="https://app.subsocial.network/1327"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Blog
+          </Item>
+        </li>
+      </ul>
+    </div>
   );
 }

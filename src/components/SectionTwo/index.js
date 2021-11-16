@@ -16,8 +16,13 @@ export default function () {
         <img
           src={ImgSrc}
           className="mx-auto my-60px hidden lg:block max-w-1250px"
+          alt=""
         />
-        <img src={ImgSmallSrc} className="mx-auto my-5 lg:hidden w-full" />
+        <img
+          src={ImgSmallSrc}
+          className="mx-auto my-5 lg:hidden w-full"
+          alt=""
+        />
         <div className="lg:p-18-normal p-16-normal text-dark-minor text-center max-w-720px mx-auto">
           Placerat volutpat ultricies sed id maecenas. Urna a sit nec id. Mauris
           in arcu pulvinar tristique lectus egestas. Interdum praesent urna
