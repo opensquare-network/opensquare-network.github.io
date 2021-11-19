@@ -12,11 +12,11 @@ const StyledSection = styled.section`
 
 const ImgFrame = styled.img`
   position: absolute;
-  left: 440px;
+  left: 480px;
   top: 50%;
   transform: translateY(-50%);
-  height: 644px;
-  width: 880px;
+  height: 500px;
+  width: 740px;
 `;
 
 const ImgFrameSmall = styled.img`
@@ -27,9 +27,9 @@ const ImgFrameSmall = styled.img`
 
 export default function () {
   return (
-    <StyledSection className="lg:h-684px">
+    <StyledSection className="lg:h-740px">
       <div className="lg:w-1080px mx-auto font-inter max-w-lg lg:max-w-none ">
-        <div className="lg:py-144px pt-60px pb-10 px-8 lg:px-0 relative">
+        <div className="lg:py-172px pt-60px pb-10 px-8 lg:px-0 relative">
           <div className="lg:w-440px">
             <div className="lg:h2-40-bold h4-24-bold">
               Collaboration network
