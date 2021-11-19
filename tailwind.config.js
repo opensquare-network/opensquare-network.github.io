@@ -49,6 +49,7 @@ module.exports = {
     extend: {
       height: {
         "944px": "944px",
+        "740px": "740px",
         "684px": "684px",
         "576px": "576px",
         "476px": "476px",
@@ -116,6 +117,7 @@ module.exports = {
         "56px": "56px",
       },
       padding: {
+        "172px": "172px",
         "144px": "144px",
         "120px": "120px",
         "100px": "100px",

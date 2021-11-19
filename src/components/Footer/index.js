@@ -1,162 +1,227 @@
-import { Row } from "./styledComponents";
 import React from "react";
 import Github from "./github.svg";
 import Email from "./email.svg";
 import Telegram from "./tg.svg";
 import Twitter from "./twitter.svg";
 import SubSocial from "./subsocial.svg";
-import styled from "styled-components";
+import styled, { css } from "styled-components";
+import ExternalLink from "../ExternalLink";
+import Logo from "./opensquare-footer-logo.svg";
 
-const FooterItem = styled.a`
+const p_16_normal = css`
+  font-family: Inter, serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+`;
+
+const p_16_semibold = css`
+  font-family: Inter, serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+`;
+
+const Wrapper = styled.footer`
+  flex: 0 0 auto;
+  background: #191e27;
+`;
+
+const ContentWrapper = styled.div`
   display: flex;
-  align-items: center;
-
-  &:hover {
-    color: #ffffff;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 80px 0;
+  @media screen and (max-width: 1144px) {
+    padding: 80px 32px;
+  }
+  @media screen and (max-width: 900px) {
+    padding: 40px 20px 20px;
+    flex-direction: column;
+    > :not(:first-child) {
+      margin-top: 40px;
+    }
   }
 `;
 
+const Container = styled.div`
+  max-width: 1080px;
+  margin: 0 auto;
+`;
+
+const LeftWrapper = styled.div`
+  display: grid;
+  row-gap: 32px;
+  column-gap: 40px;
+  grid-template-columns: repeat(4, 1fr);
+  @media screen and (max-width: 760px) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  @media screen and (max-width: 360px) {
+    grid-template-columns: repeat(1, 1fr);
+  }
+`;
+
+const List = styled.div`
+  width: 160px;
+`;
+
+const Label = styled.div`
+  ${p_16_semibold};
+  margin-bottom: 24px;
+  color: #ffffff;
+`;
+
+const ItemsWrapper = styled.div`
+  > :not(:first-child) > * {
+    margin-top: 16px;
+  }
+`;
+
+const Item = styled.div`
+  display: flex;
+  align-items: center;
+  ${p_16_normal};
+  color: rgba(255, 255, 255, 0.65);
+  > svg {
+    width: 24px;
+    height: 24px;
+    margin-right: 8px;
+  }
+  &:hover {
+    color: rgb(255, 255, 255);
+  }
+`;
+
+const RightWrapper = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  > svg {
+    width: 68px;
+    height: 48px;
+    margin-bottom: 120px;
+  }
+  > div {
+    text-align: right;
+    ${p_16_normal};
+    color: rgba(255, 255, 255, 0.35);
+  }
+  @media screen and (max-width: 900px) {
+    align-items: flex-start;
+    > svg {
+      margin-bottom: 0;
+    }
+    > svg {
+      text-align: left;
+    }
+  }
+`;
+
+const BottomWrapper = styled.div`
+  font-size: 14px;
+  line-height: 24px;
+  color: rgba(255, 255, 255, 0.35);
+  padding-bottom: 20px;
+  text-align: center;
+`;
+
+export const FOOTER_ITEMS = [
+  {
+    label: "Product",
+    items: [
+      { name: "doTreasury", link: "https://www.dotreasury.com" },
+      { name: "Statescan", link: "https://statescan.io" },
+      { name: "CoinAsk", link: "https://www.coinask.io" },
+      { name: "Subsquare", link: "https://www.subsquare.io" },
+    ],
+  },
+  {
+    label: "Resources",
+    items: [
+      {
+        name: "Lightpaper",
+        link: "https://github.com/opensquare-network/papers",
+      },
+      {
+        name: "Media Kits",
+        link: "https://drive.google.com/drive/folders/1nA6PTJJYfnpvB8wu9cgQaHopMRM4bqQg?usp=sharing",
+      },
+    ],
+  },
+  {
+    label: "Social Links",
+    items: [
+      {
+        name: "Github",
+        icon: "github.svg",
+        link: "https://github.com/opensquare-network",
+      },
+      {
+        name: "Telegram",
+        icon: "telegram.svg",
+        link: "https://t.me/opensquare",
+      },
+      {
+        name: "Twitter",
+        icon: "twitter.svg",
+        link: "https://twitter.com/OpensquareN",
+      },
+      {
+        name: "Subsocial",
+        icon: "subsocial.svg",
+        link: "https://app.subsocial.network/@opensquare",
+      },
+    ],
+  },
+  {
+    label: "Contact",
+    items: [
+      { name: "Email", icon: "mail.svg", link: "mailto:hi@opensquare.network" },
+    ],
+  },
+];
+
 export default function Footer() {
+  const iconMap = new Map([
+    ["github.svg", <Github />],
+    ["telegram.svg", <Telegram />],
+    ["twitter.svg", <Twitter />],
+    ["subsocial.svg", <SubSocial />],
+    ["mail.svg", <Email />],
+  ]);
+
   return (
-    <div className="bg-gray-800" style={{ backgroundColor: "#191E27" }}>
-      <div className="lg:max-w-1400px mx-auto pl-4 py-80px sm:flex sm:pl-9 font-inter overflow-x-scroll">
-        <Row className="flex flex-wrap sm:flex-nowrap">
-          <div className="w-171px sm:w-200px">
-            <p className="block h-6 mb-6 text-white font-semibold">Products</p>
-            {/*<FooterItem target="_blank" href="/" className="block h-6 mb-4 text-light-minor">*/}
-            {/*  Bounty*/}
-            {/*</FooterItem>*/}
-            <FooterItem
-              target="_blank"
-              rel="noreferrer"
-              href="https://www.dotreasury.com/"
-              className="block h-6 mb-4 text-light-minor"
-            >
-              doTreasury
-            </FooterItem>
-            <FooterItem
-              target="_blank"
-              rel="noreferrer"
-              href="https://coinask.io"
-              className="block h-6 mb-4 text-light-minor"
-            >
-              CoinAsk.io
-            </FooterItem>
-            <FooterItem
-              target="_blank"
-              rel="noreferrer"
-              href="https://statescan.io/"
-              className="block h-6 mb-4 text-light-minor"
-            >
-              Statescan
-            </FooterItem>
-          </div>
-
-          <div className="w-171px sm:w-200px">
-            <p className="block h-6 mb-6 text-white font-semibold">Resources</p>
-            <FooterItem
-              target="_blank"
-              rel="noreferrer"
-              href="https://github.com/opensquare-network/papers"
-              className="block h-6 mb-4 text-light-minor"
-            >
-              Lightpaper
-            </FooterItem>
-            <FooterItem
-              target="_blank"
-              rel="noreferrer"
-              href="https://drive.google.com/drive/folders/1nA6PTJJYfnpvB8wu9cgQaHopMRM4bqQg?usp=sharing"
-              className="block h-6 mb-4 text-light-minor"
-            >
-              Media Kits
-            </FooterItem>
-          </div>
-        </Row>
-
-        <Row className="flex">
-          <div className="w-171px sm:w-200px">
-            <p className="block h-6 mb-6 text-white font-semibold">
-              Social Links
-            </p>
-            <FooterItem
-              target="_blank"
-              rel="noreferrer"
-              href="https://github.com/opensquare-network/"
-              className="flex h-6 mb-4 text-light-minor items-center"
-            >
-              <Github width="20" height="20" /> &nbsp;&nbsp;Github
-            </FooterItem>
-            <FooterItem
-              target="_blank"
-              rel="noreferrer"
-              href="https://t.me/opensquare"
-              className="flex h-6 mb-4 text-light-minor items-center"
-            >
-              <Telegram width="20" height="20" /> &nbsp;&nbsp;Telegram
-            </FooterItem>
-            <FooterItem
-              target="_blank"
-              rel="noreferrer"
-              href="https://twitter.com/OpensquareN"
-              className="flex h-6 mb-4 text-light-minor items-center"
-            >
-              <Twitter width="20" height="20" /> &nbsp;&nbsp;Twitter
-            </FooterItem>
-            <FooterItem
-              target="_blank"
-              rel="noreferrer"
-              href="https://app.subsocial.network/@opensquare"
-              className="flex h-6 mb-4 text-light-minor items-center"
-            >
-              <SubSocial width="20" height="20" /> &nbsp;&nbsp;Subsocial
-            </FooterItem>
-          </div>
-
-          <div className="w-171px sm:w-200px">
-            <p className="block h-6 mb-6 text-white font-semibold">Contact</p>
-            <FooterItem
-              target="_blank"
-              rel="noreferrer"
-              href="mailto:hi@opensquare.network"
-              className="flex text-light-minor"
-            >
-              <Email width="20" height="20" /> &nbsp;&nbsp;Email
-            </FooterItem>
-          </div>
-        </Row>
-
-        <div className="sm:w-full sm:pr-12">
-          <p className="h-24 flex items-center sm:w-full sm:justify-end">
-            <svg
-              width="68"
-              height="48"
-              viewBox="0 0 68 48"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M47.8582 24L39.1972 19L49.5904 13L63.8811 21.25V26.75L49.5904 35L39.1972 29L47.8582 24Z"
-                fill="white"
-              />
-              <path
-                d="M28.804 29L20.143 24L28.804 19L18.4108 13L4.12012 21.25V26.75L18.4108 35L28.804 29Z"
-                fill="white"
-              />
-              <path
-                d="M34.0006 34L42.6616 39L34.0006 44L25.3396 39L34.0006 34Z"
-                fill="white"
-              />
-              <path
-                d="M42.6616 9L34.0006 4L25.3396 9L34.0006 14L42.6616 9Z"
-                fill="white"
-              />
-            </svg>
-          </p>
-          <div className="rights text-light-minimal sm:text-right mt-0 md:mt-20">
-            © 2021 OpenSquare. All Rights Reserved.
-          </div>
-        </div>
-      </div>
-    </div>
+    <Wrapper>
+      <Container>
+        <ContentWrapper>
+          <LeftWrapper>
+            {FOOTER_ITEMS.map((item, index) => (
+              <List key={index}>
+                <Label>{item.label}</Label>
+                <ItemsWrapper>
+                  {item.items.map((item, index) => (
+                    <ExternalLink href={item.link} key={index}>
+                      <Item>
+                        {item.icon && iconMap.get(item.icon)}
+                        {item.name}
+                      </Item>
+                    </ExternalLink>
+                  ))}
+                </ItemsWrapper>
+              </List>
+            ))}
+          </LeftWrapper>
+          <RightWrapper>
+            <Logo />
+          </RightWrapper>
+        </ContentWrapper>
+        <BottomWrapper>
+          {`© ${new Date().getFullYear()} OpenSquare. All Rights Reserved.`}
+        </BottomWrapper>
+      </Container>
+    </Wrapper>
   );
 }
