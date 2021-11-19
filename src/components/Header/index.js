@@ -54,12 +54,18 @@ export default function Header() {
 
           {/*menu for bigger devices*/}
           <Menu
-            className="hidden font-inter lg:flex font-semibold text-dark-minor leading-6"
+            className="hidden font-inter lg:flex font-medium text-dark-minor leading-6"
             liClassName="mr-10"
           />
-          <div className="hidden lg:block text-white bg-grey-100 font-inter font-medium text-sm leading-6 py-2 px-4">
+          <a
+            className="hidden lg:block text-white font-inter font-medium text-sm leading-6 py-2 px-4"
+            style={{ background: "#6848FF" }}
+            href="https://www.opensquare.io/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             Off-chain Voting
-          </div>
+          </a>
           {openMenu ? (
             <CloseIcon onClick={close} />
           ) : (
