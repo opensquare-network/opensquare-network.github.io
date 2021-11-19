@@ -15,11 +15,11 @@
     transition: box-shadow 0.6s ease-in-out;
   }
   @variants responsive {
-    .h1-60-bold {
+    .h1-64-bold {
       @apply font-mont;
-      @apply text-6xl;
-      @apply leading-60px;
       @apply font-bold;
+      font-size: 64px;
+      line-height: 64px;
     }
 
     .h2-48-bold {
@@ -27,6 +27,20 @@
       @apply text-5xl;
       @apply leading-48px;
       @apply font-bold;
+    }
+
+    .h2-44-bold {
+      @apply font-mont;
+      @apply font-bold;
+      font-size: 44px;
+      line-height: 44px;
+    }
+
+    .h2-40-bold {
+      @apply font-mont;
+      @apply font-bold;
+      font-size: 40px;
+      line-height: 40px;
     }
 
     .h3-36-bold {
@@ -52,6 +66,14 @@
       line-height: 32px;
     }
 
+    .p-20-medium {
+      @apply font-inter;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 20px;
+      line-height: 32px;
+    }
+
     .p-20-normal {
       @apply font-inter;
       font-style: normal;
@@ -73,14 +95,6 @@
       font-style: normal;
       font-weight: normal;
       font-size: 18px;
-      line-height: 24px;
-    }
-
-    .p-16-normal {
-      @apply font-inter;
-      font-style: normal;
-      font-weight: normal;
-      font-size: 16px;
       line-height: 24px;
     }
 
@@ -143,14 +157,14 @@
 }
 
 /*!* font-inter-600 - latin *!*/
-/*@font-face {*/
-/*    font-family: "Inter";*/
-/*    font-style: normal;*/
-/*    font-weight: 600;*/
-/*    src: url("../fonts/inter-v3-latin-600.woff2") format("woff2"),*/
-/*        !* Super Modern Browsers *! url("../fonts/inter-v3-latin-600.woff") format("woff"),*/
-/*        !* Modern Browsers *! url("../fonts/inter-v3-latin-600.ttf") format("truetype");*/
-/*}*/
+@font-face {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  src: url("../fonts/inter-v3-latin-600.woff2") format("woff2"),
+    /* Super Modern Browsers */ url("../fonts/inter-v3-latin-600.woff")
+      format("woff");
+}
 
 @media screen and (min-width: 1920px) {
   .bg-cta {

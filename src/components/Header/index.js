@@ -3,6 +3,16 @@ import React, { useEffect, useState } from "react";
 import Menu from "./Menu";
 import MenuIcon from "./menuIcon";
 import CloseIcon from "./closeIcon";
+import styled from "styled-components";
+
+const MenuWrapper = styled.div`
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 80px;
+  background: rgba(0, 0, 0, 0.4);
+  height: calc(100vh - 80px);
+`;
 
 export default function Header() {
   const [openMenu, setOpenMenu] = useState(false);
@@ -26,33 +36,48 @@ export default function Header() {
     };
   }, []);
   return (
-    <div
-      className={`fixed  w-full ${
-        scrollPosition > 0 && " w-full bg-white z-10 shadow-200 slow"
-      }`}
-    >
+    <>
       <div
-        className={`h-20 flex items-center justify-between pr-6 w-full max-w-1400px mx-auto
+        className={`fixed w-full ${
+          scrollPosition > 0 && "  bg-white z-20 shadow-200 slow"
+        }`}
+      >
+        <div
+          className={`h-20 flex items-center justify-between px-8 w-full max-w-1440px mx-auto
           ${openMenu ? "shadow-md" : ""}
            md:shadow-none
           `}
-      >
-        <a className="ml-4 lg:ml-52px" href="/">
-          <Logo />
-        </a>
+        >
+          <a href="/">
+            <Logo width="200" height="36" />
+          </a>
 
-        {/*menu for bigger devices*/}
-        <Menu
-          className="hidden font-inter md:flex font-semibold text-dark-major "
-          liClassName="mr-10"
-        />
-        {openMenu ? <CloseIcon onClick={close} /> : <MenuIcon onClick={open} />}
+          {/*menu for bigger devices*/}
+          <Menu
+            className="hidden font-inter lg:flex font-medium text-dark-minor leading-6"
+            liClassName="mr-10"
+          />
+          <a
+            className="hidden lg:block text-white font-inter font-medium text-sm leading-6 py-2 px-4"
+            style={{ background: "#6848FF" }}
+            href="https://www.opensquare.io/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Off-chain Voting
+          </a>
+          {openMenu ? (
+            <CloseIcon onClick={close} />
+          ) : (
+            <MenuIcon onClick={open} />
+          )}
+        </div>
       </div>
-
-      {/*menu for mobile*/}
       {openMenu && (
-        <Menu className="bg-white md:hidden font-inter pt-4 text-center text-base font-semibold leading-54px" />
+        <MenuWrapper className="z-20" onClick={close}>
+          <Menu className="bg-white lg:hidden font-inter pt-4 text-center text-base font-semibold leading-54px text-dark-minor" />
+        </MenuWrapper>
       )}
-    </div>
+    </>
   );
 }

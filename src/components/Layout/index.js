@@ -5,11 +5,12 @@ import Footer from "../Footer";
 import styled from "styled-components";
 // import HeaderAndBanner from "../HeaderAndBanner";
 import Header from "../Header";
-import background from "../../images/bg-1.png";
+import background from "../../images/bg.png";
 
 const Main = styled.main`
   min-height: calc(100vh - 73px - 273px);
   overflow-x: hidden;
+  width: 100vw;
 `;
 
 const Wrapper = styled.div`
@@ -23,8 +24,8 @@ const Layout = ({ children }) => {
     <Wrapper className="">
       <Main style={{}}>
         <main>{children}</main>
+        <Footer />
       </Main>
-      <Footer />
     </Wrapper>
   );
 };

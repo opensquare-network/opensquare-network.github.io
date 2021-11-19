@@ -4,7 +4,6 @@ import ChaoJun from "./2-chaojun.png";
 import WenTao from "./3-wentao.png";
 import Alcazar from "./5-alcazar.png";
 import Yizhou from "./4-yizhou.png";
-import Yaping from "./6-yapin.png";
 import styled from "styled-components";
 import Contacts from "../Contacts";
 
