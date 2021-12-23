@@ -5,6 +5,7 @@ module.exports = {
     author: `yongfeng@opensquare.network`,
     keywords: `OpenSquare, blockchain, polkadot, substrate, crowdsourcing, reputation, credit, 区块链, 众包, 信用, 信用分`,
   },
+  pathPrefix: "__GATSBY_IPFS_PATH_PREFIX__",
   plugins: [
     {
       resolve: `gatsby-plugin-google-analytics`,
@@ -36,5 +37,6 @@ module.exports = {
     `gatsby-plugin-styled-components`,
     `gatsby-plugin-react-svg`,
     `gatsby-plugin-postcss`,
+    `gatsby-plugin-ipfs`,
   ],
 };
