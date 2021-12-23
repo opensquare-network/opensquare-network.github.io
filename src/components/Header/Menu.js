@@ -1,7 +1,12 @@
 import React, { useEffect, useState } from "react";
+import { Link } from "gatsby";
 import styled from "styled-components";
 
 const Item = styled.a`
+  position: relative;
+`;
+
+const LinkItem = styled(Link)`
   position: relative;
 `;
 
@@ -21,25 +26,25 @@ export default function Menu({ className = "", liClassName = "" }) {
     >
       <ul className={`${className}`}>
         <li className={`${liClassName} ${path === "/" && "text-dark-major"}`}>
-          <Item className="hover:text-dark-major" href="/">
+          <LinkItem className="hover:text-dark-major" to="/">
             Home
-          </Item>
+          </LinkItem>
         </li>
         <li
           className={`${liClassName} ${
             path === "/products" && "text-dark-major"
           }`}
         >
-          <Item className="hover:text-dark-major" href="/products">
+          <LinkItem className="hover:text-dark-major" to="/products">
             Products
-          </Item>
+          </LinkItem>
         </li>
         <li
           className={`${liClassName} ${path === "/team" && "text-dark-major"}`}
         >
-          <Item className="hover:text-dark-major" href="/team">
+          <LinkItem className="hover:text-dark-major" to="/team">
             Team
-          </Item>
+          </LinkItem>
         </li>
         <li className={liClassName}>
           <Item
