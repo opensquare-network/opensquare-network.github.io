@@ -1,4 +1,4 @@
-import Logo from "./logo.svg";
+import Logo from "./logo.png";
 import React, { useEffect, useState } from "react";
 import Menu from "./Menu";
 import MenuIcon from "./menuIcon";
@@ -49,10 +49,10 @@ export default function Header() {
           `}
         >
           <a href="/">
-            <Logo width="200" height="36" />
+            <img src={Logo} alt="" />
           </a>
 
-          {/*menu for bigger devices*/}
+          {/* menu for bigger devices */}
           <Menu
             className="hidden font-inter lg:flex font-medium text-dark-minor leading-6"
             liClassName="mr-10"
