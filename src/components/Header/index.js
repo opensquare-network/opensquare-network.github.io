@@ -49,7 +49,7 @@ export default function Header() {
           `}
         >
           <a href="/">
-            <img src={Logo} alt="" />
+            <img src={Logo} alt="" width={200} />
           </a>
 
           {/* menu for bigger devices */}
