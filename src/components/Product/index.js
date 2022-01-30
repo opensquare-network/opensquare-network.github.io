@@ -7,9 +7,11 @@ import StateScan from "./statescan.png";
 import Bounty from "./bounties.png";
 import Vote from "./votes.png";
 import Subsquare from "./subsquare.png";
+import PaidQA from "./paidQA.png";
 
 import ExternalLink from "./externalLink.svg";
 import KusamaTreasury from "./kusamaTreasury.svg";
+import EdgTreasury from "./edgtreasury.svg";
 import StateMintTreasury from "./statemintTreasury.svg";
 
 const Row = styled.div``;
@@ -20,19 +22,18 @@ export default function Product() {
       <div className="w-full bg-white">
         <div className="lg:h-236px lg:w-1080px lg:mx-auto pt-20 bg-white">
           <div className="lg:w-1080px m-auto lg:flex mb-4">
-            <h1 className="h3-36-bold text-center mb-3 lg:mb-0">
-              We build for
+            <h1 className="h4-24-bold lg:h3-36-bold  text-center mb-3 lg:mb-0">
+              We build for collaborations
             </h1>
-            <h1 className="h3-36-bold text-center">&nbsp;collaborations</h1>
           </div>
           <p
             className="
           p-20-normal
           text-dark-minor
-          lg:px-0
+          pl-5
+          lg:pl-0
           lg:w-612px
-          text-center lg:text-left
-          px-20
+          text-left
           m-auto lg:ml-0
           pb-80px
           "
@@ -43,59 +44,12 @@ export default function Product() {
       </div>
       <div className="h-1px bg-grey-200 w-full"></div>
 
-      <Row className="lg:flex lg:w-1080px lg:mx-auto  mt-12 lg:mt-20 ">
-        <h2 className="w-280px mx-auto lg:mx-0 text-center h4-24-bold lg:text-left pt-8 lg:pt-0 pb-68px lg:pb-20">
-          Collaboration
+      <Row className="lg:w-1080px lg:mx-auto  mt-12 lg:mt-20 ">
+        <h2 className="mx-auto lg:mx-0 h4-24-bold text-left pt-8 lg:pt-0 pb-68px lg:pb-20 ml-5 lg:ml-0">
+          Governance platforms
         </h2>
         <div className=" lg:flex lg:flex-wrap lg:mt-9">
-          <div className="relative bg-white w-286px sm:w-346px m-auto pt-6 pr-7 pl-15 pb-6 shadow-lg mb-16 lg:mb-0 border border-grey-200">
-            <img
-              src={Bounty}
-              alt=""
-              className="w-72px p-4 shadow bg-white absolute -top-9 -left-9 border border-grey-200"
-            />
-            <p className="lg:w-full text-left  lg:text-left p-20-medium mb-2">
-              OpenSquare Bounties
-            </p>
-            <p className="text-dark-minor p-16-normal text-left">
-              A decentralized bounty collaboration platform.
-            </p>
-            <p className="mt-3 text-right">
-              <span
-                className="inline-block px-3 h-6 bg-grey-300 text-white  p-12-bold"
-                style={{ lineHeight: "24px" }}
-              >
-                Coming Soon
-              </span>
-            </p>
-          </div>
-
-          <div className="border border-grey-200 relative bg-white w-286px sm:w-346px lg:ml-76px m-auto pt-6 pr-7 pl-15 pb-6 shadow-lg">
-            <img
-              src={Vote}
-              alt=""
-              className="w-72px p-4 shadow bg-white absolute -top-9 -left-9 border border-grey-200"
-            />
-            <p className="lg:w-full text-left  lg:text-left p-20-medium mb-2">
-              OpenSquare Votes
-            </p>
-            <p className="text-dark-minor p-16-normal text-left">
-              An off-chain voting system for Polkadot ecosystem.
-            </p>
-            <a
-              className="block text-right"
-              href="https://www.opensquare.io/"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <ExternalLink className="inline" />
-            </a>
-          </div>
-
-          <div
-            className=" border border-grey-200 relative bg-white w-286px sm:w-346px m-auto pt-6 pr-7 pl-15 pb-6 shadow-lg mt-76px"
-            style={{ marginLeft: "31.6875px" }}
-          >
+          <div className="relative bg-white w-286px sm:w-484px m-auto pt-6 pr-7 pl-15 pb-6 shadow-lg mb-16 lg:mb-0 border border-grey-200">
             <img
               src={Subsquare}
               alt=""
@@ -116,26 +70,47 @@ export default function Product() {
               <ExternalLink className="inline" />
             </a>
           </div>
+
+          <div className="border border-grey-200 relative bg-white w-286px sm:w-484px lg:ml-76px m-auto pt-6 pr-7 pl-15 pb-6 shadow-lg">
+            <img
+              src={Vote}
+              alt=""
+              className="w-72px p-4 shadow bg-white absolute -top-9 -left-9 border border-grey-200"
+            />
+            <p className="lg:w-full text-left  lg:text-left p-20-medium mb-2">
+              OpenSquare Votes
+            </p>
+            <p className="text-dark-minor p-16-normal text-left">
+              An off-chain voting system for Polkadot ecosystem.
+            </p>
+            <a
+              className="block text-right"
+              href="https://www.opensquare.io/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <ExternalLink className="inline" />
+            </a>
+          </div>
         </div>
       </Row>
 
-      <Row className="lg:flex lg:w-1080px lg:mx-auto lg:mt-20">
-        <h2 className="w-280px mx-auto lg:mx-0 text-center h4-24-bold lg:text-left pt-8 lg:pt-0 pb-68px lg:pb-20">
+      <Row className="lg:w-1080px lg:mx-auto lg:mt-20">
+        <h2 className="mx-auto lg:mx-0 h4-24-bold text-left pt-8 lg:pt-0 pb-68px lg:pb-20 ml-5 lg:ml-0">
           Explorer
         </h2>
         <div className="lg:flex lg:flex-wrap lg:mt-9">
-          <div className="border border-grey-200 relative bg-white w-286px sm:w-346px h-233px m-auto pt-6 pr-7 pl-15 pb-6 shadow-lg mb-16 lg:mb-0">
+          <div className="border border-grey-200 relative bg-white w-286px sm:w-484px h-193px m-auto pt-6 pr-7 pl-15 pb-6 shadow-lg mb-16 lg:mb-0">
             <img
               src={Dotreasury}
               alt=""
-              className="w-72px p-4 shadow bg-white absolute -top-9 -left-9 border border-grey-200"
+              className="w-72px p-4 shadow bg-whiCte absolute -top-9 -left-9 border border-grey-200"
             />
             <p className="lg:w-full text-left  lg:text-left p-20-medium mb-2">
               doTreasury
             </p>
             <p className="text-dark-minor p-16-normal text-left">
-              Aims to introduce a retrospect mechanism to Kusama | Polkadot
-              treasury.
+              A retrospect mechanism to KSM&DOT treasury.
             </p>
             <a
               className="block text-right"
@@ -145,17 +120,20 @@ export default function Product() {
             >
               <ExternalLink className="inline" />
             </a>
-            <p className="border-t border-grey-200 mt-3 pt-2 flex">
+            <p className="border-t border-grey-200 mt-3 pt-4 flex flex-wrap">
               <span className="mr-6">
                 <KusamaTreasury />
               </span>
-              <span>
+              <span className="mr-6">
                 <StateMintTreasury />
+              </span>
+              <span>
+                <EdgTreasury />
               </span>
             </p>
           </div>
 
-          <div className="border border-grey-200 relative bg-white w-286px sm:w-346px  h-233px lg:ml-76px m-auto pt-6 pr-7 pl-15 pb-6 shadow-lg">
+          <div className="border border-grey-200 relative bg-white w-286px sm:w-484px  h-193px lg:ml-76px m-auto pt-6 pr-7 pl-15 pb-6 shadow-lg">
             <img
               src={StateScan}
               alt=""
@@ -166,9 +144,6 @@ export default function Product() {
             </p>
             <p className="text-dark-minor p-16-normal text-left">
               An set of explorers for Polkadot statemint chains.
-            </p>
-            <p className="text-dark-minor p-16-normal text-left">
-              <br />
             </p>
             <a
               className="block text-right"
@@ -187,12 +162,56 @@ export default function Product() {
         </div>
       </Row>
 
-      <Row className="lg:flex lg:w-1080px lg:mx-auto lg:mt-20">
-        <h2 className="w-280px mx-auto lg:mx-0 text-center h4-24-bold lg:text-left pt-8 lg:pt-0 pb-68px lg:pb-20">
-          Platform
+      <Row className="lg:w-1080px lg:mx-auto lg:mt-20 mb-10 lg:mb-0">
+        <h2 className="mx-auto lg:mx-0 h4-24-bold text-left pt-8 lg:pt-0 pb-68px lg:pb-20 ml-5 lg:ml-0">
+          Collaboration platforms
         </h2>
         <div className="lg:flex lg:flex-wrap lg:mt-9">
-          <div className="border border-grey-200 relative bg-white w-286px sm:w-346px m-auto pt-6 pr-7 pl-15 pb-6 shadow-lg mb-16 lg:mb-0">
+          <div className="border border-grey-200 relative bg-white w-286px sm:w-484px m-auto pt-6 pr-7 pl-15 pb-6 shadow-lg mb-16 lg:mb-0">
+            <img
+              src={PaidQA}
+              alt=""
+              className="w-72px p-4 shadow bg-white absolute -top-9 -left-9 border border-grey-200"
+            />
+            <p className="lg:w-full text-left  lg:text-left p-20-medium mb-2">
+              OpenSquare Paid QA
+            </p>
+            <p className="text-dark-minor p-16-normal text-left">
+              A decentralized bounty collaboration platform.
+            </p>
+            <p className="mt-3 text-right">
+              <span
+                className="inline-block px-3 h-6 bg-grey-300 text-white p-12-bold"
+                style={{ lineHeight: "24px" }}
+              >
+                TBD
+              </span>
+            </p>
+          </div>
+
+          <div className="border border-grey-200 relative bg-white w-286px sm:w-484px lg:ml-76px  m-auto pt-6 pr-7 pl-15 pb-6 shadow-lg  mb-16 lg:mb-0">
+            <img
+              src={Bounty}
+              alt=""
+              className="w-72px p-4 shadow bg-white absolute -top-9 -left-9 border border-grey-200"
+            />
+            <p className="lg:w-full text-left  lg:text-left p-20-medium mb-2">
+              OpenSquare Bounties
+            </p>
+            <p className="text-dark-minor p-16-normal text-left">
+              A decentralized bounty collaboration platform.
+            </p>
+            <p className="mt-3 text-right">
+              <span
+                className="inline-block px-3 h-6 bg-grey-300 text-white  p-12-bold"
+                style={{ lineHeight: "24px" }}
+              >
+                TBD
+              </span>
+            </p>
+          </div>
+
+          <div className="lg:ml-0 border border-grey-200 relative bg-white w-286px sm:w-484px m-auto pt-6 pr-7 pl-15 pb-6 shadow-lg mt-76px">
             <img
               src={CoinAsk}
               alt=""
@@ -202,11 +221,11 @@ export default function Product() {
               CoinAsk
             </p>
             <p className="text-dark-minor p-16-normal text-left">
-              Paid Q&A platform for chinese Blockchain Community
+              Paid Q&A forum for Chinese Blockchain Community.
             </p>
             <a
-              className="block text-right cursor-pointer mt-3"
-              href="https://www.coinask.io/"
+              className="block text-right"
+              href="https://www.subsquare.io/"
               target="_blank"
               rel="noreferrer"
             >
@@ -214,75 +233,7 @@ export default function Product() {
             </a>
           </div>
         </div>
-
-        <div className="lg:flex lg:flex-wrap lg:mt-9">
-          <div className="border border-grey-200 relative bg-white w-286px sm:w-346px lg:ml-76px  m-auto pt-6 pr-7 pl-15 pb-6 shadow-lg  mb-16 lg:mb-0">
-            <img
-              src={Odes}
-              alt=""
-              className="w-72px p-4 shadow bg-white absolute -top-9 -left-9 border border-grey-200"
-            />
-            <p className="lg:w-full text-left  lg:text-left p-20-medium mb-2">
-              Odes
-            </p>
-            <p className="text-dark-minor p-16-normal text-left">
-              Paid Q&A platform for English blockchain community.
-            </p>
-            <p className="mt-3 text-right">
-              <span
-                className="inline-block px-3 h-6 bg-grey-300 text-white p-12-bold"
-                style={{ lineHeight: "24px" }}
-              >
-                Coming Soon
-              </span>
-            </p>
-          </div>
-        </div>
       </Row>
-
-      <div className="hidden lg:hidden lg:w-1080px mx-auto mt-40">
-        <div className="lg:hidden">
-          <div>
-            <h2
-              className="
-                h4-24-bold lg:h3-36-bold
-                text-center  lg:text-left
-                whitespace-nowrap
-                mb-1
-              "
-            >
-              Building with OpenSquare
-            </h2>
-            <p className="px-8 mb-8 text-dark-minor p-16-normal text-center lg:text-left lg:w-512px">
-              In mauris mauris amet vitae curabitur.{" "}
-              <br className="lg:hidden" /> Convallis eu, et tincidunt laoreet
-              morbi lectus volutpat. Sit lectus nisl arcu porttitor pulvinar id.
-            </p>
-          </div>
-        </div>
-
-        <div className="lg:w-480px h-60 bg-grey-200 mx-4 lg:ml-0 lg:mr-16 mb-20"></div>
-
-        <div className="lg:float-right hidden lg:flex lg:items-center lg:w-560px lg:h-240px">
-          <div>
-            <h2
-              className="
-                h4-24-bold lg:h3-36-bold
-                text-center  lg:text-left
-                whitespace-nowrap
-                lg:mb-4
-              "
-            >
-              Building with OpenSquare
-            </h2>
-            <p className="text-dark-minor p-16-normal text-center lg:text-left lg:w-512px">
-              In mauris mauris amet vitae curabitur.{" "}
-              <br className="lg:hidden" /> Convallis eu, et tincidunt laoreet
-              morbi lectus volutpat. Sit lectus nisl arcu porttitor pulvinar id.
-            </p>
-          </div>
-        </div>
-      </div>
     </div>
   );
 }
