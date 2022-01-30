@@ -1,20 +1,24 @@
 import React from "react";
 import styled from "styled-components";
-import Dotreasury from "./dotreasury.png";
-import CoinAsk from "./coinask.png";
-import Odes from "./odes.png";
-import StateScan from "./statescan.png";
-import Bounty from "./bounties.png";
-import Vote from "./votes.png";
-import Subsquare from "./subsquare.png";
-import PaidQA from "./paidQA.png";
+import Dotreasury from "./icons-prodcut-dotreasury.svg";
+import CoinAsk from "./icons-prodcut-coinask.svg";
+import StateScan from "./icons-prodcut-statescan.svg";
+import Bounty from "./icons-prodcut-bounties.svg";
+import Vote from "./icons-prodcut-votes.svg";
+import Subsquare from "./icons-prodcut-subsquare.svg";
+import PaidQA from "./icons-prodcut-paid-qa.svg";
 
 import ExternalLink from "./externalLink.svg";
 import KusamaTreasury from "./kusamaTreasury.svg";
 import EdgTreasury from "./edgtreasury.svg";
 import StateMintTreasury from "./statemintTreasury.svg";
 
-const Row = styled.div``;
+const Row = styled.div`
+  img,
+  svg {
+    background-color: white;
+  }
+`;
 
 export default function Product() {
   return (
@@ -33,7 +37,8 @@ export default function Product() {
           pl-5
           lg:pl-0
           lg:w-612px
-          text-left
+          text-center
+          lg:text-left
           m-auto lg:ml-0
           pb-80px
           "
@@ -44,17 +49,15 @@ export default function Product() {
       </div>
       <div className="h-1px bg-grey-200 w-full"></div>
 
-      <Row className="lg:w-1080px lg:mx-auto  mt-12 lg:mt-20 ">
+      <Row className="lg:w-1080px lg:mx-auto  mt-12 lg:mt-20  ">
         <h2 className="mx-auto lg:mx-0 h4-24-bold text-left pt-8 lg:pt-0 pb-68px lg:pb-20 ml-5 lg:ml-0">
           Governance platforms
         </h2>
-        <div className=" lg:flex lg:flex-wrap lg:mt-9">
+        <div className="lg:flex lg:flex-wrap lg:mt-9 lg:ml-9">
           <div className="relative bg-white w-286px sm:w-484px m-auto pt-6 pr-7 pl-15 pb-6 shadow-lg mb-16 lg:mb-0 border border-grey-200">
-            <img
-              src={Subsquare}
-              alt=""
-              className="w-72px p-4 shadow bg-white absolute -top-9 -left-9 border border-grey-200"
-            />
+            <div className="bg-white w72px p-4 shadow bg-white absolute -top-9 -left-9 border border-grey-200">
+              <Subsquare />
+            </div>
             <p className="lg:w-full text-left  lg:text-left p-20-medium mb-2">
               SubSquare
             </p>
@@ -72,11 +75,9 @@ export default function Product() {
           </div>
 
           <div className="border border-grey-200 relative bg-white w-286px sm:w-484px lg:ml-76px m-auto pt-6 pr-7 pl-15 pb-6 shadow-lg">
-            <img
-              src={Vote}
-              alt=""
-              className="w-72px p-4 shadow bg-white absolute -top-9 -left-9 border border-grey-200"
-            />
+            <div className="bg-white w72px p-4 shadow bg-white absolute -top-9 -left-9 border border-grey-200">
+              <Vote />
+            </div>
             <p className="lg:w-full text-left  lg:text-left p-20-medium mb-2">
               OpenSquare Votes
             </p>
@@ -99,13 +100,11 @@ export default function Product() {
         <h2 className="mx-auto lg:mx-0 h4-24-bold text-left pt-8 lg:pt-0 pb-68px lg:pb-20 ml-5 lg:ml-0">
           Explorer
         </h2>
-        <div className="lg:flex lg:flex-wrap lg:mt-9">
+        <div className="lg:flex lg:flex-wrap lg:mt-9 lg:ml-9">
           <div className="border border-grey-200 relative bg-white w-286px sm:w-484px h-193px m-auto pt-6 pr-7 pl-15 pb-6 shadow-lg mb-16 lg:mb-0">
-            <img
-              src={Dotreasury}
-              alt=""
-              className="w-72px p-4 shadow bg-whiCte absolute -top-9 -left-9 border border-grey-200"
-            />
+            <div className="bg-white w72px p-4 shadow bg-whiCte absolute -top-9 -left-9 border border-grey-200">
+              <Dotreasury />
+            </div>
             <p className="lg:w-full text-left  lg:text-left p-20-medium mb-2">
               doTreasury
             </p>
@@ -134,11 +133,9 @@ export default function Product() {
           </div>
 
           <div className="border border-grey-200 relative bg-white w-286px sm:w-484px  h-193px lg:ml-76px m-auto pt-6 pr-7 pl-15 pb-6 shadow-lg">
-            <img
-              src={StateScan}
-              alt=""
-              className="absolute w-72px p-4 bg-white shadow -top-9 -left-9 border border-grey-200"
-            />
+            <div className="absolute bg-white w72px p-4 bg-white shadow -top-9 -left-9 border border-grey-200">
+              <StateScan />
+            </div>
             <p className="lg:w-full text-left  lg:text-left p-20-medium mb-2">
               Statescan
             </p>
@@ -166,13 +163,11 @@ export default function Product() {
         <h2 className="mx-auto lg:mx-0 h4-24-bold text-left pt-8 lg:pt-0 pb-68px lg:pb-20 ml-5 lg:ml-0">
           Collaboration platforms
         </h2>
-        <div className="lg:flex lg:flex-wrap lg:mt-9">
+        <div className="lg:flex lg:flex-wrap lg:mt-9 lg:ml-9">
           <div className="border border-grey-200 relative bg-white w-286px sm:w-484px m-auto pt-6 pr-7 pl-15 pb-6 shadow-lg mb-16 lg:mb-0">
-            <img
-              src={PaidQA}
-              alt=""
-              className="w-72px p-4 shadow bg-white absolute -top-9 -left-9 border border-grey-200"
-            />
+            <div className="bg-white w72px p-4 shadow bg-white absolute -top-9 -left-9 border border-grey-200">
+              <PaidQA />
+            </div>
             <p className="lg:w-full text-left  lg:text-left p-20-medium mb-2">
               OpenSquare Paid QA
             </p>
@@ -190,11 +185,9 @@ export default function Product() {
           </div>
 
           <div className="border border-grey-200 relative bg-white w-286px sm:w-484px lg:ml-76px  m-auto pt-6 pr-7 pl-15 pb-6 shadow-lg  mb-16 lg:mb-0">
-            <img
-              src={Bounty}
-              alt=""
-              className="w-72px p-4 shadow bg-white absolute -top-9 -left-9 border border-grey-200"
-            />
+            <div className="bg-white w72px p-4 shadow bg-white absolute -top-9 -left-9 border border-grey-200">
+              <Bounty />
+            </div>
             <p className="lg:w-full text-left  lg:text-left p-20-medium mb-2">
               OpenSquare Bounties
             </p>
@@ -212,11 +205,9 @@ export default function Product() {
           </div>
 
           <div className="lg:ml-0 border border-grey-200 relative bg-white w-286px sm:w-484px m-auto pt-6 pr-7 pl-15 pb-6 shadow-lg mt-76px">
-            <img
-              src={CoinAsk}
-              alt=""
-              className="w-72px p-4 shadow bg-white absolute -top-9 -left-9 border border-grey-200"
-            />
+            <div className="bg-white w72px p-4 shadow bg-white absolute -top-9 -left-9 border border-grey-200">
+              <CoinAsk />
+            </div>
             <p className="lg:w-full text-left  lg:text-left p-20-medium mb-2">
               CoinAsk
             </p>

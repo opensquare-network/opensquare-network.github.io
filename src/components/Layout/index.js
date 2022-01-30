@@ -37,7 +37,7 @@ export const NormalLayout = ({ children, bg = false }) => {
   if (bg) {
     return (
       <Wrapper>
-        <Header />
+        <Header bg={bg} />
         <Main style={{}}>
           <main>{children}</main>
         </Main>
@@ -47,7 +47,7 @@ export const NormalLayout = ({ children, bg = false }) => {
   }
   return (
     <>
-      <Header />
+      <Header bg={bg} />
       <Main style={{}}>
         <main>{children}</main>
       </Main>

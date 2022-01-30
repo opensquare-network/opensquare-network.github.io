@@ -14,7 +14,7 @@ const MenuWrapper = styled.div`
   height: calc(100vh - 80px);
 `;
 
-export default function Header() {
+export default function Header({ bg = false }) {
   const [openMenu, setOpenMenu] = useState(false);
   const open = () => {
     setOpenMenu(true);
@@ -38,8 +38,8 @@ export default function Header() {
   return (
     <>
       <div
-        className={`bg-white fixed w-full ${
-          scrollPosition > 0 && "  bg-white z-20 shadow-200 slow"
+        className={`${bg && "bg-white"} fixed w-full ${
+          scrollPosition > 0 && "bg-white z-20 shadow-200 slow"
         }`}
       >
         <div
