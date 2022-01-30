@@ -3,7 +3,6 @@ import PropTypes from "prop-types";
 import "./layout.css";
 import Footer from "../Footer";
 import styled from "styled-components";
-// import HeaderAndBanner from "../HeaderAndBanner";
 import Header from "../Header";
 import background from "../../images/bg.png";
 
@@ -38,7 +37,7 @@ export const NormalLayout = ({ children, bg = false }) => {
   if (bg) {
     return (
       <Wrapper>
-        <Header />
+        <Header bg={bg} />
         <Main style={{}}>
           <main>{children}</main>
         </Main>
@@ -48,7 +47,7 @@ export const NormalLayout = ({ children, bg = false }) => {
   }
   return (
     <>
-      <Header />
+      <Header bg={bg} />
       <Main style={{}}>
         <main>{children}</main>
       </Main>
