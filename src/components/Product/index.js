@@ -216,7 +216,7 @@ export default function Product() {
             </p>
             <a
               className="block text-right"
-              href="https://www.subsquare.io/"
+              href="https://www.coinask.io/"
               target="_blank"
               rel="noreferrer"
             >
