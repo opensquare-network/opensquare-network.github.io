@@ -11,40 +11,33 @@ const PaperEntry = styled.p`
   background: linear-gradient(270deg, #04d2c5 2.06%, #6848ff 100%);
 `;
 
+const Wrapper = styled.div``;
+const Divider = styled.div`
+  width: 100%;
+  height: 1px;
+  background-color: #f3f0f8;
+`;
+
 export default function () {
   return (
-    <div className="font-inter">
-      <div className="md:w-1080px m-auto">
-        <h1 className="h3-36-bold lg:h2-48-bold text-center md:text-left mb-4 pt-80px">
-          Meet the team
-        </h1>
-        <p className="p-18-normal lg:p-20-normal text-dark-minor text-center md:text-left w-346px md:w-full m-auto pb-80px">
-          Reliable, experienced and decentralized.
-        </p>
+    <Wrapper className="font-inter">
+      <div className="w-full bg-white">
+        <div className="md:w-1080px m-auto">
+          <h1 className="h3-36-bold text-center md:text-left mb-4 pt-80px">
+            Meet the team
+          </h1>
+          <p className="p-18-normal lg:p-20-normal text-dark-minor text-center md:text-left w-346px md:w-full m-auto pb-80px">
+            Reliable, experienced and decentralized.
+          </p>
+        </div>
       </div>
-      <PaperEntry
-        className="block
-        pt-4
-        pb-4
-        bg-gradient-to-r from-orange-400 via-red-500 to-pink-500
-        md:flex
-        md:justify-center
-        md:items-center
-       "
-        // href="https://github.com/opensquare-network/papers"
-      >
-        <span className="block m-auto md:m-0 text-center text-white p-18-medium">
-          We're looking for passionate people{" "}
-          <br className="inline md:hidden" /> to join us
-        </span>
-      </PaperEntry>
-
-      <div className="md:flex lg:w-1080px md:mx-auto md:mt-20 md:mb-20">
-        <h2 className="text-2xl font-bold text-center pt-80px md:pt-0 pb-10 whitespace-nowrap">
+      <Divider />
+      <div className="lg:w-1080px md:mx-auto md:mt-20 md:mb-20">
+        <h2 className="text-2xl font-bold text-left pt-80px md:pt-0 pb-10 whitespace-nowrap">
           Core Team
         </h2>
-        <div className="md:ml-146px md:flex md:flex-wrap">
-          <div className="px-4 lg:px-0 mr-10 mb-8 lg:mb-80px  md:h-388px md:flex content-start w-full md:w-240px flex-wrap">
+        <div className="md:flex md:flex-wrap">
+          <div className="px-4 lg:px-0 mr-10 mb-8 lg:mb-80px  md:h-388px md:flex content-start w-full md:w-333px flex-wrap">
             <img
               className="mx-auto mb-6 md:ml-0"
               width={100}
@@ -69,7 +62,7 @@ export default function () {
             </p>
           </div>
 
-          <div className="px-4 mr-10 mb-8 lg:mb-80px  md:h-388px md:flex content-start w-full md:w-240px flex-wrap">
+          <div className="px-4 mr-10 mb-8 lg:mb-80px  md:h-388px md:flex content-start w-full md:w-333px flex-wrap">
             <img
               className="mx-auto mb-6 md:ml-0"
               width={100}
@@ -95,7 +88,7 @@ export default function () {
             </p>
           </div>
 
-          <div className="px-4 mr-10 lg:mr-0 mb-8 lg:mb-80px  md:h-388px md:flex content-start w-full md:w-240px flex-wrap">
+          <div className="px-4 mr-10 lg:mr-0 mb-8 lg:mb-80px  md:h-388px md:flex content-start w-full md:w-333px flex-wrap">
             <img
               className="mx-auto mb-6 md:ml-0"
               width={100}
@@ -120,7 +113,7 @@ export default function () {
             </p>
           </div>
 
-          <div className="px-4 mr-10 mb-8 lg:mb-80px  md:h-388px md:flex content-start w-full md:w-240px flex-wrap">
+          <div className="px-4 mr-10 mb-8 lg:mb-80px  md:h-388px md:flex content-start w-full md:w-333px flex-wrap">
             <img
               className="mx-auto mb-6 md:ml-0"
               width={100}
@@ -146,7 +139,7 @@ export default function () {
             </p>
           </div>
 
-          <div className="px-4 mr-10 mb-8 lg:mb-80px  md:h-388px md:flex content-start w-full md:w-240px flex-wrap">
+          <div className="px-4 mr-10 mb-8 lg:mb-80px  md:h-388px md:flex content-start w-full md:w-333px flex-wrap">
             <img
               className="mx-auto mb-6 md:ml-0"
               width={100}
@@ -169,6 +162,6 @@ export default function () {
           </div>
         </div>
       </div>
-    </div>
+    </Wrapper>
   );
 }

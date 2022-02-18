@@ -5,7 +5,7 @@ import Team from "../components/Team";
 
 export default function () {
   return (
-    <NormalLayout>
+    <NormalLayout bg={true}>
       <SEO title={"OpenSquare Network"} />
       <div className="w-full m-0 h-20"></div>
       <Team />
