@@ -14,7 +14,13 @@ const MenuWrapper = styled.div`
   height: calc(100vh - 80px);
 `;
 
-export default function Header({ bg = false }) {
+const Wrapper = styled.div`
+  .border-bottom-1 {
+    border-bottom: 1px solid #f3f0f8;
+  }
+`;
+
+export default function Header({ bg = false, borderBottom = false }) {
   const [openMenu, setOpenMenu] = useState(false);
   const open = () => {
     setOpenMenu(true);
@@ -36,11 +42,11 @@ export default function Header({ bg = false }) {
     };
   }, []);
   return (
-    <>
+    <Wrapper>
       <div
         className={`${bg && "bg-white"} fixed w-full ${
           scrollPosition > 0 && "bg-white z-20 shadow-200 slow"
-        }`}
+        } ${borderBottom && `border-bottom-1`}`}
       >
         <div
           className={`h-20 flex items-center justify-between px-8 w-full max-w-1440px mx-auto
@@ -78,6 +84,6 @@ export default function Header({ bg = false }) {
           <Menu className="bg-white lg:hidden font-inter pt-4 text-center text-base font-semibold leading-54px text-dark-minor" />
         </MenuWrapper>
       )}
-    </>
+    </Wrapper>
   );
 }
