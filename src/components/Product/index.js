@@ -49,7 +49,7 @@ export default function Product() {
       </div>
       <div className="h-1px bg-grey-200 w-full"></div>
 
-      <Row className="lg:w-1080px lg:mx-auto  mt-12 lg:mt-10">
+      <Row className="lg:w-1080px lg:mx-auto  mt-12 lg:mt-20">
         <h2 className="mx-auto lg:mx-0 h4-24-bold text-left pt-8 lg:pt-0 pb-68px lg:pb-10 ml-5 lg:ml-0">
           Governance platforms
         </h2>

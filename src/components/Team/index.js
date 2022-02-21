@@ -32,7 +32,7 @@ export default function () {
         </div>
       </div>
       <Divider />
-      <div className="lg:w-1080px md:mx-auto md:mt-10 md:mb-0">
+      <div className="lg:w-1080px md:mx-auto md:mt-20 md:mb-0">
         <h2 className="text-2xl font-bold text-left pt-80px md:pt-0 pb-10 whitespace-nowrap">
           Core Team
         </h2>
