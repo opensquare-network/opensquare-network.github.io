@@ -172,7 +172,7 @@ export default function Product() {
               OpenSquare Paid QA
             </p>
             <p className="text-dark-minor p-16-normal text-left">
-              A decentralized bounty collaboration platform.
+              A decentralized paid QA platform.
             </p>
             <p className="mt-3 text-right">
               <span
