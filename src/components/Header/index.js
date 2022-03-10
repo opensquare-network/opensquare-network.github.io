@@ -1,4 +1,4 @@
-import Logo from "./logo.png";
+import Logo from "./logo.svg";
 import React, { useEffect, useState } from "react";
 import Menu from "./Menu";
 import MenuIcon from "./menuIcon";
@@ -55,7 +55,7 @@ export default function Header({ bg = false, borderBottom = false }) {
           `}
         >
           <a href="/">
-            <img src={Logo} alt="" width={200} />
+            <Logo />
           </a>
 
           {/* menu for bigger devices */}
