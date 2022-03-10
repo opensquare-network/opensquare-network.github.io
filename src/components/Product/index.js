@@ -150,7 +150,7 @@ export default function Product() {
             >
               <ExternalLink className="inline" />
             </a>
-            <p className="border-t  border-grey-200  mt-3 pt-2">
+            <p className="border-t  border-grey-200  mt-3 pt-4">
               <span>
                 <KusamaTreasury />
               </span>
