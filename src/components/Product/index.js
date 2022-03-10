@@ -150,7 +150,7 @@ export default function Product() {
             >
               <ExternalLink className="inline" />
             </a>
-            <p className="border-t  border-grey-200  mt-3 pt-2">
+            <p className="border-t  border-grey-200  mt-3 pt-4">
               <span>
                 <KusamaTreasury />
               </span>
@@ -172,7 +172,7 @@ export default function Product() {
               OpenSquare Paid QA
             </p>
             <p className="text-dark-minor p-16-normal text-left">
-              A decentralized bounty collaboration platform.
+              A decentralized paid QA platform.
             </p>
             <p className="mt-3 text-right">
               <span
