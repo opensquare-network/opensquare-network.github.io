@@ -114,7 +114,7 @@ export default function () {
             </p>
           </div>
 
-          <div className="px-4 mr-10 mb-8 lg:mb-80px  md:h-388px md:flex content-start w-full md:w-333px flex-wrap">
+          <div className="px-4 lg:px-0 mr-10 mb-8 lg:mb-80px  md:h-388px md:flex content-start w-full md:w-333px flex-wrap">
             <img
               className="mx-auto mb-6 md:ml-0"
               width={100}
