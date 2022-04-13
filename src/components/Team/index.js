@@ -4,7 +4,7 @@ import ChaoJun from "./2-chaojun.png";
 import WenTao from "./3-wentao.png";
 import Alcazar from "./5-alcazar.png";
 import Yizhou from "./4-yizhou.png";
-import JieHao from "./jiehao.jpeg";
+import JieHao from "./7-jiehao.png";
 import styled from "styled-components";
 import Contacts from "../Contacts";
 
@@ -145,7 +145,7 @@ export default function () {
               alt=""
             />
             <p className="md:w-full text-center md:text-left text-lg font-semibold">
-              2nthony
+              Jiehao Hu
             </p>
             <p className="md:w-full text-center md:text-left text-base font-semibold text-turquoise-500 mb-3 ">
               Developer
