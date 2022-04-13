@@ -158,7 +158,8 @@ export default function () {
             </p>
             <p className="text-dark-minor font-normal w-360px md:w-full text-center md:text-left m-auto">
               A developer who loves to create things such as front-end
-              infrastructure toolings. Learning by doing. Coffee lover.
+              infrastructure toolings. Learning by doing. Rustacean. Coffee
+              lover.
             </p>
           </div>
 
