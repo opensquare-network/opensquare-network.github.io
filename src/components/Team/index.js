@@ -119,28 +119,6 @@ export default function () {
             <img
               className="mx-auto mb-6 md:ml-0"
               width={100}
-              src={Alcazar}
-              alt=""
-            />
-            <p className="md:w-full text-center md:text-left text-lg font-semibold">
-              Alcazar
-            </p>
-            <p className="md:w-full text-center md:text-left text-base font-semibold text-turquoise-500 mb-3 ">
-              Product Designer
-            </p>
-            <p className="md:w-full flex justify-center md:justify-start mb-4">
-              <Contacts github="https://github.com/Popoulosss" />
-            </p>
-            <p className="text-dark-minor font-normal w-360px md:w-full text-center md:text-left m-auto">
-              5 years of experience in Web and Mobile Apps UI/UX design, have a
-              passion for the product design and design system. Figma fan.
-            </p>
-          </div>
-
-          <div className="px-4 lg:px-0 mr-10 mb-8 lg:mb-80px  md:h-388px md:flex content-start w-full md:w-333px flex-wrap">
-            <img
-              className="mx-auto mb-6 md:ml-0"
-              width={100}
               src={JieHao}
               alt=""
             />
@@ -160,6 +138,28 @@ export default function () {
               A developer who loves to create things such as front-end
               infrastructure toolings. Learning by doing. Rustacean. Coffee
               lover.
+            </p>
+          </div>
+
+          <div className="px-4 lg:px-0 mr-10 mb-8 lg:mb-80px  md:h-388px md:flex content-start w-full md:w-333px flex-wrap">
+            <img
+              className="mx-auto mb-6 md:ml-0"
+              width={100}
+              src={Alcazar}
+              alt=""
+            />
+            <p className="md:w-full text-center md:text-left text-lg font-semibold">
+              Alcazar
+            </p>
+            <p className="md:w-full text-center md:text-left text-base font-semibold text-turquoise-500 mb-3 ">
+              Product Designer
+            </p>
+            <p className="md:w-full flex justify-center md:justify-start mb-4">
+              <Contacts github="https://github.com/Popoulosss" />
+            </p>
+            <p className="text-dark-minor font-normal w-360px md:w-full text-center md:text-left m-auto">
+              5 years of experience in Web and Mobile Apps UI/UX design, have a
+              passion for the product design and design system. Figma fan.
             </p>
           </div>
 
