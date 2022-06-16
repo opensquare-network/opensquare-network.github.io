@@ -98,7 +98,7 @@ export default function Product() {
 
       <Row className="lg:w-1080px lg:mx-auto lg:mt-20">
         <h2 className="mx-auto lg:mx-0 h4-24-bold text-left pt-8 lg:pt-0 pb-68px lg:pb-10 ml-5 lg:ml-0">
-          Explorer
+          Explorers
         </h2>
         <div className="lg:flex lg:flex-wrap lg:mt-9 lg:ml-9">
           <div className="border border-grey-200 relative bg-white w-286px sm:w-484px h-193px m-auto pt-6 pr-7 pl-15 pb-6 shadow-lg mb-16 lg:mb-0">
