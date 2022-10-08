@@ -81,6 +81,7 @@ module.exports = {
         "440px": "440px",
       },
       width: {
+        fit: "fit-content",
         "1440px": "1440px",
         "1400px": "1400px",
         "1280px": "1280px",

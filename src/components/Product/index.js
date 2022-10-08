@@ -65,7 +65,7 @@ export default function Product() {
               A governance platform for substrate based chains.
             </p>
             <a
-              className="block text-right"
+              className="block w-fit m-auto mr-0 text-right"
               href="https://www.subsquare.io/"
               target="_blank"
               rel="noreferrer"
@@ -85,7 +85,7 @@ export default function Product() {
               An off-chain voting system for Polkadot ecosystem.
             </p>
             <a
-              className="block text-right"
+              className="block w-fit m-auto mr-0 text-right"
               href="https://www.opensquare.io/"
               target="_blank"
               rel="noreferrer"
@@ -112,7 +112,7 @@ export default function Product() {
               A retrospect mechanism to KSM&DOT treasury.
             </p>
             <a
-              className="block text-right"
+              className="block w-fit m-auto mr-0 text-right"
               href="https://www.dotreasury.com/"
               target="_blank"
               rel="noreferrer"
@@ -143,7 +143,7 @@ export default function Product() {
               An set of explorers for Polkadot statemint chains.
             </p>
             <a
-              className="block text-right"
+              className="block w-fit m-auto mr-0 text-right"
               href="https://www.statescan.io/"
               target="_blank"
               rel="noreferrer"
@@ -215,7 +215,7 @@ export default function Product() {
               Paid Q&A forum for Chinese Blockchain Community.
             </p>
             <a
-              className="block text-right"
+              className="block w-fit m-auto mr-0 text-right"
               href="https://www.coinask.io/"
               target="_blank"
               rel="noreferrer"
