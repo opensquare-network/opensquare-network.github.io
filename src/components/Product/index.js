@@ -194,14 +194,15 @@ export default function Product() {
             <p className="text-dark-minor p-16-normal text-left">
               A decentralized bounty collaboration platform.
             </p>
-            <p className="mt-3 text-right">
-              <span
-                className="inline-block px-3 h-6 bg-grey-300 text-white  p-12-bold"
-                style={{ lineHeight: "24px" }}
-              >
-                TBD
-              </span>
-            </p>
+            <a
+              className="block w-fit m-auto mr-0 text-right"
+              title={"OpenSquare Bounties"}
+              href="https://bounties.opensquare.io/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <ExternalLink className="inline" />
+            </a>
           </div>
 
           <div className="lg:ml-0 border border-grey-200 relative bg-white w-286px sm:w-484px m-auto pt-6 pr-7 pl-15 pb-6 shadow-lg mt-76px">
