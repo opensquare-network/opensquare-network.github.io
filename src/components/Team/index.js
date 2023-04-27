@@ -88,32 +88,6 @@ export default function () {
             </p>
           </div>
 
-          <div className="px-4 mr-10 lg:mr-0 mb-8 lg:mb-80px  md:h-388px md:flex content-start w-full md:w-333px flex-wrap">
-            <img
-              className="mx-auto mb-6 md:ml-0"
-              width={100}
-              src={Yizhou}
-              alt=""
-            />
-            <p className="md:w-full text-center md:text-left text-lg font-semibold">
-              Yizhou Xin
-            </p>
-            <p className="md:w-full text-center md:text-left text-base font-semibold text-turquoise-500 mb-3 ">
-              Developer
-            </p>
-            <p className="md:w-full flex justify-center md:justify-start mb-4">
-              <Contacts
-                github="https://github.com/YoshiyukiSakura"
-                email="yizhou@opensquare.network"
-              />
-            </p>
-            <p className="text-dark-minor font-normal w-360px md:w-full text-center md:text-left m-auto">
-              Yizhou, creative coder, blockchain industry enthusiast.
-              Engineering mindset from solid academic background and aims for a
-              persistent self-improvement. Cat addict.
-            </p>
-          </div>
-
           <div className="px-4 lg:px-0 mr-10 mb-8 lg:mb-80px  md:h-388px md:flex content-start w-full md:w-333px flex-wrap">
             <img
               className="mx-auto mb-6 md:ml-0"
