@@ -2,7 +2,6 @@ import React from "react";
 import YongfengImg from "./1-yongfeng.png";
 import ChaoJun from "./2-chaojun.png";
 import YiHan from "./5-yihan.png";
-import Yizhou from "./4-yizhou.png";
 import JieHao from "./7-jiehao.png";
 import styled from "styled-components";
 import Contacts from "../Contacts";
@@ -88,6 +87,28 @@ export default function () {
             </p>
           </div>
 
+          <div className="px-4 mr-10 lg:mr-0 mb-8 lg:mb-80px  md:h-388px md:flex content-start w-full md:w-333px flex-wrap">
+            <img
+              className="mx-auto mb-6 md:ml-0"
+              width={100}
+              src={YiHan}
+              alt=""
+            />
+            <p className="md:w-full text-center md:text-left text-lg font-semibold">
+              Yihan Fan
+            </p>
+            <p className="md:w-full text-center md:text-left text-base font-semibold text-turquoise-500 mb-3 ">
+              Product Designer
+            </p>
+            <p className="md:w-full flex justify-center md:justify-start mb-4">
+              <Contacts github="https://github.com/Popoulosss" />
+            </p>
+            <p className="text-dark-minor font-normal w-360px md:w-full text-center md:text-left m-auto">
+              5 years of experience in Web and Mobile Apps UI/UX design, have a
+              passion for the product design and design system. Figma fan.
+            </p>
+          </div>
+
           <div className="px-4 lg:px-0 mr-10 mb-8 lg:mb-80px  md:h-388px md:flex content-start w-full md:w-333px flex-wrap">
             <img
               className="mx-auto mb-6 md:ml-0"
@@ -113,31 +134,6 @@ export default function () {
               lover.
             </p>
           </div>
-
-          <div className="px-4 lg:px-0 mr-10 mb-8 lg:mb-80px  md:h-388px md:flex content-start w-full md:w-333px flex-wrap">
-            <img
-              className="mx-auto mb-6 md:ml-0"
-              width={100}
-              src={YiHan}
-              alt=""
-            />
-            <p className="md:w-full text-center md:text-left text-lg font-semibold">
-              Yihan Fan
-            </p>
-            <p className="md:w-full text-center md:text-left text-base font-semibold text-turquoise-500 mb-3 ">
-              Product Designer
-            </p>
-            <p className="md:w-full flex justify-center md:justify-start mb-4">
-              <Contacts github="https://github.com/Popoulosss" />
-            </p>
-            <p className="text-dark-minor font-normal w-360px md:w-full text-center md:text-left m-auto">
-              5 years of experience in Web and Mobile Apps UI/UX design, have a
-              passion for the product design and design system. Figma fan.
-            </p>
-          </div>
-
-          {/*<div className="px-4 mr-10 mb-8 lg:mb-80px  md:h-388px md:flex content-start w-full md:w-333px flex-wrap">*/}
-          {/*</div>*/}
         </div>
       </div>
     </Wrapper>
