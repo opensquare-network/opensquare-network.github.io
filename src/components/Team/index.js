@@ -3,6 +3,7 @@ import YongfengImg from "./1-yongfeng.png";
 import ChaoJun from "./2-chaojun.png";
 import YiHan from "./5-yihan.png";
 import JieHao from "./7-jiehao.png";
+import SiFan from "./sifan.png";
 import styled from "styled-components";
 import Contacts from "../Contacts";
 
@@ -132,6 +133,31 @@ export default function () {
               A developer who loves to create things such as front-end
               infrastructure toolings. Learning by doing. Rustacean. Coffee
               lover.
+            </p>
+          </div>
+
+          <div className="px-4 lg:px-0 mr-10 mb-8 lg:mb-80px  md:h-388px md:flex content-start w-full md:w-333px flex-wrap">
+            <img
+              className="mx-auto mb-6 md:ml-0"
+              width={100}
+              src={SiFan}
+              alt=""
+            />
+            <p className="md:w-full text-center md:text-left text-lg font-semibold">
+              Leo Chen
+            </p>
+            <p className="md:w-full text-center md:text-left text-base font-semibold text-turquoise-500 mb-3 ">
+              Developer
+            </p>
+            <p className="md:w-full flex justify-center md:justify-start mb-4">
+              <Contacts
+                github="https://github.com/leocs2417"
+                email="leochen.sat24@gmail.com"
+              />
+            </p>
+            <p className="text-dark-minor font-normal w-360px md:w-full text-center md:text-left m-auto">
+              A front-end developer, focusing on Web and H5 development, keen on
+              exploring new technologies.{" "}
             </p>
           </div>
         </div>
